@@ -3,9 +3,9 @@
   "selected_outline_ref": "outline-001",
   "paper_line_id": "paper-run-angiostress-s2c-third-frozen-model-panel-extension-outline-001-run-angiostress-s2c-third-frozen-model-panel-extension",
   "outline_path": "/Users/colin/DeepScientist/quests/010/.ds/worktrees/paper-run-angiostress-s2c-third-frozen-model-panel-extension/paper/outline/manifest.json",
-  "row_count": 8,
-  "required_row_count": 8,
-  "ready_row_count": 8,
+  "row_count": 6,
+  "required_row_count": 6,
+  "ready_row_count": 6,
   "rows": [
     {
       "selected_outline_ref": "outline-001",
@@ -202,76 +202,7 @@
         "/Users/colin/DeepScientist/quests/010/.ds/worktrees/run-angiostress-s3-dias-frozen-model-analog-smoke/experiments/main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/environment.json",
         "/Users/colin/DeepScientist/quests/010/.ds/worktrees/run-angiostress-s3-dias-frozen-model-analog-smoke/experiments/main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/dias_s40_sam_overlay_panel.png"
       ]
-    },
-    {
-      "selected_outline_ref": "outline-001",
-      "paper_line_id": "paper-run-angiostress-s2c-third-frozen-model-panel-extension-outline-001-run-angiostress-s2c-third-frozen-model-panel-extension",
-      "section_id": "main-results",
-      "section_title": "Main Results",
-      "paper_role": "main_text",
-      "required": true,
-      "optional": false,
-      "item_id": "analysis-s3b-dias-full-test-ranking",
-      "title": "S3b full DIAS frozen-panel ranking diagnostic",
-      "kind": "analysis_result",
-      "campaign_id": null,
-      "slice_id": null,
-      "run_id": "s3b-dias-full-test-ranking",
-      "status": "completed",
-      "claim_links": [
-        "C2",
-        "C3"
-      ],
-      "metric_summary": "s3b_dias_sequence_count=20; s3b_dias_frames_per_model=115; s3b_prediction_count_total=345; s3b_sam_vit_b_mean_dice=0.240471260611; s3b_sam_vit_l_mean_dice=0.262845798503; s3b_medsam_vit_b_mean_dice=0.295327296132; s3b_spearman_vs_synthetic=-0.5; s3b_kendall_vs_synthetic=-0.333333333333; s3b_bootstrap_spearman_mean=-0.425; s3b_bootstrap_spearman_ci_low=-0.675; s3b_bootstrap_spearman_ci_high=-0.125",
-      "result_summary": "Full-DIAS ranking covers 20 test sequences, 115 frames per model, and 345 frozen-model predictions. Mean Dice order is MedSAM ViT-B > SAM ViT-L > SAM ViT-B, with means 0.2953272961, 0.2628457985, and 0.2404712606. Relative to the S2c synthetic mean-stressor order, aggregate Spearman is -0.5, aggregate Kendall is -0.3333333333, and sequence-bootstrap Spearman mean is -0.425 with 95% CI [-0.675, -0.125]. This is discordant real-surface rank evidence, not a positive construct-validity claim.",
-      "impact_summary": "DIAS discordance defines negative/mixed construct-validity evidence.",
-      "source_paths": [
-        "artifacts/reports/report-fe9dabda.json",
-        "/Users/colin/DeepScientist/quests/010/artifacts/reports/report-fe9dabda.json",
-        "experiments/analysis/s3b-dias-full-test-split-ranking/RUN.md",
-        "experiments/analysis/s3b-dias-full-test-split-ranking/VALIDATION.md",
-        "experiments/analysis/s3b-dias-full-test-split-ranking/outputs/model_summary.json",
-        "experiments/analysis/s3b-dias-full-test-split-ranking/outputs/ranking_diagnostics.json",
-        "experiments/analysis/s3b-dias-full-test-split-ranking/outputs/per_sequence_summary.json",
-        "paper/figures/data/model_surface_dice.csv",
-        "paper/tables/table1_rank_summary.md"
-      ]
-    },
-    {
-      "selected_outline_ref": "outline-001",
-      "paper_line_id": "paper-run-angiostress-s2c-third-frozen-model-panel-extension-outline-001-run-angiostress-s2c-third-frozen-model-panel-extension",
-      "section_id": "main-results",
-      "section_title": "Main Results",
-      "paper_role": "main_text",
-      "required": true,
-      "optional": false,
-      "item_id": "analysis-s3f-cathaction-human-segmentation-subset-ranking",
-      "title": "S3f CathAction human-segmentation subset ranking diagnostic",
-      "kind": "analysis_result",
-      "campaign_id": null,
-      "slice_id": null,
-      "run_id": "s3f-cathaction-human-segmentation-subset-ranking",
-      "status": "completed",
-      "claim_links": [
-        "C2",
-        "C3"
-      ],
-      "metric_summary": "s3f_cathaction_nonempty_universe=5225; s3f_cathaction_excluded_empty_masks=58; s3f_cathaction_pairs_per_model=128; s3f_prediction_count_total=384; s3f_sam_vit_b_mean_dice=0.364747471407; s3f_sam_vit_l_mean_dice=0.346361930985; s3f_medsam_vit_b_mean_dice=0.0997291104107; s3f_sam_vit_b_mean_cldice=0.40225845817; s3f_sam_vit_l_mean_cldice=0.364272198773; s3f_medsam_vit_b_mean_cldice=0.0870552373575; s3f_spearman_vs_synthetic=0.5; s3f_bootstrap_spearman_mean=0.5285; s3f_bootstrap_spearman_interval_low=0.5; s3f_bootstrap_spearman_interval_high=1; s3f_observed_order_match_rate=0.943; s3f_synthetic_order_match_rate=0.057",
-      "result_summary": "CathAction ranking covers 128 nonempty pairs per model and 384 frozen-model predictions. Mean Dice order is SAM ViT-B > SAM ViT-L > MedSAM ViT-B, with means 0.3647474714, 0.3463619310, and 0.0997291104; mean clDice values are 0.4022584582, 0.3642721988, and 0.0870552374. Relative to the S2c synthetic mean-stressor order, Spearman is 0.5 and fixed-subset bootstrap Spearman mean is 0.5285 with percentile interval [0.5, 1.0]. The observed-order match rate is 0.943 and the synthetic-order match rate is 0.057, supporting partial agreement mainly through stable MedSAM-last behavior with a SAM ViT-B/SAM ViT-L swap.",
-      "impact_summary": "CathAction partial agreement supports a bounded rank-transfer signal while preserving the SAM ViT-B/SAM ViT-L swap.",
-      "source_paths": [
-        "artifacts/reports/report-97c8091c.json",
-        "experiments/analysis/s3f-cathaction-human-segmentation-subset-ranking/RUN.md",
-        "experiments/analysis/s3f-cathaction-human-segmentation-subset-ranking/VALIDATION.md",
-        "experiments/analysis/s3f-cathaction-human-segmentation-subset-ranking/outputs/metrics_summary.json",
-        "experiments/analysis/s3f-cathaction-human-segmentation-subset-ranking/outputs/model_summary.json",
-        "experiments/analysis/s3f-cathaction-human-segmentation-subset-ranking/outputs/model_ranking_rows.json",
-        "experiments/analysis/s3f-cathaction-human-segmentation-subset-ranking/outputs/stability_summary.json",
-        "experiments/analysis/s3f-cathaction-human-segmentation-subset-ranking/outputs/cleanup_status.json",
-        "paper/figures/data/model_surface_dice.csv",
-        "paper/tables/table1_rank_summary.md"
-      ]
     }
   ],
-  "updated_at": "2026-06-15T04:20:40+00:00"
+  "updated_at": "2026-06-15T13:18:55+00:00"
 }

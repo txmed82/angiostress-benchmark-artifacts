@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T13:16:00.402926+00:00",
+  "generated_at": "2026-06-15T13:21:02.334758+00:00",
   "github": "https://github.com/txmed82/angiostress-benchmark-artifacts",
   "hugging_face_dataset": "https://huggingface.co/datasets/txmedai/angiostress-benchmark-artifacts",
   "redistribution_boundary": "Raw DIAS, CathAction, TopCoW data and model checkpoints are not redistributed; this package contains paper source, compiled manuscript, figures, tables, derived summaries, and evidence manifests."

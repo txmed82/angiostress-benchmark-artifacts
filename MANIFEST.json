@@ -1,16 +1,17 @@
 {
   "schema_version": 1,
   "release_id": "angiostress-benchmark-artifacts-20260615",
-  "generated_at": "2026-06-15T13:16:00.408785+00:00",
-  "source_commit": "a6f24deca026468bb2dec2457ffc3930f2f01d97",
+  "generated_at": "2026-06-15T13:21:02.340686+00:00",
+  "source_commit": "a0786a46b574ea7a1d1d60eb22ce079b835a7875",
   "links": {
     "github": "https://github.com/txmed82/angiostress-benchmark-artifacts",
     "hugging_face_dataset": "https://huggingface.co/datasets/txmedai/angiostress-benchmark-artifacts"
   },
   "redistribution_boundary": "Raw DIAS, CathAction, TopCoW data and model checkpoints are not redistributed; this package contains paper source, compiled manuscript, figures, tables, derived summaries, and evidence manifests.",
+  "manifest_includes_self": false,
   "included_small_experiment_summary_count": 90,
   "file_count": 138,
-  "total_size_bytes": 1920340,
+  "total_size_bytes": 1911919,
   "files": [
     {
       "path": "CITATION.cff",
@@ -24,8 +25,8 @@
     },
     {
       "path": "README.md",
-      "size_bytes": 1760,
-      "sha256": "c018730abc748a3b19d17be4ed11d217f7de45cd8bb78f88e1e260e59e129648"
+      "size_bytes": 1838,
+      "sha256": "8d0fe8ac9beb1535e542fb241a401a7042880467d77292e05b7f56355b100470"
     },
     {
       "path": "baseline/metric_contract.json",
@@ -565,7 +566,7 @@
     {
       "path": "paper/manuscript_coverage.json",
       "size_bytes": 3709,
-      "sha256": "05b5a8068093caad2e9830dc6cb79521165df7f680e7fdaad328b506cb9ea65b"
+      "sha256": "cfc18941b88d53deb91931e9cd84fc85c4686b279773d9e472f3dd5e98b48ac2"
     },
     {
       "path": "paper/manuscript_language_validation.json",
@@ -619,18 +620,18 @@
     },
     {
       "path": "paper/paper_bundle_manifest.json",
-      "size_bytes": 2685,
-      "sha256": "1f0d44bcd14d53643abc281d9e6bbc6309aa2e38731d44bdda6a04d1225c0add"
+      "size_bytes": 2140,
+      "sha256": "5d7a61f5880f953d26d7d15d17bcf2d3740d7aa1ffa58f55088711e1db117529"
     },
     {
       "path": "paper/paper_experiment_matrix.json",
-      "size_bytes": 24426,
-      "sha256": "3aedb272aabfa13274f9173cdba1ca4a9312b925c0d3911a6da95c0fcb9accd6"
+      "size_bytes": 18850,
+      "sha256": "a5b953f3e583d292a74ba7dd45972c433303e0ea061198b8f61afc58eb853f8a"
     },
     {
       "path": "paper/paper_experiment_matrix.md",
-      "size_bytes": 7671,
-      "sha256": "dcc59cdfe533b98af5ed16f23d04d711694dfea8b4c0e77ecfab00c209b1361b"
+      "size_bytes": 5293,
+      "sha256": "c4abe70c3dd27433d60e33e661563d92fc63bd97545339430cd9f2608269354d"
     },
     {
       "path": "paper/references.bib",
@@ -640,7 +641,7 @@
     {
       "path": "paper/release_links.json",
       "size_bytes": 460,
-      "sha256": "744885c30eb73eb90adb43897a01319fc45b0fe3eb70780e552eaafddf19a9aa"
+      "sha256": "4874ae65799cf6258efb19728d02b5a39b48967387ec5d0efeab04cd20c72d1f"
     },
     {
       "path": "paper/review/submission_checklist.json",

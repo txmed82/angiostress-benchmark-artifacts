@@ -29,11 +29,11 @@ Public mirrors:
 - `paper/evidence_ledger.*`, `paper/claim_evidence_map.*`, and `paper/paper_experiment_matrix.*`: traceability surfaces linking claims to derived evidence.
 - `baseline/metric_contract.json`: comparison-ready baseline metric contract used for paper-facing interpretation.
 - `derived/experiments-main/`: small text/CSV/JSON/Markdown derived summaries only.
-- `MANIFEST.json`: file sizes and SHA-256 hashes for this release folder.
+- `MANIFEST.json`: file sizes and SHA-256 hashes for payload files in this release folder; the manifest file itself is excluded from its own hash list.
 
 ## Non-redistributed assets
 
 This package intentionally does **not** redistribute raw DIAS, CathAction, TopCoW source data, SAM/MedSAM checkpoints, local caches, generated raw arrays, or model weights. Those assets remain under their respective upstream licenses and access routes. See `DATA_SOURCES.md` for source locations.
 
-Generated at: 2026-06-15T13:16:00.402569+00:00
-Source commit: a6f24deca026468bb2dec2457ffc3930f2f01d97
+Generated at: 2026-06-15T13:21:02.334407+00:00
+Source commit: a0786a46b574ea7a1d1d60eb22ce079b835a7875
