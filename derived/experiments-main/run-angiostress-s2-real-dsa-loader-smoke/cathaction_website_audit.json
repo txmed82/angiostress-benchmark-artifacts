@@ -1,0 +1,31 @@
+{
+  "html_bytes": 9568,
+  "key_text_lines": [
+    "CathAction Dataset - CathAction",
+    "\"name\": \"CathAction\",",
+    "\"url\": \"https://airvlab.github.io//cathaction/\",",
+    "CathAction",
+    "Code & Download",
+    "CathAction",
+    "Catheterization Dataset",
+    "CathAction Dataset",
+    "CathAction is large-scale dataset designed for advancing catheterization understanding. CathAction comprises approximately 500,000 annotated frames focused on catheterization understanding and collision detection, along with 25,000 groundtruth masks dedicated to catheter and guidewire segmentation.",
+    "&copy; 2024 CathAction. Powered by Jekyll &amp; Minimal Mistakes ."
+  ],
+  "links": [
+    "https://airvlab.github.io//cathaction/",
+    "https://airvlab.github.io/cathaction/",
+    "https://airvlab.github.io/cathaction/#footer",
+    "https://airvlab.github.io/cathaction/#main",
+    "https://airvlab.github.io/cathaction/#site-nav",
+    "https://airvlab.github.io/cathaction/assets/css/main.css",
+    "https://airvlab.github.io/cathaction/docs/download/",
+    "https://airvlab.github.io/cathaction/docs/introduction/",
+    "https://airvlab.github.io/cathaction/docs/tasks/",
+    "https://airvlab.github.io/cathsim/",
+    "https://airvlab.github.io/guide3d/",
+    "https://github.com/airvlab/cathaction"
+  ],
+  "ok": true,
+  "url": "https://airvlab.github.io/cathaction/"
+}

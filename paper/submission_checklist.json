@@ -1,0 +1,113 @@
+{
+  "checked_at": "2026-06-15T04:54:00Z",
+  "checks": [
+    {
+      "detail": {
+        "bytes": 132674
+      },
+      "evidence": "paper/build/submission/manuscript.pdf",
+      "id": "pdf_exists",
+      "status": true
+    },
+    {
+      "detail": {
+        "bytes": 18675
+      },
+      "evidence": "paper/build/submission/manuscript.tex",
+      "id": "tex_exists",
+      "status": true
+    },
+    {
+      "evidence": "paper/build/submission/tectonic.log",
+      "id": "compile_exit_ok",
+      "status": true
+    },
+    {
+      "detail": {
+        "bib_entries": 10
+      },
+      "evidence": "paper/references.bib",
+      "id": "references_present",
+      "status": true
+    },
+    {
+      "detail": {
+        "cited_keys": 10,
+        "missing_keys": [],
+        "uncited_keys": []
+      },
+      "evidence": "paper/draft.md",
+      "id": "citations_resolved",
+      "status": true
+    },
+    {
+      "evidence": [
+        "paper/figures/figure1_model_surface_dice.png",
+        "paper/figures/figure1_model_surface_dice.pdf",
+        "paper/figures/figure_catalog.json"
+      ],
+      "id": "figure_assets_present",
+      "status": true
+    },
+    {
+      "evidence": [
+        "paper/tables/table1_rank_summary.md",
+        "paper/tables/table2_protocol_summary.md"
+      ],
+      "id": "tables_present",
+      "status": true
+    },
+    {
+      "detail": {
+        "analysis_group_count": 8,
+        "ready_analysis_group_count": 8
+      },
+      "evidence": "paper/manuscript_coverage.json",
+      "id": "coverage_manuscript_ready",
+      "status": true
+    },
+    {
+      "detail": {
+        "hits": []
+      },
+      "evidence": "paper/draft.md",
+      "id": "no_checkpoint_wording_in_draft",
+      "status": true
+    },
+    {
+      "detail": {
+        "clinical-accuracy": true,
+        "complete six-stressor": true,
+        "final construct-validity": true,
+        "final leaderboard": true,
+        "sim-to-real": true
+      },
+      "evidence": "paper/draft.md",
+      "id": "claim_boundaries_present",
+      "status": true
+    }
+  ],
+  "claim_boundary": "No clinical-accuracy, sim-to-real transfer, final leaderboard, complete six-stressor release, or final construct-validity claim is made.",
+  "nonfatal_notes": [
+    "PDF compilation completed with exit code 0.",
+    "Remaining warnings are small overfull boxes caused by long protocol/path entries; they are tracked as nonfatal packaging warnings.",
+    "The export is deterministic and generated from paper/draft.md for submission-package validation."
+  ],
+  "overall_status": "ready",
+  "package_type_target": "submission_package",
+  "ready": true,
+  "schema_version": 1,
+  "submission_checklist_ready": true,
+  "validator_contract": {
+    "accepted_status": "ready",
+    "path": "paper/review/submission_checklist.json",
+    "required_status_field": "overall_status"
+  },
+  "warnings": [
+    "warning: manuscript.tex:66: Overfull \\hbox (9.95497pt too wide) in paragraph at lines 65--66",
+    "warning: manuscript.tex:66: Overfull \\hbox (37.93997pt too wide) in paragraph at lines 65--66",
+    "warning: manuscript.tex:67: Overfull \\hbox (30.64833pt too wide) in paragraph at lines 66--67",
+    "warning: manuscript.tex:67: Overfull \\hbox (26.43997pt too wide) in paragraph at lines 66--67",
+    "warning: manuscript.tex:68: Overfull \\hbox (26.43997pt too wide) in paragraph at lines 67--68"
+  ]
+}

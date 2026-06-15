@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "figures": [
+    {
+      "figure_id": "figure1_model_surface_dice",
+      "surface_class": "paper_main",
+      "source_data_path": "paper/figures/data/model_surface_dice.csv",
+      "script_path": "paper/figures/scripts/figure1_model_surface_dice.py",
+      "exports": {
+        "png": "paper/figures/figure1_model_surface_dice.png",
+        "pdf": "paper/figures/figure1_model_surface_dice.pdf"
+      },
+      "supports_claims": ["C2", "C3"],
+      "main_comparison": "Mean Dice for three frozen promptable segmentation models across synthetic stressor, DIAS full-test, and CathAction fixed-subset surfaces.",
+      "self_review_note": "Polish pass shortened the visual message, moved the legend above the axes without a frame, preserved grayscale-readable hatches, and retained numeric labels for model-order inspection.",
+      "status": "polished_draft",
+      "updated_at": "2026-06-15T04:32:00Z"
+    }
+  ]
+}

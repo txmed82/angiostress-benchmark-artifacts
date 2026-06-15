@@ -1,0 +1,636 @@
+{
+  "schema_version": 2,
+  "outline_id": "outline-001",
+  "status": "selected",
+  "title": "AngioStress: A Deterministic Stress-Test Benchmark for Construct Validity in Frozen Endovascular Perception Models",
+  "note": "First paper-native outline after S3f. Paper view intentionally frames a bounded construct-validity benchmark and avoids final clinical or sim-to-real claims.",
+  "story": "AngioStress turns controllable synthetic DSA stressors into a benchmark for measuring whether stressor severity predicts frozen-model failure ordering on real angiography. The current evidence supports a bounded, partial construct-validity story: the benchmark and harness are reproducible, but synthetic-to-real rank transfer is mixed rather than uniformly positive.",
+  "ten_questions": [
+    "What does controlled synthetic stressor severity teach about frozen endovascular perception models?",
+    "Does the synthetic model-failure ordering transfer to real angiography surfaces?",
+    "Where does the ordering agree, and where does it break?",
+    "Which claims are reproducible benchmark claims versus construct-validity claims?",
+    "What evidence is still missing before a final AngioStress v0.1 paper?",
+    "How should the paper present negative or mixed construct-validity evidence without burying it?"
+  ],
+  "detailed_outline": {
+    "title": "AngioStress: A Deterministic Stress-Test Benchmark for Construct Validity in Frozen Endovascular Perception Models",
+    "abstract": null,
+    "research_questions": [],
+    "methodology": null,
+    "experimental_designs": [],
+    "contributions": []
+  },
+  "paper_view": {
+    "paper_type": "full_empirical",
+    "outline_maturity": "mature",
+    "working_title": "AngioStress: A Deterministic Synthetic Stress-Test Benchmark for Frozen Endovascular Perception Models",
+    "story_spine": {
+      "problem": "Endovascular perception benchmarks need stress tests that expose model failure modes without training or fine-tuning new models.",
+      "gap": "Synthetic angiography can control failure factors, but its scientific value depends on whether synthetic severity has construct validity against real angiography behavior.",
+      "method": "AngioStress defines deterministic DSA-like projections, labeled synthetic stressors, and a frozen-model evaluation harness that compares synthetic failure ordering with real-angiography analogs from DIAS and CathAction.",
+      "main_result": "The current frozen-panel evidence shows mixed rank transfer: DIAS full-split rankings are discordant with synthetic ordering, while CathAction human segmentation gives stable partial agreement with MedSAM weakest and SAM ViT-B/SAM ViT-L swapped.",
+      "scope_limit": "The paper supports benchmark construction and bounded construct-validity estimation, not clinical accuracy, sim-to-real transfer, or a final universal leaderboard."
+    },
+    "narrative_strategy": {
+      "paper_archetype": null,
+      "central_thesis": "A deterministic synthetic DSA stress-test benchmark can be evaluated by whether controlled stressor severity predicts frozen-model failure ordering on real angiography; the current AngioStress evidence supports reproducible measurement with partial, not complete, synthetic-to-real rank agreement.",
+      "central_insight": "Synthetic stress tests are most useful when treated as construct-validity instruments rather than clinical proxies: agreement and disagreement with real angiography both expose what the benchmark measures.",
+      "reader_takeaway": "Researchers can reuse AngioStress as an auditable stress-test scaffold and should report rank-transfer estimates with confidence boundaries instead of assuming synthetic severity automatically predicts real-world failures.",
+      "story_moves": [],
+      "interpretive_leaps": [],
+      "reader_should_learn": []
+    },
+    "insight_ladder": [
+      {
+        "level": "Observed fact -> interpretation",
+        "statement": "The renderer and frozen-model harness produce deterministic, pixel-level stress-test cells and finite model metrics, so the benchmark artifact itself is reproducible enough to support measurement studies.",
+        "evidence": [
+          "E1",
+          "E2",
+          "E3"
+        ],
+        "claim_links": [
+          "C1"
+        ],
+        "risk": "Reproducibility of one scaffold does not imply coverage of all clinically relevant angiography conditions."
+      },
+      {
+        "level": "Observed fact -> interpretation",
+        "statement": "DIAS full-split rankings are discordant with the synthetic ordering, so synthetic stressor severity alone is not a sufficient proxy for all real angiography model failures.",
+        "evidence": [
+          "E4"
+        ],
+        "claim_links": [
+          "C2",
+          "C3"
+        ],
+        "risk": "DIAS frame coverage and prompt protocol may emphasize a different perception surface from the synthetic stressors."
+      },
+      {
+        "level": "Observed fact -> interpretation",
+        "statement": "CathAction human-segmentation rankings show stable partial agreement: MedSAM remains weakest, but SAM ViT-B and SAM ViT-L swap relative to the synthetic order.",
+        "evidence": [
+          "E6"
+        ],
+        "claim_links": [
+          "C2",
+          "C3"
+        ],
+        "risk": "The CathAction result is a fixed-subset segmentation-surface diagnostic, not a population-level final construct-validity interval."
+      }
+    ],
+    "positioning": {
+      "closest_neighbor": "DSA segmentation datasets and model baselines such as DIAS, CathAction, and promptable SAM/MedSAM evaluations on angiography frames.",
+      "novelty_boundary": "The contribution is not a new model or training method; it is a deterministic stress-test benchmark and a construct-validity measurement protocol for frozen off-the-shelf perception models.",
+      "why_not_prior_work": null,
+      "not_claiming": [
+        "AngioStress improves model performance.",
+        "Synthetic DSA projections are clinically realistic replacements for real angiography.",
+        "The current results establish final synthetic-to-real transfer.",
+        "The frozen panel is a clinical deployment ranking.",
+        "Negative or discordant correlations are failures to hide rather than core measurement findings."
+      ]
+    },
+    "evidence_grounding": {
+      "observed_facts": [
+        "The baseline and renderer-first harness are durably recorded.",
+        "The frozen SAM/MedSAM panel has recorded synthetic and DIAS/CathAction metrics.",
+        "DIAS full labeled split shows rank discordance with synthetic ordering under the fixed protocol.",
+        "CathAction 128-pair nonempty human segmentation subset shows stable partial agreement with synthetic ordering.",
+        "Temporary CathAction local payloads were deleted after bounded runs."
+      ],
+      "allowed_interpretations": [
+        "AngioStress is currently an auditable benchmark and measurement scaffold.",
+        "Synthetic stressor severity has partial and surface-dependent construct validity in the current frozen panel.",
+        "Rank disagreements are informative failure-surface evidence, not merely failed experiments."
+      ],
+      "must_not_claim": [
+        "clinical accuracy",
+        "sim-to-real transfer",
+        "model improvement",
+        "new backbone training or fine-tuning",
+        "final universal frozen-model leaderboard",
+        "population-level CathAction confidence interval from the fixed subset"
+      ],
+      "evidence_gaps": [
+        "all six requested stressors are not yet scaled across all real analog surfaces",
+        "failure taxonomy tags are not yet detector-backed across the full panel",
+        "paper-facing figures and tables still need to be rendered",
+        "additional model families would be needed for a stronger leaderboard claim"
+      ]
+    },
+    "core_claims": [
+      {
+        "claim_id": "C1",
+        "claim": "AngioStress provides a reproducible deterministic DSA-like stress-test scaffold with pixel-level ground truth and a frozen-model evaluation harness.",
+        "scope": "TopCoW-derived synthetic projections plus the current SAM/MedSAM frozen panel and recorded stressor/evaluation configs.",
+        "evidence_needed": [
+          "E1",
+          "E2",
+          "E3"
+        ],
+        "what_would_falsify_it": "Renderer outputs, masks, or model metrics fail to reproduce under the recorded configs or no longer map to the metric contract."
+      },
+      {
+        "claim_id": "C2",
+        "claim": "Synthetic stressor severity has bounded construct validity: it partially predicts model failure ordering on CathAction human segmentation but not consistently on DIAS under the current fixed protocol.",
+        "scope": "Three frozen models, current prompt protocol, DIAS full labeled test split, and 128-pair nonempty CathAction human-segmentation subset.",
+        "evidence_needed": [
+          "E4",
+          "E5",
+          "E6"
+        ],
+        "what_would_falsify_it": "A corrected real-data run reverses the reported rank patterns or shows that the CathAction agreement is an artifact of invalid sampling or metrics."
+      },
+      {
+        "claim_id": "C3",
+        "claim": "Reporting disagreement is part of the benchmark value because it identifies which real angiography surfaces are not captured by the current synthetic stressors.",
+        "scope": "Construct-validity interpretation only; no clinical performance or sim-to-real transfer claim.",
+        "evidence_needed": [
+          "E4",
+          "E6",
+          "A4",
+          "A5"
+        ],
+        "what_would_falsify_it": "Additional real-data analyses show uniformly high rank transfer across DIAS and CathAction with no meaningful residual failure modes."
+      }
+    ],
+    "method_abstraction": {
+      "paper_name": "AngioStress",
+      "intuition": "A stress-test benchmark should vary interpretable acquisition and scene factors while holding the frozen model, prompting, and metrics fixed, so rank changes can be interpreted as model sensitivity rather than training noise.",
+      "mechanism_steps": [
+        "Generate deterministic DSA-like synthetic projections with pixel-level vessel ground truth.",
+        "Apply labeled stressors with severity parameters to define controlled benchmark cells.",
+        "Evaluate frozen off-the-shelf perception models under one prompt/metric protocol on synthetic and real-analog surfaces.",
+        "Compare model failure ordering with rank correlations, fixed-sample stability checks, and failure examples."
+      ],
+      "appendix_only_details": [
+        "exact local command lines",
+        "managed-session ids",
+        "temporary archive transfer route",
+        "local hardware and storage cleanup logs",
+        "artifact ids and worktree names"
+      ],
+      "forbidden_main_text_terms": []
+    },
+    "evaluation_plan": {
+      "setting": "Frozen off-the-shelf endovascular perception evaluation under controlled synthetic stressors and real angiography analog surfaces.",
+      "datasets_or_benchmarks": [
+        "TopCoW-derived deterministic synthetic DSA-like projections",
+        "DIAS labeled DSA test sequences",
+        "CathAction human segmentation image-mask pairs"
+      ],
+      "baselines": [
+        "SAM ViT-B",
+        "SAM ViT-L",
+        "MedSAM ViT-B",
+        "accepted TopCoW ResEncM renderer sanity baseline"
+      ],
+      "metrics": [
+        "Dice",
+        "clDice",
+        "rank ordering",
+        "Spearman rank correlation",
+        "Kendall rank correlation where available",
+        "bootstrap rank-stability diagnostics",
+        "prediction nonempty rate",
+        "failure taxonomy tags when available"
+      ],
+      "controlled_factors": [
+        "stressor type and severity",
+        "fixed frozen model weights",
+        "fixed prompt protocol",
+        "fixed metric implementation",
+        "deterministic sampling for bounded subsets"
+      ]
+    },
+    "analysis_plan": [
+      {
+        "analysis_id": "A1",
+        "title": "Synthetic stressor degradation curves",
+        "analysis_role": "dose-response / benchmark sanity",
+        "reviewer_question": "Do severity labels produce measurable degradation curves rather than arbitrary perturbations?",
+        "claim_links": [
+          "C1"
+        ],
+        "target_display": "Main benchmark overview figure or stressor table",
+        "main_or_appendix": "main_text",
+        "failure_interpretation": "If degradation is not monotone or separable, downgrade AngioStress to a renderer prototype and avoid construct-validity claims."
+      },
+      {
+        "analysis_id": "A2",
+        "title": "DIAS full-test split rank correlation",
+        "analysis_role": "real-data construct-validity check",
+        "reviewer_question": "Does synthetic ordering predict model ordering on real DIAS angiography frames?",
+        "claim_links": [
+          "C2",
+          "C3"
+        ],
+        "target_display": "Main rank-correlation table",
+        "main_or_appendix": "main_text",
+        "failure_interpretation": "Discordance is reported as evidence that synthetic severity does not fully capture DIAS failure surfaces."
+      },
+      {
+        "analysis_id": "A3",
+        "title": "CathAction human-segmentation subset rank stability",
+        "analysis_role": "real-data construct-validity check",
+        "reviewer_question": "Does the CathAction human segmentation surface reproduce the synthetic model ordering?",
+        "claim_links": [
+          "C2",
+          "C3"
+        ],
+        "target_display": "Main rank-correlation table with fixed-subset stability note",
+        "main_or_appendix": "main_text",
+        "failure_interpretation": "Partial agreement should narrow the construct-validity claim rather than be hidden."
+      },
+      {
+        "analysis_id": "A4",
+        "title": "Cross-surface rank synthesis",
+        "analysis_role": "construct-validity synthesis",
+        "reviewer_question": "What pattern is consistent across synthetic, DIAS, and CathAction surfaces?",
+        "claim_links": [
+          "C2",
+          "C3"
+        ],
+        "target_display": "Main synthesis panel or table",
+        "main_or_appendix": "main_text",
+        "failure_interpretation": "If no stable cross-surface lesson exists, the paper becomes a benchmark artifact report with a null construct-validity estimate."
+      },
+      {
+        "analysis_id": "A5",
+        "title": "Representative failure and overlay audit",
+        "analysis_role": "failure taxonomy / qualitative validation",
+        "reviewer_question": "What visible errors explain rank agreement or disagreement?",
+        "claim_links": [
+          "C3"
+        ],
+        "target_display": "Appendix or main qualitative panel depending on figure readiness",
+        "main_or_appendix": "appendix",
+        "failure_interpretation": "If overlays do not explain the metrics, keep the metric result but downgrade mechanism-style explanations."
+      },
+      {
+        "analysis_id": "A6",
+        "title": "Sampling and mask-boundary sensitivity",
+        "analysis_role": "robustness / sensitivity",
+        "reviewer_question": "Are the CathAction conclusions robust to empty-mask handling and fixed-subset sampling?",
+        "claim_links": [
+          "C2"
+        ],
+        "target_display": "Appendix robustness note or table",
+        "main_or_appendix": "appendix",
+        "failure_interpretation": "If sensitivity changes ordering, present CathAction as exploratory and require a larger follow-up before strong claims."
+      }
+    ],
+    "reviewer_objections": [
+      {
+        "objection": "The synthetic benchmark may not be realistic enough to justify real-angiography claims.",
+        "answer_route": "claim_downgrade",
+        "linked_claims": [
+          "C2",
+          "C3"
+        ],
+        "needed_evidence": [
+          "E4",
+          "E6",
+          "A4"
+        ]
+      },
+      {
+        "objection": "The model panel is too small for a general leaderboard.",
+        "answer_route": "limitation",
+        "linked_claims": [
+          "C2"
+        ],
+        "needed_evidence": [
+          "E3",
+          "E4",
+          "E6"
+        ]
+      },
+      {
+        "objection": "Promptable SAM/MedSAM masks may be driven by prompt boxes rather than vessel understanding.",
+        "answer_route": "analysis",
+        "linked_claims": [
+          "C2",
+          "C3"
+        ],
+        "needed_evidence": [
+          "A5",
+          "A6"
+        ]
+      },
+      {
+        "objection": "CathAction subset confidence intervals are not population-level estimates.",
+        "answer_route": "writing",
+        "linked_claims": [
+          "C2"
+        ],
+        "needed_evidence": [
+          "E6",
+          "A6"
+        ]
+      }
+    ],
+    "analysis_budget_waiver": null,
+    "section_plan": [],
+    "terminology_map": {},
+    "forbidden_main_text_terms": [
+      "quest",
+      "worktree",
+      "selected outline",
+      "paper restart",
+      "latest user",
+      "user request",
+      "64+64",
+      "dual ports",
+      "dual endpoints",
+      "opposite port",
+      "local endpoint",
+      "source worktree",
+      "route overview",
+      "full-test protocol"
+    ]
+  },
+  "evidence_view": {
+    "claim_to_items": [
+      {
+        "claim_id": "C1",
+        "items": [
+          "E1",
+          "E2",
+          "E3"
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "items": [
+          "E4",
+          "E5",
+          "E6"
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "items": [
+          "E4",
+          "E6",
+          "A4",
+          "A5"
+        ]
+      }
+    ],
+    "sections": [],
+    "evidence_contract": {
+      "main_text_items_must_be_ready": true,
+      "appendix_items_may_be_ready_or_reference_only": true,
+      "record_results_back_into_outline": true,
+      "result_table_required": true
+    },
+    "unmapped_items": [],
+    "appendix_reproducibility": [
+      "{'topic': 'Temporary CathAction storage policy', 'paths': ['artifacts/decisions/decision-06a3b189.json', 'experiments/analysis/s3f-cathaction-human-segmentation-subset-ranking/outputs/cleanup_status.json'], 'manuscript_role': 'appendix-only reproducibility and data handling detail'}",
+      "{'topic': 'Managed command logs', 'paths': ['.ds/bash_exec/bash-f0d9a077/terminal.log', '.ds/bash_exec/bash-dc429c26/terminal.log'], 'manuscript_role': 'appendix-only provenance; not main-text prose'}"
+    ]
+  },
+  "evidence_contract": {
+    "main_text_items_must_be_ready": true,
+    "appendix_items_may_be_ready_or_reference_only": true,
+    "record_results_back_into_outline": true,
+    "result_table_required": true
+  },
+  "section_order": [
+    "main-results"
+  ],
+  "sections": [
+    {
+      "section_id": "main-results",
+      "title": "Main Results",
+      "paper_role": "main_text",
+      "claims": [],
+      "required_items": [
+        "run-angiostress-s0s1-renderer-smoke",
+        "run-angiostress-s1-frozen-model-smoke",
+        "run-angiostress-s2-real-dsa-loader-smoke",
+        "run-angiostress-s2b-frozen-model-panel-smoke",
+        "run-angiostress-s2c-third-frozen-model-panel-extension",
+        "run-angiostress-s3-dias-frozen-model-analog-smoke"
+      ],
+      "optional_items": [],
+      "status": "ready",
+      "note": null,
+      "result_table": [
+        {
+          "item_id": "run-angiostress-s0s1-renderer-smoke",
+          "title": "AngioStress S0/S1 renderer-smoke benchmark artifact",
+          "kind": "main_experiment",
+          "campaign_id": null,
+          "slice_id": null,
+          "run_id": null,
+          "paper_role": "main_text",
+          "analysis_role": null,
+          "reviewer_question": null,
+          "target_display": null,
+          "main_or_appendix": "main_text",
+          "failure_interpretation": null,
+          "status": "completed",
+          "claim_links": [],
+          "setup_note": "Added a self-contained renderer-smoke package under experiments/main/run-angiostress-s0s1-renderer-smoke in the active idea worktree. The config points to the previously verified TopCoW volume/mask paths and uses a fixed seed. The script projects the 3D mask to a 256x256 DSA-like clean image, exports a projected GT mask, and creates three stressor families with three severity levels each.",
+          "metric_summary": "topcow_resencm_one_case_mean_dice=0.6985; topcow_resencm_one_case_mean_cldice=0.6285; angiostress_renderer_success=1; angiostress_renderer_cell_count=9; angiostress_renderer_deterministic_hash_match=1; angiostress_renderer_projected_gt_area_pixels=8233",
+          "result_summary": "The renderer-smoke pass generated 9 stressor cells across frame thinning, contrast phase, and device overlay. Required outputs were present; the projected GT area was 8,233 pixels with 2 connected components; clean GT self Dice and self clDice were both 1.0; all numeric metrics were finite; fresh rerun output hashes and per-cell hashes matched. Frozen 2D model inference was not run in this scoped pass and is recorded as deferred.",
+          "impact_summary": null,
+          "source_paths": [
+            ".ds/worktrees/idea-idea-a229721e/experiments/main/run-angiostress-s0s1-renderer-smoke/RUN.md",
+            ".ds/worktrees/idea-idea-a229721e/experiments/main/run-angiostress-s0s1-renderer-smoke/RESULT.json",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/idea-idea-a229721e/experiments/main/run-angiostress-s0s1-renderer-smoke/RUN.md",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/idea-idea-a229721e/experiments/main/run-angiostress-s0s1-renderer-smoke/VALIDATION.md",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/idea-idea-a229721e/experiments/main/run-angiostress-s0s1-renderer-smoke/run_renderer_smoke.py",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/idea-idea-a229721e/experiments/main/run-angiostress-s0s1-renderer-smoke/outputs/manifest.json",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/idea-idea-a229721e/experiments/main/run-angiostress-s0s1-renderer-smoke/outputs/metrics_summary.json",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/idea-idea-a229721e/experiments/main/run-angiostress-s0s1-renderer-smoke/outputs/clean_preview.png",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/idea-idea-a229721e/experiments/main/run-angiostress-s0s1-renderer-smoke/outputs/cells/device_overlay_severity_2.png",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/idea-idea-a229721e/experiments/main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/manifest.json"
+          ],
+          "mapping_status": null,
+          "updated_at": "2026-06-15T03:39:59+00:00"
+        },
+        {
+          "item_id": "run-angiostress-s1-frozen-model-smoke",
+          "title": "AngioStress S1 frozen-model harness smoke with SAM ViT-B",
+          "kind": "main_experiment",
+          "campaign_id": null,
+          "slice_id": null,
+          "run_id": null,
+          "paper_role": "main_text",
+          "analysis_role": null,
+          "reviewer_question": null,
+          "target_display": null,
+          "main_or_appendix": "main_text",
+          "failure_interpretation": null,
+          "status": "completed",
+          "claim_links": [],
+          "setup_note": "Created a child run branch/worktree from the renderer-smoke result. The active environment lacked torch/torchvision/segment-anything/MedSAM/nnU-Net packages, so an isolated quest-local virtualenv was created. Installed torch 2.8.0, torchvision 0.23.0, segment-anything 1.0, and scikit-image for metrics. Downloaded the public SAM ViT-B checkpoint, SHA256 ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912. SAM was frozen and prompted with the projected-GT bounding box for this smoke pass.",
+          "metric_summary": "topcow_resencm_one_case_mean_dice=0.6985; sam_vit_b_clean_dice=0.981; sam_vit_b_clean_cldice=0.999; sam_vit_b_mean_stressor_dice=0.8926; sam_vit_b_mean_stressor_cldice=0.9202; sam_vit_b_mean_stressor_dice_delta_vs_clean=-0.0884",
+          "result_summary": "SAM ViT-B produced 10 prediction rows and 10 mask PNG/NPY outputs. Clean Dice was 0.9810482128526452 and clean clDice was 0.9990412272291467. Across 9 stressed cells, mean Dice was 0.892633475863582 and mean clDice was 0.920166815700077. Mean Dice delta vs clean was -0.08841473698906317. Device overlay was the strongest observed degradation family: mean Dice 0.7218091541803723, mean clDice 0.76477019540269. The strongest single cell was device_overlay_severity_2 with Dice 0.6241094597782496, clDice 0.6424506218998289, and component-count ratio 66.0.",
+          "impact_summary": null,
+          "source_paths": [
+            ".ds/worktrees/run-angiostress-s1-frozen-model-smoke/experiments/main/run-angiostress-s1-frozen-model-smoke/RUN.md",
+            ".ds/worktrees/run-angiostress-s1-frozen-model-smoke/experiments/main/run-angiostress-s1-frozen-model-smoke/RESULT.json",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/run-angiostress-s1-frozen-model-smoke/experiments/main/run-angiostress-s1-frozen-model-smoke/RUN.md",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/run-angiostress-s1-frozen-model-smoke/experiments/main/run-angiostress-s1-frozen-model-smoke/VALIDATION.md",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/run-angiostress-s1-frozen-model-smoke/experiments/main/run-angiostress-s1-frozen-model-smoke/DEPENDENCY_AUDIT.md",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/run-angiostress-s1-frozen-model-smoke/experiments/main/run-angiostress-s1-frozen-model-smoke/run_sam_smoke.py",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/run-angiostress-s1-frozen-model-smoke/experiments/main/run-angiostress-s1-frozen-model-smoke/outputs/manifest.json",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/run-angiostress-s1-frozen-model-smoke/experiments/main/run-angiostress-s1-frozen-model-smoke/outputs/metrics_summary.json",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/run-angiostress-s1-frozen-model-smoke/experiments/main/run-angiostress-s1-frozen-model-smoke/outputs/per_cell_metrics.csv",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/run-angiostress-s1-frozen-model-smoke/experiments/main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/clean_mask.png",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/run-angiostress-s1-frozen-model-smoke/experiments/main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/device_overlay_severity_2_mask.png"
+          ],
+          "mapping_status": null,
+          "updated_at": "2026-06-15T03:39:59+00:00"
+        },
+        {
+          "item_id": "run-angiostress-s2-real-dsa-loader-smoke",
+          "title": "AngioStress S2 real-DSA loader and stressor-analog smoke",
+          "kind": "main_experiment",
+          "campaign_id": null,
+          "slice_id": null,
+          "run_id": null,
+          "paper_role": "main_text",
+          "analysis_role": null,
+          "reviewer_question": null,
+          "target_display": null,
+          "main_or_appendix": "main_text",
+          "failure_interpretation": null,
+          "status": "completed",
+          "claim_links": [],
+          "setup_note": "Used the active run worktree run/run-angiostress-s2-real-dsa-loader-smoke. Shallow-cloned DIAS and CathAction repositories into quest tmp for schema inspection. Downloaded DIAS.zip from Zenodo and verified it against the published md5 checksum before building the loader manifest.",
+          "metric_summary": "topcow_resencm_one_case_mean_dice=0.6985; topcow_resencm_one_case_mean_cldice=0.6285; topcow_resencm_one_case_graph_ready_rate=1; topcow_gt_sanity_mean_dice=1; topcow_gt_sanity_mean_cldice=1; topcow_gt_sanity_graph_ready_rate=1",
+          "result_summary": "DIAS.zip md5 matched the published checksum. The archive contains 60 sequences: 30 training, 10 validation, and 20 test. Selected sequence s40 has 6 extracted 800 x 800 frames and a sequence-level mask with 71,224 nonzero pixels. Frame thinning and contrast-phase analogs are immediately available from DIAS sequence frames. Device-overlay analogs are not available from DIAS alone; CathAction is source-audited but local data loading remains deferred behind the dataset download/license flow.",
+          "impact_summary": null,
+          "source_paths": [
+            ".ds/worktrees/run-angiostress-s2-real-dsa-loader-smoke/experiments/main/run-angiostress-s2-real-dsa-loader-smoke/RUN.md",
+            ".ds/worktrees/run-angiostress-s2-real-dsa-loader-smoke/experiments/main/run-angiostress-s2-real-dsa-loader-smoke/RESULT.json",
+            "experiments/main/run-angiostress-s2-real-dsa-loader-smoke/RUN.md",
+            "experiments/main/run-angiostress-s2-real-dsa-loader-smoke/VALIDATION.md",
+            "experiments/main/run-angiostress-s2-real-dsa-loader-smoke/build_dias_loader_manifest.py",
+            "experiments/main/run-angiostress-s2-real-dsa-loader-smoke/source_availability_audit.json",
+            "experiments/main/run-angiostress-s2-real-dsa-loader-smoke/repo_schema_audit.json",
+            "experiments/main/run-angiostress-s2-real-dsa-loader-smoke/cathaction_website_audit.json",
+            "experiments/main/run-angiostress-s2-real-dsa-loader-smoke/dias_zip_inventory.json",
+            "experiments/main/run-angiostress-s2-real-dsa-loader-smoke/dias_sequence_inventory.json",
+            "experiments/main/run-angiostress-s2-real-dsa-loader-smoke/metrics_summary.json",
+            "experiments/main/run-angiostress-s2-real-dsa-loader-smoke/outputs/real_dsa_loader_manifest.json",
+            "experiments/main/run-angiostress-s2-real-dsa-loader-smoke/outputs/dias_s40_preview.png"
+          ],
+          "mapping_status": null,
+          "updated_at": "2026-06-15T03:39:59+00:00"
+        },
+        {
+          "item_id": "run-angiostress-s2b-frozen-model-panel-smoke",
+          "title": "Frozen-model panel smoke on shared AngioStress synthetic and DIAS surfaces",
+          "kind": "main_experiment",
+          "campaign_id": null,
+          "slice_id": null,
+          "run_id": null,
+          "paper_role": "main_text",
+          "analysis_role": null,
+          "reviewer_question": null,
+          "target_display": null,
+          "main_or_appendix": "main_text",
+          "failure_interpretation": null,
+          "status": "completed",
+          "claim_links": [],
+          "setup_note": "SAM ViT-B and MedSAM ViT-B were evaluated frozen through segment_anything SamPredictor. MedSAM used the official README-linked checkpoint with a local CPU-mapped copy because the original file is CUDA-serialized. Both models used identical label-derived bounding-box prompts for the TopCoW synthetic projection and the DIAS s40 sequence-level mask.",
+          "metric_summary": "topcow_resencm_one_case_mean_dice=0.6985; topcow_resencm_one_case_mean_cldice=0.6285; topcow_resencm_one_case_graph_ready_rate=1; topcow_gt_sanity_mean_dice=1; topcow_gt_sanity_mean_cldice=1; topcow_gt_sanity_graph_ready_rate=1",
+          "result_summary": "The two-model panel is measurable and rankable, but the initial ordering is discordant across surfaces. SAM ViT-B is much stronger on the synthetic stressor surface (mean stressor Dice 0.8926 vs MedSAM 0.2683), while MedSAM is only slightly higher than SAM on DIAS mean Dice (0.2139 vs 0.2113). The run records this as a panel-smoke result, not as construct validity.",
+          "impact_summary": null,
+          "source_paths": [
+            ".ds/worktrees/run-angiostress-s2b-frozen-model-panel-smoke/experiments/main/run-angiostress-s2b-frozen-model-panel-smoke/RUN.md",
+            ".ds/worktrees/run-angiostress-s2b-frozen-model-panel-smoke/experiments/main/run-angiostress-s2b-frozen-model-panel-smoke/RESULT.json",
+            "experiments/main/run-angiostress-s2b-frozen-model-panel-smoke/model_candidate_audit.json",
+            "experiments/main/run-angiostress-s2b-frozen-model-panel-smoke/run_model_panel_smoke.py",
+            "experiments/main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/metrics_summary.json",
+            "experiments/main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/model_summary.json",
+            "experiments/main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/model_ranking_rows.json",
+            "experiments/main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_per_cell_metrics.json",
+            "experiments/main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_per_frame_metrics.json",
+            "experiments/main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_analog_summary.json",
+            "experiments/main/run-angiostress-s2b-frozen-model-panel-smoke/VALIDATION.md"
+          ],
+          "mapping_status": null,
+          "updated_at": "2026-06-15T03:39:59+00:00"
+        },
+        {
+          "item_id": "run-angiostress-s2c-third-frozen-model-panel-extension",
+          "title": "AngioStress S2c three-model frozen panel smoke",
+          "kind": "main_experiment",
+          "campaign_id": null,
+          "slice_id": null,
+          "run_id": null,
+          "paper_role": "main_text",
+          "analysis_role": null,
+          "reviewer_question": null,
+          "target_display": null,
+          "main_or_appendix": "main_text",
+          "failure_interpretation": null,
+          "status": "completed",
+          "claim_links": [],
+          "setup_note": "S2c extends the S2b SAM ViT-B and MedSAM ViT-B panel by adding official SAM ViT-L. All models are frozen and evaluated via segment_anything SamPredictor with identical label-derived bounding-box prompts.",
+          "metric_summary": "s2c_dias_frame_count_per_model=6; s2c_finite_metric_check=1; s2c_medsam_vit_b_dias_all_frame_mean_cldice=0.1389; s2c_medsam_vit_b_dias_all_frame_mean_dice=0.2139; s2c_medsam_vit_b_dias_contrast_phase_severity2_dice_delta_vs_severity0=-0.0003; s2c_medsam_vit_b_dias_frame_thinning_severity2_dice_delta_vs_severity0=0.0015",
+          "result_summary": "All three frozen models produced finite metrics. The synthetic mean stressor Dice order was SAM ViT-L > SAM ViT-B > MedSAM ViT-B, while DIAS mean Dice order was MedSAM ViT-B > SAM ViT-B > SAM ViT-L. The resulting smoke Spearman diagnostic was -1.0 with no confidence interval.",
+          "impact_summary": null,
+          "source_paths": [
+            ".ds/worktrees/run-run-angiostress-s2c-third-frozen-model-panel-extension/experiments/main/run-angiostress-s2c-third-frozen-model-panel-extension/RUN.md",
+            ".ds/worktrees/run-run-angiostress-s2c-third-frozen-model-panel-extension/experiments/main/run-angiostress-s2c-third-frozen-model-panel-extension/RESULT.json",
+            ".ds/worktrees/run-run-angiostress-s2c-third-frozen-model-panel-extension/experiments/main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/metrics_summary.json",
+            ".ds/worktrees/run-run-angiostress-s2c-third-frozen-model-panel-extension/experiments/main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/model_summary.json",
+            ".ds/worktrees/run-run-angiostress-s2c-third-frozen-model-panel-extension/experiments/main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/model_ranking_rows.json",
+            ".ds/worktrees/run-run-angiostress-s2c-third-frozen-model-panel-extension/experiments/main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_per_frame_metrics.json",
+            ".ds/worktrees/run-run-angiostress-s2c-third-frozen-model-panel-extension/experiments/main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_per_cell_metrics.json",
+            ".ds/worktrees/run-run-angiostress-s2c-third-frozen-model-panel-extension/experiments/main/run-angiostress-s2c-third-frozen-model-panel-extension/RUN.md",
+            ".ds/worktrees/run-run-angiostress-s2c-third-frozen-model-panel-extension/experiments/main/run-angiostress-s2c-third-frozen-model-panel-extension/VALIDATION.md"
+          ],
+          "mapping_status": null,
+          "updated_at": "2026-06-15T03:39:59+00:00"
+        },
+        {
+          "item_id": "run-angiostress-s3-dias-frozen-model-analog-smoke",
+          "title": "DIAS Frozen SAM Real-Analog Smoke",
+          "kind": "main_experiment",
+          "campaign_id": null,
+          "slice_id": null,
+          "run_id": null,
+          "paper_role": "main_text",
+          "analysis_role": null,
+          "reviewer_question": null,
+          "target_display": null,
+          "main_or_appendix": "main_text",
+          "failure_interpretation": null,
+          "status": "completed",
+          "claim_links": [],
+          "setup_note": "DIAS test sequence s40 from the verified DIAS Zenodo archive; 6 frames, one sequence-level mask, frozen SAM ViT-B checkpoint ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912, label-derived bounding-box prompt, no training or fine-tuning.",
+          "metric_summary": "dias_sam_all_frame_mean_cldice=0.2345; dias_sam_all_frame_mean_dice=0.2113; dias_sam_contrast_phase_severity0_cldice_delta_vs_severity0=0; dias_sam_contrast_phase_severity0_dice_delta_vs_severity0=0; dias_sam_contrast_phase_severity0_mean_cldice=0.2345; dias_sam_contrast_phase_severity0_mean_dice=0.2113",
+          "result_summary": "The run produced finite per-frame and per-analog metrics, prediction masks, overlays, and validation records. SAM predicted nonempty masks for all 6 frames, but performance was weak under the label-derived bbox prompt: all-frame mean Dice 0.21131857528530187 and mean clDice 0.2344899136404658. Frame-thinning severity 2 had Dice delta -0.0005932835787929025 versus severity 0; contrast-phase severity 2 had Dice delta 0.0056035950660932865 versus severity 0. These are real-side harness feasibility results, not construct-validity estimates.",
+          "impact_summary": null,
+          "source_paths": [
+            ".ds/worktrees/run-angiostress-s3-dias-frozen-model-analog-smoke/experiments/main/run-angiostress-s3-dias-frozen-model-analog-smoke/RUN.md",
+            ".ds/worktrees/run-angiostress-s3-dias-frozen-model-analog-smoke/experiments/main/run-angiostress-s3-dias-frozen-model-analog-smoke/RESULT.json",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/run-angiostress-s3-dias-frozen-model-analog-smoke/experiments/main/run-angiostress-s3-dias-frozen-model-analog-smoke/RUN.md",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/run-angiostress-s3-dias-frozen-model-analog-smoke/experiments/main/run-angiostress-s3-dias-frozen-model-analog-smoke/VALIDATION.md",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/run-angiostress-s3-dias-frozen-model-analog-smoke/experiments/main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/metrics_summary.json",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/run-angiostress-s3-dias-frozen-model-analog-smoke/experiments/main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/per_frame_metrics.csv",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/run-angiostress-s3-dias-frozen-model-analog-smoke/experiments/main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/analog_summary.csv",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/run-angiostress-s3-dias-frozen-model-analog-smoke/experiments/main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/manifest.json",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/run-angiostress-s3-dias-frozen-model-analog-smoke/experiments/main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/environment.json",
+            "/Users/colin/DeepScientist/quests/010/.ds/worktrees/run-angiostress-s3-dias-frozen-model-analog-smoke/experiments/main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/dias_s40_sam_overlay_panel.png"
+          ],
+          "mapping_status": null,
+          "updated_at": "2026-06-15T03:39:59+00:00"
+        }
+      ]
+    }
+  ],
+  "created_at": "2026-06-15T03:39:37+00:00",
+  "updated_at": "2026-06-15T03:43:41.775766Z"
+}

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: AngioStress Benchmark Artifacts
+message: If you use this artifact package, please cite the AngioStress manuscript and the upstream datasets/models listed in DATA_SOURCES.md.
+authors:
+  - family-names: Son
+    given-names: Colin
+    name-particle: MD
+    orcid: https://orcid.org/0000-0002-1782-0537
+affiliation: Seldinger, Inc., San Antonio, TX
+repository-code: https://github.com/txmed82/angiostress-benchmark-artifacts
+url: https://huggingface.co/datasets/txmedai/angiostress-benchmark-artifacts
+date-released: 2026-06-15

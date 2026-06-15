@@ -1,0 +1,101 @@
+{
+  "paper_line_id": "main-outline-run",
+  "selected_outline_ref": "outline-001",
+  "package_type": "draft_checkpoint",
+  "status": {
+    "draft_checkpoint_ready": true,
+    "manuscript_ready": true,
+    "submission_ready": false,
+    "coverage_validation_path": "paper/manuscript_coverage.json"
+  },
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim": "AngioStress currently has a reproducible deterministic scaffold for DSA-like synthetic projection, pixel-level labels, stressor configuration, and frozen-model evaluation.",
+      "support": [
+        "paper/evidence_ledger.json",
+        "paper/evidence_ledger.md",
+        "paper/selected_outline.json",
+        "paper/draft.md"
+      ],
+      "boundary": "Supports a benchmark artifact checkpoint, not clinical validity."
+    },
+    {
+      "claim_id": "C2",
+      "claim": "The checkpoint measures three frozen off-the-shelf segmentation models across synthetic stressor summaries and two real-angiography surfaces.",
+      "support": [
+        "paper/figures/data/model_surface_dice.csv",
+        "paper/figures/figure1_model_surface_dice.png",
+        "paper/figures/figure1_model_surface_dice.pdf",
+        "paper/tables/table1_rank_summary.md"
+      ],
+      "boundary": "The panel is fixed and frozen; no model training, fine-tuning, pruning, or backbone modification is claimed."
+    },
+    {
+      "claim_id": "C3",
+      "claim": "Synthetic-to-real rank transfer is mixed: DIAS is discordant with the synthetic ordering, while the CathAction subset shows partial agreement driven mainly by stable MedSAM-last behavior and a SAM ViT-B / SAM ViT-L swap.",
+      "support": [
+        "artifacts/reports/report-fe9dabda.json",
+        "artifacts/reports/report-97c8091c.json",
+        "paper/tables/table1_rank_summary.md",
+        "paper/figures/figure1_model_surface_dice.md",
+        "paper/draft.md"
+      ],
+      "key_values": {
+        "dias_full_split": {
+          "sequences": 20,
+          "frames_per_model": 115,
+          "predictions_total": 345,
+          "spearman": -0.5,
+          "kendall": -0.3333333333333333,
+          "bootstrap_spearman_mean": -0.425,
+          "bootstrap_spearman_ci": [-0.675, -0.125]
+        },
+        "cathaction_fixed_subset": {
+          "pairs_per_model": 128,
+          "predictions_total": 384,
+          "spearman": 0.5,
+          "bootstrap_spearman_mean": 0.5285,
+          "bootstrap_spearman_interval": [0.5, 1.0]
+        }
+      },
+      "boundary": "Construct-validity estimate only; not proof that synthetic stressor severity generally predicts real clinical performance."
+    },
+    {
+      "claim_id": "C4",
+      "claim": "The draft does not support a final leaderboard, clinical-accuracy claim, sim-to-real transfer claim, or complete six-stressor AngioStress v0.1 release.",
+      "support": [
+        "paper/draft.md",
+        "paper/manuscript_coverage.json",
+        "paper/selected_outline.json"
+      ],
+      "boundary": "Submission readiness remains blocked by citation/reference audit, figure polish, compiled PDF, and submission checklist."
+    }
+  ],
+  "displays": [
+    {
+      "display_id": "figure1",
+      "kind": "figure",
+      "paths": [
+        "paper/figures/figure1_model_surface_dice.png",
+        "paper/figures/figure1_model_surface_dice.pdf",
+        "paper/figures/figure1_model_surface_dice.md",
+        "paper/figures/data/model_surface_dice.csv",
+        "paper/figures/scripts/figure1_model_surface_dice.py"
+      ]
+    },
+    {
+      "display_id": "table1",
+      "kind": "table",
+      "paths": [
+        "paper/tables/table1_rank_summary.md"
+      ]
+    }
+  ],
+  "next_review_questions": [
+    "Are all metric claims tied to exact reports or source data?",
+    "Does the text overstate construct validity beyond the DIAS/CathAction checkpoint evidence?",
+    "Are citations sufficient and real after reference audit?",
+    "Does the first-pass figure need polish before a submission package?"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "run_id": "run-angiostress-s1-frozen-model-smoke",
+  "parent_run_id": "run-angiostress-s0s1-renderer-smoke",
+  "parent_outputs_dir": "../run-angiostress-s0s1-renderer-smoke/outputs",
+  "model": {
+    "model_id": "sam_vit_b",
+    "model_family": "Segment Anything",
+    "checkpoint_url": "https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth",
+    "checkpoint_filename": "sam_vit_b_01ec64.pth",
+    "checkpoint_sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+    "prompt_source": "projected_gt_bbox",
+    "training_or_finetuning": false
+  },
+  "environment": {
+    "venv_path": "/Users/colin/DeepScientist/quests/010/tmp/angiostress-s1-venv",
+    "weights_dir": "/Users/colin/DeepScientist/quests/010/tmp/angiostress-s1-weights"
+  },
+  "metrics": [
+    "dice",
+    "cldice",
+    "area_ratio",
+    "component_count_ratio",
+    "degradation_vs_clean"
+  ],
+  "smoke_budget": {
+    "dependency_audit_attempts": 1,
+    "setup_attempts": 1,
+    "cloud_budget_usd": 0
+  }
+}

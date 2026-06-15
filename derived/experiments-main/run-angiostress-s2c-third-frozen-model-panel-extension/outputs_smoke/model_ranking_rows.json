@@ -1,0 +1,125 @@
+{
+  "comparison": {
+    "claim_boundary": "Three-model ordering rows are a smoke diagnostic only and cannot support construct-validity claims or confidence intervals.",
+    "dias_all_frame_mean_dice_order": [
+      "medsam_vit_b",
+      "sam_vit_b",
+      "sam_vit_l"
+    ],
+    "rank_correlation_status": "smoke_rank_diagnostic_no_ci_n3_one_sequence",
+    "ranked_model_count": 3,
+    "spearman_synthetic_mean_stressor_dice_vs_dias_mean_dice": -0.5,
+    "synthetic_mean_stressor_dice_order": [
+      "sam_vit_b",
+      "sam_vit_l",
+      "medsam_vit_b"
+    ]
+  },
+  "rows": [
+    {
+      "direction": "higher_is_better",
+      "model_id": "sam_vit_b",
+      "rank": 1,
+      "ranking_metric": "synthetic_mean_stressor_dice",
+      "value": 0.9810482128526452
+    },
+    {
+      "direction": "higher_is_better",
+      "model_id": "sam_vit_l",
+      "rank": 2,
+      "ranking_metric": "synthetic_mean_stressor_dice",
+      "value": 0.9751922599851154
+    },
+    {
+      "direction": "higher_is_better",
+      "model_id": "medsam_vit_b",
+      "rank": 3,
+      "ranking_metric": "synthetic_mean_stressor_dice",
+      "value": 0.25539705183071804
+    },
+    {
+      "direction": "higher_is_better",
+      "model_id": "medsam_vit_b",
+      "rank": 1,
+      "ranking_metric": "synthetic_mean_stressor_dice_delta_vs_clean",
+      "value": 0.0
+    },
+    {
+      "direction": "higher_is_better",
+      "model_id": "sam_vit_b",
+      "rank": 2,
+      "ranking_metric": "synthetic_mean_stressor_dice_delta_vs_clean",
+      "value": 0.0
+    },
+    {
+      "direction": "higher_is_better",
+      "model_id": "sam_vit_l",
+      "rank": 3,
+      "ranking_metric": "synthetic_mean_stressor_dice_delta_vs_clean",
+      "value": 0.0
+    },
+    {
+      "direction": "higher_is_better",
+      "model_id": "medsam_vit_b",
+      "rank": 1,
+      "ranking_metric": "dias_all_frame_mean_dice",
+      "value": 0.21987694265341434
+    },
+    {
+      "direction": "higher_is_better",
+      "model_id": "sam_vit_b",
+      "rank": 2,
+      "ranking_metric": "dias_all_frame_mean_dice",
+      "value": 0.20884762975999335
+    },
+    {
+      "direction": "higher_is_better",
+      "model_id": "sam_vit_l",
+      "rank": 3,
+      "ranking_metric": "dias_all_frame_mean_dice",
+      "value": 0.17988978102299719
+    },
+    {
+      "direction": "higher_is_better",
+      "model_id": "medsam_vit_b",
+      "rank": 1,
+      "ranking_metric": "dias_frame_thinning_severity2_dice_delta_vs_severity0",
+      "value": 0.0
+    },
+    {
+      "direction": "higher_is_better",
+      "model_id": "sam_vit_b",
+      "rank": 2,
+      "ranking_metric": "dias_frame_thinning_severity2_dice_delta_vs_severity0",
+      "value": 0.0
+    },
+    {
+      "direction": "higher_is_better",
+      "model_id": "sam_vit_l",
+      "rank": 3,
+      "ranking_metric": "dias_frame_thinning_severity2_dice_delta_vs_severity0",
+      "value": 0.0
+    },
+    {
+      "direction": "higher_is_better",
+      "model_id": "medsam_vit_b",
+      "rank": 1,
+      "ranking_metric": "dias_contrast_phase_severity2_dice_delta_vs_severity0",
+      "value": 0.0
+    },
+    {
+      "direction": "higher_is_better",
+      "model_id": "sam_vit_b",
+      "rank": 2,
+      "ranking_metric": "dias_contrast_phase_severity2_dice_delta_vs_severity0",
+      "value": 0.0
+    },
+    {
+      "direction": "higher_is_better",
+      "model_id": "sam_vit_l",
+      "rank": 3,
+      "ranking_metric": "dias_contrast_phase_severity2_dice_delta_vs_severity0",
+      "value": 0.0
+    }
+  ]
+}
