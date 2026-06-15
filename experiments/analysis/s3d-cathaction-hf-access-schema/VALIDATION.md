@@ -1,0 +1,25 @@
+# Validation
+
+- Temporary payload: `tmp/cathaction_hf/segmentation_human_train.zip`
+- Temporary zip downloaded: `True`
+- Temporary zip bytes: `143049194`
+- Temporary zip sha256: `087c8f971e0455ad67d092a944df75ee7244cbead10e1091c26046ea271e2cf5`
+- Schema JSON: `experiments/analysis/s3d-cathaction-hf-access-schema/outputs/segmentation_human_train_zip_schema.json`
+- Pair sample JSON: `experiments/analysis/s3d-cathaction-hf-access-schema/outputs/segmentation_human_train_pair_sample.json`
+- Report JSON: `experiments/analysis/s3d-cathaction-hf-access-schema/outputs/s3d_access_schema_report.json`
+- File count: `10566`
+- Image count: `5283`
+- Mask count: `5283`
+- Paired count: `5283`
+- Unmatched image count: `0`
+- Unmatched mask count: `0`
+- Sample dimensions: `{'((512, 512), (512, 512))': 20}`
+- Sample mask extrema: `{'(0, 255)': 20}`
+- Larger payloads downloaded: `false`
+- GCP retained copy created: `true`
+- GCP retained copy path: `gs://seldinger-datasets-raw/angiostress/cathaction/hf/segmentation_human_train.zip`
+- GCP retained copy bytes: `143049194`
+- GCP retained copy source sha256: `087c8f971e0455ad67d092a944df75ee7244cbead10e1091c26046ea271e2cf5`
+- GCP environment fix: `CLOUDSDK_PYTHON=/opt/homebrew/bin/python3`
+- GCP project: `agile-athlete-496814-s6`
+- Temporary zip exists after cleanup: `False`

@@ -1,4 +1,0 @@
-model_id,family,severity,mean_dice,mean_cldice,dice_delta_vs_clean,cldice_delta_vs_clean,dice_delta_vs_family_severity0,cldice_delta_vs_family_severity0
-medsam_vit_b,frame_thinning,0,0.25539705183071804,0.23318951733744522,0.0,0.0,0.0,0.0
-sam_vit_b,frame_thinning,0,0.9810482128526452,0.9990412272291467,0.0,0.0,0.0,0.0
-sam_vit_l,frame_thinning,0,0.9751922599851154,0.9980806142034548,0.0,0.0,0.0,0.0

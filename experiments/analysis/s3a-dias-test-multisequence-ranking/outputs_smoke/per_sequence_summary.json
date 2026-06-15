@@ -1,0 +1,52 @@
+{
+  "rows": [
+    {
+      "available_frame_count": 6,
+      "display_name": "SAM ViT-B",
+      "evaluated_frame_count": 1,
+      "gt_area_pixels": 71224,
+      "gt_component_count": 1,
+      "mean_area_ratio": 8.461670223520162,
+      "mean_cldice": 0.2604164433232135,
+      "mean_dice": 0.20884762975999335,
+      "mean_sam_score": 1.0069729089736938,
+      "median_dice": 0.20884762975999335,
+      "model_id": "sam_vit_b",
+      "sequence_id": "s40",
+      "split": "test",
+      "surface": "dias_test_multisequence"
+    },
+    {
+      "available_frame_count": 6,
+      "display_name": "MedSAM ViT-B",
+      "evaluated_frame_count": 1,
+      "gt_area_pixels": 71224,
+      "gt_component_count": 1,
+      "mean_area_ratio": 8.047722677749073,
+      "mean_cldice": 0.18369510066663222,
+      "mean_dice": 0.21987694265341434,
+      "mean_sam_score": 0.633190929889679,
+      "median_dice": 0.21987694265341434,
+      "model_id": "medsam_vit_b",
+      "sequence_id": "s40",
+      "split": "test",
+      "surface": "dias_test_multisequence"
+    },
+    {
+      "available_frame_count": 6,
+      "display_name": "SAM ViT-L",
+      "evaluated_frame_count": 1,
+      "gt_area_pixels": 71224,
+      "gt_component_count": 1,
+      "mean_area_ratio": 8.322012243064135,
+      "mean_cldice": 0.184709104874551,
+      "mean_dice": 0.17988978102299719,
+      "mean_sam_score": 1.0132709741592407,
+      "median_dice": 0.17988978102299719,
+      "model_id": "sam_vit_l",
+      "sequence_id": "s40",
+      "split": "test",
+      "surface": "dias_test_multisequence"
+    }
+  ]
+}

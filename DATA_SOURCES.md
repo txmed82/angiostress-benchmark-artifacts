@@ -1,6 +1,6 @@
 # Data Sources and Redistribution Boundary
 
-The public AngioStress artifact package includes benchmark code/configuration, comparison contracts, measured experiment outputs, and compact derived summaries. It does not include manuscript source, generated LaTeX, compiled manuscript PDFs, paper review/comment files, upstream datasets, or third-party model checkpoints.
+This package provides the runnable AngioStress benchmark scaffold, configuration, generated benchmark outputs, compact metrics, and validation records. Full real-dataset reruns require the upstream data and checkpoints below.
 
 ## Upstream sources
 
@@ -11,14 +11,15 @@ The public AngioStress artifact package includes benchmark code/configuration, c
 
 ## Redistributed in this package
 
-- AngioStress benchmark/evaluation code, configs, validation records, and recorded experiment outputs.
+- AngioStress renderer, frozen-model panel, DIAS diagnostic, and CathAction diagnostic scripts.
+- Per-run configs, `RUN.md`, `VALIDATION.md`, manifests, and recorded outputs.
+- Generated synthetic benchmark arrays/previews and model prediction masks from the benchmark runs.
 - Baseline metric contract and compact run-level summaries.
-- Derived JSON/CSV/Markdown summaries sufficient to inspect the recorded benchmark behavior.
 - Release manifest with SHA-256 hashes and file sizes.
 
 ## Not redistributed
 
-- Manuscript source, generated LaTeX, compiled manuscript PDFs, paper review/comment files, or paper planning/prose surfaces.
-- Raw DIAS, CathAction, or TopCoW data.
+- Manuscript source, generated LaTeX, compiled manuscript PDFs, or paper review/comment files.
+- Raw DIAS, CathAction, or TopCoW source data.
 - SAM/MedSAM or other third-party model weights/checkpoints.
-- Local dataset caches, generated raw arrays, masks, volumes, or checkpoint directories.
+- Private local caches or credentials.

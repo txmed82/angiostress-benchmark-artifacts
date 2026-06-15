@@ -1,0 +1,86 @@
+{
+  "claim_boundary": "Frozen-model panel smoke only. This verifies three frozen public models can be evaluated on shared synthetic and DIAS surfaces, but it does not estimate construct validity or clinical accuracy.",
+  "device": "mps",
+  "dias_sample": {
+    "frame_count_evaluated": 6,
+    "prompt_box_xyxy": [
+      0.0,
+      16.0,
+      778.0,
+      799.0
+    ],
+    "prompt_source": "DIAS sequence-level mask bbox; smoke-test oracle prompt, not a deployable prompt source",
+    "sequence_id": "s40",
+    "split": "test"
+  },
+  "models": [
+    {
+      "checkpoint_note": "Original checkpoint loads directly on this host.",
+      "checkpoint_path": "tmp/angiostress-s1-weights/sam_vit_b_01ec64.pth",
+      "checkpoint_sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+      "display_name": "SAM ViT-B",
+      "model_id": "sam_vit_b",
+      "model_type": "vit_b",
+      "source": "Meta Segment Anything ViT-B checkpoint used in S1/S3.",
+      "verified_checkpoint_sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912"
+    },
+    {
+      "checkpoint_note": "CPU-mapped copy of official CUDA-serialized checkpoint; original SHA256 34b34b78c1d18cb8c6bf84cf9c00e135d6d6c965699f3c0e31ef1bc9dcb5be74.",
+      "checkpoint_path": "tmp/angiostress-s2b-weights/medsam/medsam_vit_b.cpu.pth",
+      "checkpoint_sha256": "ec970b350c62fed9a81855ae4c4532bb0421e0edaa7b7e944a4f7951934753cb",
+      "display_name": "MedSAM ViT-B",
+      "model_id": "medsam_vit_b",
+      "model_type": "vit_b",
+      "source": "MedSAM repository README checkpoint folder; official file was CPU-mapped locally for non-CUDA loading.",
+      "verified_checkpoint_sha256": "ec970b350c62fed9a81855ae4c4532bb0421e0edaa7b7e944a4f7951934753cb"
+    },
+    {
+      "checkpoint_note": "Official checkpoint loaded on MPS in one-frame S2c candidate smoke.",
+      "checkpoint_path": "tmp/angiostress-s2c-weights/sam/sam_vit_l_0b3195.pth",
+      "checkpoint_sha256": "3adcc4315b642a4d2101128f611684e8734c41232a17c648ed1693702a49a622",
+      "display_name": "SAM ViT-L",
+      "model_id": "sam_vit_l",
+      "model_type": "vit_l",
+      "source": "Meta Segment Anything official README ViT-L checkpoint URL.",
+      "verified_checkpoint_sha256": "3adcc4315b642a4d2101128f611684e8734c41232a17c648ed1693702a49a622"
+    }
+  ],
+  "ordering_comparison": {
+    "claim_boundary": "Three-model ordering rows are a smoke diagnostic only and cannot support construct-validity claims or confidence intervals.",
+    "dias_all_frame_mean_dice_order": [
+      "medsam_vit_b",
+      "sam_vit_b",
+      "sam_vit_l"
+    ],
+    "rank_correlation_status": "smoke_rank_diagnostic_no_ci_n3_one_sequence",
+    "ranked_model_count": 3,
+    "spearman_synthetic_mean_stressor_dice_vs_dias_mean_dice": -1.0,
+    "synthetic_mean_stressor_dice_order": [
+      "sam_vit_l",
+      "sam_vit_b",
+      "medsam_vit_b"
+    ]
+  },
+  "outputs": {
+    "dias_analog_summary": "dias_analog_summary.json",
+    "dias_per_frame_metrics": "dias_per_frame_metrics.json",
+    "metrics_summary": "metrics_summary.json",
+    "model_ranking_rows": "model_ranking_rows.json",
+    "model_summary": "model_summary.json",
+    "synthetic_degradation_summary": "synthetic_degradation_summary.json",
+    "synthetic_per_cell_metrics": "synthetic_per_cell_metrics.json"
+  },
+  "parent_run_id": "run-angiostress-s2b-frozen-model-panel-smoke",
+  "run_id": "run-angiostress-s2c-third-frozen-model-panel-extension",
+  "synthetic_surface": {
+    "item_count_evaluated": 10,
+    "prompt_box_xyxy": [
+      15.0,
+      18.0,
+      240.0,
+      237.0
+    ],
+    "prompt_source": "TopCoW projected GT bbox; smoke-test oracle prompt, not a deployable prompt source",
+    "source_run_id": "run-angiostress-s0s1-renderer-smoke"
+  }
+}

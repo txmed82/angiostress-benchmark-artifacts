@@ -1,0 +1,397 @@
+{
+  "pairing_rule": "mask basename strips trailing _mask before comparison",
+  "image_count": 5283,
+  "mask_count": 5283,
+  "paired_count": 5283,
+  "img_only_count": 0,
+  "mask_only_count": 0,
+  "sampled_pair_count": 20,
+  "dimension_pair_counts_sample": {
+    "((512, 512), (512, 512))": 20
+  },
+  "mask_extrema_counts_sample": {
+    "(0, 255)": 20
+  },
+  "sample_records": [
+    {
+      "stem": "JFQ_j3383201_img-00000-00000",
+      "image_path": "human_dataset_train/img/JFQ_j3383201_img-00000-00000.jpg",
+      "mask_path": "human_dataset_train/mask/JFQ_j3383201_img-00000-00000_mask.png",
+      "image_mode": "RGB",
+      "image_size": [
+        512,
+        512
+      ],
+      "mask_mode": "L",
+      "mask_size": [
+        512,
+        512
+      ],
+      "mask_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "stem": "JFQ_j3383201_img-00000-00001",
+      "image_path": "human_dataset_train/img/JFQ_j3383201_img-00000-00001.jpg",
+      "mask_path": "human_dataset_train/mask/JFQ_j3383201_img-00000-00001_mask.png",
+      "image_mode": "RGB",
+      "image_size": [
+        512,
+        512
+      ],
+      "mask_mode": "L",
+      "mask_size": [
+        512,
+        512
+      ],
+      "mask_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "stem": "JFQ_j3383201_img-00000-00002",
+      "image_path": "human_dataset_train/img/JFQ_j3383201_img-00000-00002.jpg",
+      "mask_path": "human_dataset_train/mask/JFQ_j3383201_img-00000-00002_mask.png",
+      "image_mode": "RGB",
+      "image_size": [
+        512,
+        512
+      ],
+      "mask_mode": "L",
+      "mask_size": [
+        512,
+        512
+      ],
+      "mask_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "stem": "JFQ_j3383201_img-00000-00003",
+      "image_path": "human_dataset_train/img/JFQ_j3383201_img-00000-00003.jpg",
+      "mask_path": "human_dataset_train/mask/JFQ_j3383201_img-00000-00003_mask.png",
+      "image_mode": "RGB",
+      "image_size": [
+        512,
+        512
+      ],
+      "mask_mode": "L",
+      "mask_size": [
+        512,
+        512
+      ],
+      "mask_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "stem": "JFQ_j3383201_img-00000-00004",
+      "image_path": "human_dataset_train/img/JFQ_j3383201_img-00000-00004.jpg",
+      "mask_path": "human_dataset_train/mask/JFQ_j3383201_img-00000-00004_mask.png",
+      "image_mode": "RGB",
+      "image_size": [
+        512,
+        512
+      ],
+      "mask_mode": "L",
+      "mask_size": [
+        512,
+        512
+      ],
+      "mask_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "stem": "JFQ_j3383201_img-00000-00005",
+      "image_path": "human_dataset_train/img/JFQ_j3383201_img-00000-00005.jpg",
+      "mask_path": "human_dataset_train/mask/JFQ_j3383201_img-00000-00005_mask.png",
+      "image_mode": "RGB",
+      "image_size": [
+        512,
+        512
+      ],
+      "mask_mode": "L",
+      "mask_size": [
+        512,
+        512
+      ],
+      "mask_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "stem": "JFQ_j3383201_img-00000-00006",
+      "image_path": "human_dataset_train/img/JFQ_j3383201_img-00000-00006.jpg",
+      "mask_path": "human_dataset_train/mask/JFQ_j3383201_img-00000-00006_mask.png",
+      "image_mode": "RGB",
+      "image_size": [
+        512,
+        512
+      ],
+      "mask_mode": "L",
+      "mask_size": [
+        512,
+        512
+      ],
+      "mask_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "stem": "JFQ_j3383201_img-00000-00007",
+      "image_path": "human_dataset_train/img/JFQ_j3383201_img-00000-00007.jpg",
+      "mask_path": "human_dataset_train/mask/JFQ_j3383201_img-00000-00007_mask.png",
+      "image_mode": "RGB",
+      "image_size": [
+        512,
+        512
+      ],
+      "mask_mode": "L",
+      "mask_size": [
+        512,
+        512
+      ],
+      "mask_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "stem": "JFQ_j3383201_img-00000-00008",
+      "image_path": "human_dataset_train/img/JFQ_j3383201_img-00000-00008.jpg",
+      "mask_path": "human_dataset_train/mask/JFQ_j3383201_img-00000-00008_mask.png",
+      "image_mode": "RGB",
+      "image_size": [
+        512,
+        512
+      ],
+      "mask_mode": "L",
+      "mask_size": [
+        512,
+        512
+      ],
+      "mask_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "stem": "JFQ_j3383201_img-00000-00009",
+      "image_path": "human_dataset_train/img/JFQ_j3383201_img-00000-00009.jpg",
+      "mask_path": "human_dataset_train/mask/JFQ_j3383201_img-00000-00009_mask.png",
+      "image_mode": "RGB",
+      "image_size": [
+        512,
+        512
+      ],
+      "mask_mode": "L",
+      "mask_size": [
+        512,
+        512
+      ],
+      "mask_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "stem": "JFQ_j3383201_img-00000-00010",
+      "image_path": "human_dataset_train/img/JFQ_j3383201_img-00000-00010.jpg",
+      "mask_path": "human_dataset_train/mask/JFQ_j3383201_img-00000-00010_mask.png",
+      "image_mode": "RGB",
+      "image_size": [
+        512,
+        512
+      ],
+      "mask_mode": "L",
+      "mask_size": [
+        512,
+        512
+      ],
+      "mask_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "stem": "JFQ_j3383201_img-00000-00011",
+      "image_path": "human_dataset_train/img/JFQ_j3383201_img-00000-00011.jpg",
+      "mask_path": "human_dataset_train/mask/JFQ_j3383201_img-00000-00011_mask.png",
+      "image_mode": "RGB",
+      "image_size": [
+        512,
+        512
+      ],
+      "mask_mode": "L",
+      "mask_size": [
+        512,
+        512
+      ],
+      "mask_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "stem": "JFQ_j3383201_img-00000-00012",
+      "image_path": "human_dataset_train/img/JFQ_j3383201_img-00000-00012.jpg",
+      "mask_path": "human_dataset_train/mask/JFQ_j3383201_img-00000-00012_mask.png",
+      "image_mode": "RGB",
+      "image_size": [
+        512,
+        512
+      ],
+      "mask_mode": "L",
+      "mask_size": [
+        512,
+        512
+      ],
+      "mask_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "stem": "JFQ_j3383201_img-00000-00013",
+      "image_path": "human_dataset_train/img/JFQ_j3383201_img-00000-00013.jpg",
+      "mask_path": "human_dataset_train/mask/JFQ_j3383201_img-00000-00013_mask.png",
+      "image_mode": "RGB",
+      "image_size": [
+        512,
+        512
+      ],
+      "mask_mode": "L",
+      "mask_size": [
+        512,
+        512
+      ],
+      "mask_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "stem": "JFQ_j3383201_img-00000-00014",
+      "image_path": "human_dataset_train/img/JFQ_j3383201_img-00000-00014.jpg",
+      "mask_path": "human_dataset_train/mask/JFQ_j3383201_img-00000-00014_mask.png",
+      "image_mode": "RGB",
+      "image_size": [
+        512,
+        512
+      ],
+      "mask_mode": "L",
+      "mask_size": [
+        512,
+        512
+      ],
+      "mask_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "stem": "JFQ_j3383201_img-00000-00015",
+      "image_path": "human_dataset_train/img/JFQ_j3383201_img-00000-00015.jpg",
+      "mask_path": "human_dataset_train/mask/JFQ_j3383201_img-00000-00015_mask.png",
+      "image_mode": "RGB",
+      "image_size": [
+        512,
+        512
+      ],
+      "mask_mode": "L",
+      "mask_size": [
+        512,
+        512
+      ],
+      "mask_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "stem": "JFQ_j3383201_img-00000-00016",
+      "image_path": "human_dataset_train/img/JFQ_j3383201_img-00000-00016.jpg",
+      "mask_path": "human_dataset_train/mask/JFQ_j3383201_img-00000-00016_mask.png",
+      "image_mode": "RGB",
+      "image_size": [
+        512,
+        512
+      ],
+      "mask_mode": "L",
+      "mask_size": [
+        512,
+        512
+      ],
+      "mask_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "stem": "JFQ_j3383201_img-00000-00017",
+      "image_path": "human_dataset_train/img/JFQ_j3383201_img-00000-00017.jpg",
+      "mask_path": "human_dataset_train/mask/JFQ_j3383201_img-00000-00017_mask.png",
+      "image_mode": "RGB",
+      "image_size": [
+        512,
+        512
+      ],
+      "mask_mode": "L",
+      "mask_size": [
+        512,
+        512
+      ],
+      "mask_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "stem": "JFQ_j3383201_img-00000-00018",
+      "image_path": "human_dataset_train/img/JFQ_j3383201_img-00000-00018.jpg",
+      "mask_path": "human_dataset_train/mask/JFQ_j3383201_img-00000-00018_mask.png",
+      "image_mode": "RGB",
+      "image_size": [
+        512,
+        512
+      ],
+      "mask_mode": "L",
+      "mask_size": [
+        512,
+        512
+      ],
+      "mask_extrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "stem": "JFQ_j3383201_img-00000-00019",
+      "image_path": "human_dataset_train/img/JFQ_j3383201_img-00000-00019.jpg",
+      "mask_path": "human_dataset_train/mask/JFQ_j3383201_img-00000-00019_mask.png",
+      "image_mode": "RGB",
+      "image_size": [
+        512,
+        512
+      ],
+      "mask_mode": "L",
+      "mask_size": [
+        512,
+        512
+      ],
+      "mask_extrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

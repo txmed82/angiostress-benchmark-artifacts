@@ -1,0 +1,92 @@
+{
+  "claim_boundary": "This is a small-sample CathAction segmentation smoke. It can guide whether to scale CathAction evaluation, but it is not a final construct-validity estimate and has no confidence interval.",
+  "device": "mps",
+  "gcp_source": "gs://seldinger-datasets-raw/angiostress/cathaction/hf/segmentation_human_train.zip",
+  "models": [
+    {
+      "checkpoint_note": "Original checkpoint loads directly on this host.",
+      "checkpoint_path": "tmp/angiostress-s1-weights/sam_vit_b_01ec64.pth",
+      "checkpoint_sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+      "display_name": "SAM ViT-B",
+      "model_id": "sam_vit_b",
+      "model_type": "vit_b",
+      "source": "Meta Segment Anything ViT-B checkpoint used in S1/S3.",
+      "verified_checkpoint_sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912"
+    },
+    {
+      "checkpoint_note": "CPU-mapped copy of official CUDA-serialized checkpoint; original SHA256 34b34b78c1d18cb8c6bf84cf9c00e135d6d6c965699f3c0e31ef1bc9dcb5be74.",
+      "checkpoint_path": "tmp/angiostress-s2b-weights/medsam/medsam_vit_b.cpu.pth",
+      "checkpoint_sha256": "ec970b350c62fed9a81855ae4c4532bb0421e0edaa7b7e944a4f7951934753cb",
+      "display_name": "MedSAM ViT-B",
+      "model_id": "medsam_vit_b",
+      "model_type": "vit_b",
+      "source": "MedSAM repository README checkpoint folder; official file was CPU-mapped locally for non-CUDA loading.",
+      "verified_checkpoint_sha256": "ec970b350c62fed9a81855ae4c4532bb0421e0edaa7b7e944a4f7951934753cb"
+    },
+    {
+      "checkpoint_note": "Official checkpoint loaded on MPS in one-frame S2c candidate smoke.",
+      "checkpoint_path": "tmp/angiostress-s2c-weights/sam/sam_vit_l_0b3195.pth",
+      "checkpoint_sha256": "3adcc4315b642a4d2101128f611684e8734c41232a17c648ed1693702a49a622",
+      "display_name": "SAM ViT-L",
+      "model_id": "sam_vit_l",
+      "model_type": "vit_l",
+      "source": "Meta Segment Anything official README ViT-L checkpoint URL.",
+      "verified_checkpoint_sha256": "3adcc4315b642a4d2101128f611684e8734c41232a17c648ed1693702a49a622"
+    }
+  ],
+  "outputs": {
+    "metrics_summary": "metrics_summary.json",
+    "model_ranking_rows": "model_ranking_rows.json",
+    "model_summary": "model_summary.json",
+    "per_pair_metrics": "per_pair_metrics.json"
+  },
+  "pair_selection": "deterministic_evenly_spaced_over_all_paired_records",
+  "parent_run_id": "run-angiostress-s2c-third-frozen-model-panel-extension",
+  "route_decision": "decision-de02d4de",
+  "run_id": "s3e-cathaction-human-segmentation-panel-smoke",
+  "sample_count": 8,
+  "sampled_pairs": [
+    {
+      "image_name": "human_dataset_train/img/JFQ_j3383201_img-00000-00000.jpg",
+      "mask_name": "human_dataset_train/mask/JFQ_j3383201_img-00000-00000_mask.png",
+      "pair_id": "JFQ_j3383201_img-00000-00000"
+    },
+    {
+      "image_name": "human_dataset_train/img/JFQ_j3383220_img-00000-00093.jpg",
+      "mask_name": "human_dataset_train/mask/JFQ_j3383220_img-00000-00093_mask.png",
+      "pair_id": "JFQ_j3383220_img-00000-00093"
+    },
+    {
+      "image_name": "human_dataset_train/img/JFQ_j3383233_img-00000-00108.jpg",
+      "mask_name": "human_dataset_train/mask/JFQ_j3383233_img-00000-00108_mask.png",
+      "pair_id": "JFQ_j3383233_img-00000-00108"
+    },
+    {
+      "image_name": "human_dataset_train/img/JFQ_j3383725_img-00000-00007.jpg",
+      "mask_name": "human_dataset_train/mask/JFQ_j3383725_img-00000-00007_mask.png",
+      "pair_id": "JFQ_j3383725_img-00000-00007"
+    },
+    {
+      "image_name": "human_dataset_train/img/JFQ_j3383784_img-00000-00020.jpg",
+      "mask_name": "human_dataset_train/mask/JFQ_j3383784_img-00000-00020_mask.png",
+      "pair_id": "JFQ_j3383784_img-00000-00020"
+    },
+    {
+      "image_name": "human_dataset_train/img/TQY_T16_j3374354_img-00000-00073.jpg",
+      "mask_name": "human_dataset_train/mask/TQY_T16_j3374354_img-00000-00073_mask.png",
+      "pair_id": "TQY_T16_j3374354_img-00000-00073"
+    },
+    {
+      "image_name": "human_dataset_train/img/WJZ_12_img-00000-00062.jpg",
+      "mask_name": "human_dataset_train/mask/WJZ_12_img-00000-00062_mask.png",
+      "pair_id": "WJZ_12_img-00000-00062"
+    },
+    {
+      "image_name": "human_dataset_train/img/WJZ_28_img-00000-00038.jpg",
+      "mask_name": "human_dataset_train/mask/WJZ_28_img-00000-00038_mask.png",
+      "pair_id": "WJZ_28_img-00000-00038"
+    }
+  ],
+  "storage_decision": "decision-06a3b189",
+  "zip_sha256": "087c8f971e0455ad67d092a944df75ee7244cbead10e1091c26046ea271e2cf5"
+}

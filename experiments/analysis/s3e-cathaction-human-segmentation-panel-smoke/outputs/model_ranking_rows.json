@@ -1,0 +1,18 @@
+{
+  "comparison": {
+    "cathaction_sample_mean_dice_order": [
+      "sam_vit_b",
+      "sam_vit_l",
+      "medsam_vit_b"
+    ],
+    "claim_boundary": "This is a small-sample CathAction segmentation smoke. It can guide whether to scale CathAction evaluation, but it is not a final construct-validity estimate and has no confidence interval.",
+    "rank_correlation_status": "smoke_rank_diagnostic_no_ci_n3_small_cathaction_sample",
+    "ranked_model_count": 3,
+    "spearman_synthetic_mean_stressor_dice_vs_cathaction_mean_dice": 0.5,
+    "synthetic_mean_stressor_dice_order": [
+      "sam_vit_l",
+      "sam_vit_b",
+      "medsam_vit_b"
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+model_id,cathaction_sample_mean_dice,cathaction_sample_mean_cldice,cathaction_sample_min_dice,cathaction_sample_min_cldice,cathaction_prediction_nonempty_rate,cathaction_sample_mean_area_ratio
+medsam_vit_b,0.09972911041072442,0.08705523735746254,0.0,0.0,1.0,9.191451020643179
+sam_vit_b,0.3647474714065172,0.4022584581698785,0.02230642739686852,0.0,1.0,11.619459637988667
+sam_vit_l,0.3463619309851356,0.364272198772832,0.0017263703064307294,0.0,1.0,10.404598252112663

@@ -1,0 +1,4 @@
+model_id,display_name,surface,sequence_id,split,evaluated_frame_count,available_frame_count,mean_dice,median_dice,mean_cldice,mean_sam_score,mean_area_ratio,gt_area_pixels,gt_component_count
+sam_vit_b,SAM ViT-B,dias_test_multisequence,s40,test,1,6,0.20884762975999335,0.20884762975999335,0.2604164433232135,1.0069729089736938,8.461670223520162,71224,1
+medsam_vit_b,MedSAM ViT-B,dias_test_multisequence,s40,test,1,6,0.21987694265341434,0.21987694265341434,0.18369510066663222,0.633190929889679,8.047722677749073,71224,1
+sam_vit_l,SAM ViT-L,dias_test_multisequence,s40,test,1,6,0.17988978102299719,0.17988978102299719,0.184709104874551,1.0132709741592407,8.322012243064135,71224,1

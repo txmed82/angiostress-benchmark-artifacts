@@ -1,0 +1,52 @@
+{
+  "aggregate_kendall_s2c_synthetic_vs_dias_multisequence_mean_dice": -1.0,
+  "aggregate_spearman_s2c_synthetic_vs_dias_multisequence_mean_dice": -1.0,
+  "claim_boundary": "S3a expands DIAS coverage but remains a diagnostic construct-validity precursor: one synthetic TopCoW case, oracle label-box prompting, sequence-level DIAS masks, three frozen promptable models, and no CathAction/device-action analog.",
+  "dias_multisequence_mean_dice_order": [
+    "medsam_vit_b",
+    "sam_vit_b",
+    "sam_vit_l"
+  ],
+  "model_ids": [
+    "medsam_vit_b",
+    "sam_vit_b",
+    "sam_vit_l"
+  ],
+  "rank_correlation_status": "diagnostic_only_n3_models_sequence_bootstrap_one_synthetic_case_no_cathaction",
+  "ranked_model_count": 3,
+  "s2c_synthetic_mean_stressor_dice_order": [
+    "sam_vit_l",
+    "sam_vit_b",
+    "medsam_vit_b"
+  ],
+  "sequence_kendall_bootstrap": {
+    "ci95_high": -1.0,
+    "ci95_low": -1.0,
+    "draws": 2000,
+    "mean": -1.0
+  },
+  "sequence_rank_diagnostics": [
+    {
+      "kendall_s2c_synthetic_vs_sequence_mean_dice": -1.0,
+      "model_order_by_mean_dice": [
+        "medsam_vit_b",
+        "sam_vit_b",
+        "sam_vit_l"
+      ],
+      "per_model_mean_dice": {
+        "medsam_vit_b": 0.21987694265341434,
+        "sam_vit_b": 0.20884762975999335,
+        "sam_vit_l": 0.17988978102299719
+      },
+      "sequence_id": "s40",
+      "spearman_s2c_synthetic_vs_sequence_mean_dice": -1.0
+    }
+  ],
+  "sequence_spearman_bootstrap": {
+    "ci95_high": -1.0,
+    "ci95_low": -1.0,
+    "draws": 2000,
+    "mean": -1.0
+  },
+  "synthetic_order_source": "experiments/main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/model_summary.json"
+}

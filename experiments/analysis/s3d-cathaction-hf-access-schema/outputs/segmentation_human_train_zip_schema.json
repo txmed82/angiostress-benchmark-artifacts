@@ -1,0 +1,204 @@
+{
+  "zip_path": "tmp/cathaction_hf/segmentation_human_train.zip",
+  "file_count": 10566,
+  "dir_count": 3,
+  "total_uncompressed_bytes": 144970119,
+  "total_uncompressed_gib": 0.135,
+  "total_compressed_bytes": 140616318,
+  "total_compressed_gib": 0.131,
+  "extension_counts": {
+    ".jpg": 5283,
+    ".png": 5283
+  },
+  "top_level_counts": {
+    "human_dataset_train": 10566
+  },
+  "second_level_counts_top50": {
+    "human_dataset_train/img": 5283,
+    "human_dataset_train/mask": 5283
+  },
+  "sample_names_first100": [
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00000.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00001.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00002.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00003.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00004.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00005.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00006.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00007.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00008.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00009.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00010.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00011.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00012.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00013.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00014.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00015.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00016.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00017.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00018.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00019.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00020.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00021.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00022.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00023.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00024.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00025.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00026.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00027.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00028.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00029.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00030.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00031.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00032.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00033.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00034.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00035.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00036.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00037.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00038.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00039.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00040.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00041.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00042.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00043.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00044.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00045.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00046.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00047.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00048.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00049.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00050.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00051.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00052.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00053.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00054.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00055.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00056.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00057.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00058.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00059.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00060.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00061.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00062.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00063.jpg",
+    "human_dataset_train/img/JFQ_j3383201_img-00000-00064.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00000.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00001.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00002.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00003.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00004.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00005.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00006.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00007.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00008.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00009.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00010.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00011.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00012.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00013.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00014.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00015.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00016.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00017.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00018.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00019.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00020.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00021.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00022.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00023.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00024.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00025.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00026.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00027.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00028.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00029.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00030.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00031.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00032.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00033.jpg",
+    "human_dataset_train/img/JFQ_j3383206_img-00000-00034.jpg"
+  ],
+  "largest_files_top20": [
+    {
+      "name": "human_dataset_train/img/JFQ_j3383694_img-00000-00000.jpg",
+      "bytes": 60084
+    },
+    {
+      "name": "human_dataset_train/img/JFQ_j3383756_img-00000-00000.jpg",
+      "bytes": 56801
+    },
+    {
+      "name": "human_dataset_train/img/JFQ_j3383201_img-00000-00000.jpg",
+      "bytes": 53343
+    },
+    {
+      "name": "human_dataset_train/img/JFQ_j3383723_img-00000-00000.jpg",
+      "bytes": 51014
+    },
+    {
+      "name": "human_dataset_train/img/TQY_T28_j3377732_img-00000-00000.jpg",
+      "bytes": 50813
+    },
+    {
+      "name": "human_dataset_train/img/JFQ_j3383739_img-00000-00000.jpg",
+      "bytes": 50638
+    },
+    {
+      "name": "human_dataset_train/img/TQY_T17_j3374356_img-00000-00000.jpg",
+      "bytes": 50193
+    },
+    {
+      "name": "human_dataset_train/img/TQY_T14_j3363816_img-00000-00000.jpg",
+      "bytes": 50075
+    },
+    {
+      "name": "human_dataset_train/img/JFQ_j3383220_img-00000-00000.jpg",
+      "bytes": 49788
+    },
+    {
+      "name": "human_dataset_train/img/TQY_T23_j3377718_img-00000-00000.jpg",
+      "bytes": 49126
+    },
+    {
+      "name": "human_dataset_train/img/TQY_T15_j3374347_img-00000-00000.jpg",
+      "bytes": 47909
+    },
+    {
+      "name": "human_dataset_train/img/TQY_T29_j3377736_img-00000-00000.jpg",
+      "bytes": 47848
+    },
+    {
+      "name": "human_dataset_train/img/TQY_T11_j3362698_img-00000-00000.jpg",
+      "bytes": 46792
+    },
+    {
+      "name": "human_dataset_train/img/JFQ_j3383721_img-00000-00000.jpg",
+      "bytes": 46098
+    },
+    {
+      "name": "human_dataset_train/img/JFQ_j3383209_img-00000-00000.jpg",
+      "bytes": 45911
+    },
+    {
+      "name": "human_dataset_train/img/JFQ_j3383206_img-00000-00000.jpg",
+      "bytes": 45840
+    },
+    {
+      "name": "human_dataset_train/img/TQY_T16_j3374354_img-00000-00000.jpg",
+      "bytes": 45617
+    },
+    {
+      "name": "human_dataset_train/img/JFQ_j3383227_img-00000-00000.jpg",
+      "bytes": 45586
+    },
+    {
+      "name": "human_dataset_train/img/TQY_T13_j3363799_img-00000-00000.jpg",
+      "bytes": 45536
+    },
+    {
+      "name": "human_dataset_train/img/JFQ_j3383776_img-00000-00000.jpg",
+      "bytes": 45369
+    }
+  ]
+}

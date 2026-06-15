@@ -1,0 +1,41 @@
+{
+  "run_id": "run-angiostress-s0s1-renderer-smoke",
+  "seed": 20260614,
+  "source_case": {
+    "case_id": "topcow_CTA_ISLES2024_TUM_sub-stroke_0002_ct",
+    "volume_path": "tmp/topcow/source_case/volume.nii.gz",
+    "mask_path": "tmp/topcow/source_case/named.nii.gz",
+    "volume_sha256": "c04f8897330454b585fcfc96b053fb45ae4dacf474a2211cc7c5da9fb47f3bdb",
+    "mask_sha256": "8af198d6f7bf97cbedb0bb6ce510982645a9d7de52366f610271e1981405b1e4"
+  },
+  "projection": {
+    "axis": 0,
+    "output_size": [256, 256],
+    "crop_margin_pixels": 8,
+    "density_blur_sigma": 1.2,
+    "image_noise_std": 0.01
+  },
+  "clean_sequence": {
+    "phase_curve": [0.25, 0.5, 1.0, 0.75, 0.4],
+    "background_level": 0.05
+  },
+  "stressors": {
+    "frame_thinning": {
+      "severity_0_indices": [0, 1, 2, 3, 4],
+      "severity_1_indices": [0, 2, 4],
+      "severity_2_indices": [1, 3]
+    },
+    "contrast_phase": {
+      "severity_0_phase_curve": [0.25, 0.5, 1.0, 0.75, 0.4],
+      "severity_1_phase_curve": [0.15, 0.35, 0.65, 0.55, 0.3],
+      "severity_2_phase_curve": [0.1, 0.25, 0.45, 0.25, 0.12]
+    },
+    "device_overlay": {
+      "severity_0_radius": 0,
+      "severity_1_radius": 1,
+      "severity_2_radius": 2,
+      "severity_1_alpha": 0.55,
+      "severity_2_alpha": 0.8
+    }
+  }
+}

@@ -4,7 +4,6 @@ message: If you use this artifact package, cite the AngioStress benchmark artifa
 authors:
   - family-names: Son
     given-names: Colin
-    name-particle: MD
     orcid: https://orcid.org/0000-0002-1782-0537
 affiliation: Seldinger, Inc., San Antonio, TX
 repository-code: https://github.com/txmed82/angiostress-benchmark-artifacts

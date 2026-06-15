@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-06-15T02:44:24Z",
+  "route_decision": "decision-289478b1",
+  "hf_dataset": {
+    "repo_id": "airvlab/CathAction",
+    "sha": "8b04056f0f4fa4b04d8454728f000730af0d5560",
+    "license": "cc-by-nc-sa-4.0",
+    "gated_in_hf_metadata": false,
+    "last_modified": "2026-05-18T11:16:32.000Z",
+    "payloads": [
+      {
+        "name": "segmentation_human_train.zip",
+        "content_length_gib": 0.133,
+        "used_in_s3d": true
+      },
+      {
+        "name": "collision_detection.zip",
+        "content_length_gib": 4.051,
+        "used_in_s3d": false
+      },
+      {
+        "name": "segmentation_animal_phantom.zip",
+        "content_length_gib": 9.204,
+        "used_in_s3d": false
+      },
+      {
+        "name": "video_action_understanding.zip",
+        "content_length_gib": 38.937,
+        "used_in_s3d": false
+      }
+    ],
+    "compressed_total_gib": 52.325
+  },
+  "storage_policy": {
+    "user_policy": "Avoid large local copies; retain GCP copy when configured; local Mac copies only temporarily; Cloud GPU runs can stream directly from HF.",
+    "local_free_gib_at_check": 162,
+    "gcloud_python_fix": "/opt/homebrew/bin/python3",
+    "gcp_project_configured_in_shell": true,
+    "gcp_auth_visible_in_shell": true,
+    "gcp_project": "agile-athlete-496814-s6",
+    "gcp_active_account": "colin@seldinger.med",
+    "available_buckets": [
+      {
+        "name": "seldinger-datasets-curated",
+        "location": "US-CENTRAL1"
+      },
+      {
+        "name": "seldinger-datasets-raw",
+        "location": "US-CENTRAL1"
+      },
+      {
+        "name": "seldinger-tfstate",
+        "location": "US-CENTRAL1"
+      }
+    ],
+    "retained_cloud_copy_created": true,
+    "retained_cloud_copy": {
+      "path": "gs://seldinger-datasets-raw/angiostress/cathaction/hf/segmentation_human_train.zip",
+      "bucket": "seldinger-datasets-raw",
+      "object": "angiostress/cathaction/hf/segmentation_human_train.zip",
+      "bytes": 143049194,
+      "uploaded_at": "2026-06-15T02:43:50Z",
+      "source_sha256": "087c8f971e0455ad67d092a944df75ee7244cbead10e1091c26046ea271e2cf5",
+      "verification": "gcloud storage ls -l returned 1 object, 143049194 bytes",
+      "log_paths": [
+        ".ds/bash_exec/bash-8e71405e/terminal.log",
+        ".ds/bash_exec/bash-53061722/terminal.log"
+      ]
+    }
+  },
+  "temporary_payload": {
+    "path": "tmp/cathaction_hf/segmentation_human_train.zip",
+    "downloaded": true,
+    "bytes": 143049194,
+    "sha256": "087c8f971e0455ad67d092a944df75ee7244cbead10e1091c26046ea271e2cf5",
+    "cleanup_required": true,
+    "deleted_after_schema_report": true,
+    "exists_after_cleanup": false
+  },
+  "schema_summary": {
+    "file_count": 10566,
+    "dir_count": 3,
+    "total_uncompressed_gib": 0.135,
+    "extension_counts": {
+      ".jpg": 5283,
+      ".png": 5283
+    },
+    "top_level_counts": {
+      "human_dataset_train": 10566
+    },
+    "second_level_counts_top50": {
+      "human_dataset_train/img": 5283,
+      "human_dataset_train/mask": 5283
+    }
+  },
+  "pair_validation": {
+    "pairing_rule": "mask basename strips trailing _mask before comparison",
+    "image_count": 5283,
+    "mask_count": 5283,
+    "paired_count": 5283,
+    "img_only_count": 0,
+    "mask_only_count": 0,
+    "sampled_pair_count": 20,
+    "dimension_pair_counts_sample": {
+      "((512, 512), (512, 512))": 20
+    },
+    "mask_extrema_counts_sample": {
+      "(0, 255)": 20
+    }
+  },
+  "claim_update": "CathAction HF human segmentation data are accessible, schema-usable, and retained in GCP for the small human segmentation archive. This is access/storage/schema evidence only, not model-failure or construct-validity evidence.",
+  "next_recommendation": "Run a bounded CathAction human segmentation analog smoke on a small deterministic sample using the retained GCP copy or a temporary HF copy; defer larger archives unless a later slice specifically justifies them."
+}
