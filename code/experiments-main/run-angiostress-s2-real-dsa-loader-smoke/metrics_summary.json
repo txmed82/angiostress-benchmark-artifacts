@@ -1,0 +1,25 @@
+{
+  "claim_boundary": "Loader feasibility and analog-schema readiness only; no construct-validity estimate.",
+  "metrics": {
+    "cathaction_local_data_loaded": 0.0,
+    "cathaction_source_audited": 1.0,
+    "dias_archive_md5_matches_published": 1.0,
+    "dias_contrast_phase_analog_available": 1.0,
+    "dias_device_overlay_analog_available": 0.0,
+    "dias_frame_thinning_analog_available": 1.0,
+    "dias_selected_s40_frame_count": 6.0,
+    "dias_selected_s40_label_nonzero_pixels": 71224.0,
+    "dias_sequence_count": 60.0,
+    "dias_test_sequence_count": 20.0,
+    "dias_training_sequence_count": 30.0,
+    "dias_validation_sequence_count": 10.0,
+    "topcow_gt_sanity_graph_ready_rate": 1.0,
+    "topcow_gt_sanity_mean_cldice": 1.0,
+    "topcow_gt_sanity_mean_dice": 1.0,
+    "topcow_resencm_one_case_graph_ready_rate": 1.0,
+    "topcow_resencm_one_case_mean_cldice": 0.6285484218960072,
+    "topcow_resencm_one_case_mean_dice": 0.6984658547796687
+  },
+  "primary_metric_id": "dias_archive_md5_matches_published",
+  "run_id": "run-angiostress-s2-real-dsa-loader-smoke"
+}

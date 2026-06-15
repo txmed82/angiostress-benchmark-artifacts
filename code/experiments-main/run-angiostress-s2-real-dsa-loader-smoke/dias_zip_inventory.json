@@ -1,0 +1,3015 @@
+{
+  "dir_count": 13,
+  "entries_preview": [
+    {
+      "compress_size": 0,
+      "file_size": 0,
+      "filename": "DIAS/test/",
+      "is_dir": true
+    },
+    {
+      "compress_size": 0,
+      "file_size": 0,
+      "filename": "DIAS/test/images/",
+      "is_dir": true
+    },
+    {
+      "compress_size": 240027,
+      "file_size": 240367,
+      "filename": "DIAS/test/images/image_s40_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 245062,
+      "file_size": 245435,
+      "filename": "DIAS/test/images/image_s40_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 247313,
+      "file_size": 247773,
+      "filename": "DIAS/test/images/image_s40_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 254697,
+      "file_size": 255146,
+      "filename": "DIAS/test/images/image_s40_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 261385,
+      "file_size": 261682,
+      "filename": "DIAS/test/images/image_s40_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 266138,
+      "file_size": 266370,
+      "filename": "DIAS/test/images/image_s40_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 334957,
+      "file_size": 334981,
+      "filename": "DIAS/test/images/image_s41_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 340061,
+      "file_size": 340083,
+      "filename": "DIAS/test/images/image_s41_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 338276,
+      "file_size": 338291,
+      "filename": "DIAS/test/images/image_s41_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 340884,
+      "file_size": 340879,
+      "filename": "DIAS/test/images/image_s41_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 342317,
+      "file_size": 342323,
+      "filename": "DIAS/test/images/image_s41_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 217430,
+      "file_size": 219897,
+      "filename": "DIAS/test/images/image_s42_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 227900,
+      "file_size": 230187,
+      "filename": "DIAS/test/images/image_s42_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 238838,
+      "file_size": 240955,
+      "filename": "DIAS/test/images/image_s42_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 246817,
+      "file_size": 248811,
+      "filename": "DIAS/test/images/image_s42_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 243572,
+      "file_size": 245695,
+      "filename": "DIAS/test/images/image_s42_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 249135,
+      "file_size": 251159,
+      "filename": "DIAS/test/images/image_s42_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 263924,
+      "file_size": 265823,
+      "filename": "DIAS/test/images/image_s42_i6.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 264127,
+      "file_size": 266101,
+      "filename": "DIAS/test/images/image_s42_i7.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 259997,
+      "file_size": 260491,
+      "filename": "DIAS/test/images/image_s43_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 265122,
+      "file_size": 265470,
+      "filename": "DIAS/test/images/image_s43_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 271490,
+      "file_size": 271713,
+      "filename": "DIAS/test/images/image_s43_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 270723,
+      "file_size": 271065,
+      "filename": "DIAS/test/images/image_s43_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 291000,
+      "file_size": 290956,
+      "filename": "DIAS/test/images/image_s43_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 294512,
+      "file_size": 294574,
+      "filename": "DIAS/test/images/image_s43_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 290518,
+      "file_size": 290902,
+      "filename": "DIAS/test/images/image_s43_i6.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 291392,
+      "file_size": 294319,
+      "filename": "DIAS/test/images/image_s44_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 295131,
+      "file_size": 298006,
+      "filename": "DIAS/test/images/image_s44_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 289536,
+      "file_size": 292583,
+      "filename": "DIAS/test/images/image_s44_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 285918,
+      "file_size": 288855,
+      "filename": "DIAS/test/images/image_s44_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 287385,
+      "file_size": 290372,
+      "filename": "DIAS/test/images/image_s44_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 189554,
+      "file_size": 190807,
+      "filename": "DIAS/test/images/image_s45_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 195764,
+      "file_size": 196998,
+      "filename": "DIAS/test/images/image_s45_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 200988,
+      "file_size": 202071,
+      "filename": "DIAS/test/images/image_s45_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 205368,
+      "file_size": 206534,
+      "filename": "DIAS/test/images/image_s45_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 212181,
+      "file_size": 213311,
+      "filename": "DIAS/test/images/image_s45_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 226177,
+      "file_size": 228065,
+      "filename": "DIAS/test/images/image_s46_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 232737,
+      "file_size": 234418,
+      "filename": "DIAS/test/images/image_s46_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 234261,
+      "file_size": 235886,
+      "filename": "DIAS/test/images/image_s46_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 234478,
+      "file_size": 236169,
+      "filename": "DIAS/test/images/image_s46_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 239728,
+      "file_size": 241494,
+      "filename": "DIAS/test/images/image_s46_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 242720,
+      "file_size": 244394,
+      "filename": "DIAS/test/images/image_s46_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 246346,
+      "file_size": 247949,
+      "filename": "DIAS/test/images/image_s46_i6.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 247786,
+      "file_size": 249903,
+      "filename": "DIAS/test/images/image_s47_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 249828,
+      "file_size": 252041,
+      "filename": "DIAS/test/images/image_s47_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 251346,
+      "file_size": 253373,
+      "filename": "DIAS/test/images/image_s47_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 252494,
+      "file_size": 254497,
+      "filename": "DIAS/test/images/image_s47_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 249085,
+      "file_size": 251222,
+      "filename": "DIAS/test/images/image_s47_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 246644,
+      "file_size": 248883,
+      "filename": "DIAS/test/images/image_s47_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 250980,
+      "file_size": 252988,
+      "filename": "DIAS/test/images/image_s47_i6.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 243950,
+      "file_size": 244752,
+      "filename": "DIAS/test/images/image_s48_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 253372,
+      "file_size": 254150,
+      "filename": "DIAS/test/images/image_s48_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 267449,
+      "file_size": 268303,
+      "filename": "DIAS/test/images/image_s48_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 286760,
+      "file_size": 287378,
+      "filename": "DIAS/test/images/image_s48_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 301896,
+      "file_size": 302075,
+      "filename": "DIAS/test/images/image_s48_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 229523,
+      "file_size": 232583,
+      "filename": "DIAS/test/images/image_s49_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 228816,
+      "file_size": 231926,
+      "filename": "DIAS/test/images/image_s49_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 236900,
+      "file_size": 239883,
+      "filename": "DIAS/test/images/image_s49_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 241451,
+      "file_size": 244358,
+      "filename": "DIAS/test/images/image_s49_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 254286,
+      "file_size": 257264,
+      "filename": "DIAS/test/images/image_s49_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 193696,
+      "file_size": 196843,
+      "filename": "DIAS/test/images/image_s50_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 199204,
+      "file_size": 202191,
+      "filename": "DIAS/test/images/image_s50_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 202101,
+      "file_size": 205035,
+      "filename": "DIAS/test/images/image_s50_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 207739,
+      "file_size": 210603,
+      "filename": "DIAS/test/images/image_s50_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 210746,
+      "file_size": 213581,
+      "filename": "DIAS/test/images/image_s50_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 215271,
+      "file_size": 218336,
+      "filename": "DIAS/test/images/image_s50_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 221619,
+      "file_size": 224506,
+      "filename": "DIAS/test/images/image_s50_i6.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 224708,
+      "file_size": 227690,
+      "filename": "DIAS/test/images/image_s50_i7.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 222448,
+      "file_size": 227082,
+      "filename": "DIAS/test/images/image_s51_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 225918,
+      "file_size": 230615,
+      "filename": "DIAS/test/images/image_s51_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 243185,
+      "file_size": 247664,
+      "filename": "DIAS/test/images/image_s51_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 240903,
+      "file_size": 245409,
+      "filename": "DIAS/test/images/image_s51_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 238880,
+      "file_size": 243457,
+      "filename": "DIAS/test/images/image_s51_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 238643,
+      "file_size": 243180,
+      "filename": "DIAS/test/images/image_s51_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 302587,
+      "file_size": 302611,
+      "filename": "DIAS/test/images/image_s52_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 311964,
+      "file_size": 311909,
+      "filename": "DIAS/test/images/image_s52_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 320951,
+      "file_size": 320862,
+      "filename": "DIAS/test/images/image_s52_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 321504,
+      "file_size": 321425,
+      "filename": "DIAS/test/images/image_s52_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 245132,
+      "file_size": 245863,
+      "filename": "DIAS/test/images/image_s53_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 252507,
+      "file_size": 253467,
+      "filename": "DIAS/test/images/image_s53_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 258824,
+      "file_size": 259548,
+      "filename": "DIAS/test/images/image_s53_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 264099,
+      "file_size": 264726,
+      "filename": "DIAS/test/images/image_s53_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 269116,
+      "file_size": 269629,
+      "filename": "DIAS/test/images/image_s53_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 220606,
+      "file_size": 223201,
+      "filename": "DIAS/test/images/image_s54_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 223371,
+      "file_size": 225988,
+      "filename": "DIAS/test/images/image_s54_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 227519,
+      "file_size": 230049,
+      "filename": "DIAS/test/images/image_s54_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 229178,
+      "file_size": 231635,
+      "filename": "DIAS/test/images/image_s54_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 232387,
+      "file_size": 234803,
+      "filename": "DIAS/test/images/image_s54_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 339920,
+      "file_size": 339937,
+      "filename": "DIAS/test/images/image_s55_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 355771,
+      "file_size": 355792,
+      "filename": "DIAS/test/images/image_s55_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 360231,
+      "file_size": 360240,
+      "filename": "DIAS/test/images/image_s55_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 356863,
+      "file_size": 356888,
+      "filename": "DIAS/test/images/image_s55_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 363055,
+      "file_size": 363044,
+      "filename": "DIAS/test/images/image_s55_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 283489,
+      "file_size": 283402,
+      "filename": "DIAS/test/images/image_s56_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 284946,
+      "file_size": 284885,
+      "filename": "DIAS/test/images/image_s56_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 289247,
+      "file_size": 289202,
+      "filename": "DIAS/test/images/image_s56_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 265150,
+      "file_size": 265352,
+      "filename": "DIAS/test/images/image_s56_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 295310,
+      "file_size": 295232,
+      "filename": "DIAS/test/images/image_s56_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 221403,
+      "file_size": 226161,
+      "filename": "DIAS/test/images/image_s57_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 226407,
+      "file_size": 231229,
+      "filename": "DIAS/test/images/image_s57_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 228954,
+      "file_size": 233762,
+      "filename": "DIAS/test/images/image_s57_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 228842,
+      "file_size": 233590,
+      "filename": "DIAS/test/images/image_s57_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 272597,
+      "file_size": 275540,
+      "filename": "DIAS/test/images/image_s58_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 270306,
+      "file_size": 273320,
+      "filename": "DIAS/test/images/image_s58_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 269417,
+      "file_size": 272332,
+      "filename": "DIAS/test/images/image_s58_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 267943,
+      "file_size": 270863,
+      "filename": "DIAS/test/images/image_s58_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 280206,
+      "file_size": 283324,
+      "filename": "DIAS/test/images/image_s58_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 267768,
+      "file_size": 270323,
+      "filename": "DIAS/test/images/image_s59_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 268640,
+      "file_size": 271059,
+      "filename": "DIAS/test/images/image_s59_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 271896,
+      "file_size": 274195,
+      "filename": "DIAS/test/images/image_s59_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 271324,
+      "file_size": 273718,
+      "filename": "DIAS/test/images/image_s59_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 274260,
+      "file_size": 276556,
+      "filename": "DIAS/test/images/image_s59_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 276633,
+      "file_size": 278884,
+      "filename": "DIAS/test/images/image_s59_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 277619,
+      "file_size": 279973,
+      "filename": "DIAS/test/images/image_s59_i6.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 280702,
+      "file_size": 283041,
+      "filename": "DIAS/test/images/image_s59_i7.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 0,
+      "file_size": 0,
+      "filename": "DIAS/test/labels/",
+      "is_dir": true
+    },
+    {
+      "compress_size": 29617,
+      "file_size": 34228,
+      "filename": "DIAS/test/labels/label_s40.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 18709,
+      "file_size": 21406,
+      "filename": "DIAS/test/labels/label_s41.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 22306,
+      "file_size": 25266,
+      "filename": "DIAS/test/labels/label_s42.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 26994,
+      "file_size": 30606,
+      "filename": "DIAS/test/labels/label_s43.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 21788,
+      "file_size": 24184,
+      "filename": "DIAS/test/labels/label_s44.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 12560,
+      "file_size": 14595,
+      "filename": "DIAS/test/labels/label_s45.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 22805,
+      "file_size": 25589,
+      "filename": "DIAS/test/labels/label_s46.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 22713,
+      "file_size": 25962,
+      "filename": "DIAS/test/labels/label_s47.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 30135,
+      "file_size": 34551,
+      "filename": "DIAS/test/labels/label_s48.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 14024,
+      "file_size": 16482,
+      "filename": "DIAS/test/labels/label_s49.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 15941,
+      "file_size": 18021,
+      "filename": "DIAS/test/labels/label_s50.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 27393,
+      "file_size": 30595,
+      "filename": "DIAS/test/labels/label_s51.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 24626,
+      "file_size": 28265,
+      "filename": "DIAS/test/labels/label_s52.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 10630,
+      "file_size": 12202,
+      "filename": "DIAS/test/labels/label_s53.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 13879,
+      "file_size": 16191,
+      "filename": "DIAS/test/labels/label_s54.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 23880,
+      "file_size": 27385,
+      "filename": "DIAS/test/labels/label_s55.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 18428,
+      "file_size": 21245,
+      "filename": "DIAS/test/labels/label_s56.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 20145,
+      "file_size": 22758,
+      "filename": "DIAS/test/labels/label_s57.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 16545,
+      "file_size": 18676,
+      "filename": "DIAS/test/labels/label_s58.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 19155,
+      "file_size": 21921,
+      "filename": "DIAS/test/labels/label_s59.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 0,
+      "file_size": 0,
+      "filename": "DIAS/training/",
+      "is_dir": true
+    },
+    {
+      "compress_size": 0,
+      "file_size": 0,
+      "filename": "DIAS/training/images/",
+      "is_dir": true
+    },
+    {
+      "compress_size": 213590,
+      "file_size": 216604,
+      "filename": "DIAS/training/images/image_s0_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 215373,
+      "file_size": 218259,
+      "filename": "DIAS/training/images/image_s0_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 218691,
+      "file_size": 221535,
+      "filename": "DIAS/training/images/image_s0_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 219619,
+      "file_size": 222558,
+      "filename": "DIAS/training/images/image_s0_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 219770,
+      "file_size": 222641,
+      "filename": "DIAS/training/images/image_s0_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 241760,
+      "file_size": 244238,
+      "filename": "DIAS/training/images/image_s1_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 245420,
+      "file_size": 247846,
+      "filename": "DIAS/training/images/image_s1_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 249728,
+      "file_size": 252051,
+      "filename": "DIAS/training/images/image_s1_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 254950,
+      "file_size": 257168,
+      "filename": "DIAS/training/images/image_s1_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 266225,
+      "file_size": 268479,
+      "filename": "DIAS/training/images/image_s1_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 292092,
+      "file_size": 292127,
+      "filename": "DIAS/training/images/image_s10_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 300533,
+      "file_size": 300474,
+      "filename": "DIAS/training/images/image_s10_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 312159,
+      "file_size": 312064,
+      "filename": "DIAS/training/images/image_s10_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 325996,
+      "file_size": 325910,
+      "filename": "DIAS/training/images/image_s10_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 332312,
+      "file_size": 332317,
+      "filename": "DIAS/training/images/image_s10_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 193997,
+      "file_size": 198156,
+      "filename": "DIAS/training/images/image_s11_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 206901,
+      "file_size": 210981,
+      "filename": "DIAS/training/images/image_s11_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 206057,
+      "file_size": 210017,
+      "filename": "DIAS/training/images/image_s11_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 208416,
+      "file_size": 212301,
+      "filename": "DIAS/training/images/image_s11_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 217543,
+      "file_size": 221189,
+      "filename": "DIAS/training/images/image_s11_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 262058,
+      "file_size": 263842,
+      "filename": "DIAS/training/images/image_s12_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 268556,
+      "file_size": 270062,
+      "filename": "DIAS/training/images/image_s12_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 271233,
+      "file_size": 272759,
+      "filename": "DIAS/training/images/image_s12_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 277058,
+      "file_size": 278620,
+      "filename": "DIAS/training/images/image_s12_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 213051,
+      "file_size": 217465,
+      "filename": "DIAS/training/images/image_s13_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 206221,
+      "file_size": 210564,
+      "filename": "DIAS/training/images/image_s13_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 210104,
+      "file_size": 214490,
+      "filename": "DIAS/training/images/image_s13_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 214172,
+      "file_size": 218451,
+      "filename": "DIAS/training/images/image_s13_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 214668,
+      "file_size": 219084,
+      "filename": "DIAS/training/images/image_s13_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 248403,
+      "file_size": 249069,
+      "filename": "DIAS/training/images/image_s14_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 262530,
+      "file_size": 262880,
+      "filename": "DIAS/training/images/image_s14_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 275387,
+      "file_size": 275597,
+      "filename": "DIAS/training/images/image_s14_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 288648,
+      "file_size": 288737,
+      "filename": "DIAS/training/images/image_s14_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 242690,
+      "file_size": 245790,
+      "filename": "DIAS/training/images/image_s15_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 251662,
+      "file_size": 254656,
+      "filename": "DIAS/training/images/image_s15_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 246805,
+      "file_size": 249855,
+      "filename": "DIAS/training/images/image_s15_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 259392,
+      "file_size": 262339,
+      "filename": "DIAS/training/images/image_s15_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 267099,
+      "file_size": 269903,
+      "filename": "DIAS/training/images/image_s15_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 218671,
+      "file_size": 221716,
+      "filename": "DIAS/training/images/image_s16_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 228975,
+      "file_size": 231868,
+      "filename": "DIAS/training/images/image_s16_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 227262,
+      "file_size": 230087,
+      "filename": "DIAS/training/images/image_s16_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 225684,
+      "file_size": 228530,
+      "filename": "DIAS/training/images/image_s16_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 227685,
+      "file_size": 230529,
+      "filename": "DIAS/training/images/image_s16_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 235430,
+      "file_size": 235641,
+      "filename": "DIAS/training/images/image_s17_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 243671,
+      "file_size": 243792,
+      "filename": "DIAS/training/images/image_s17_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 257616,
+      "file_size": 257647,
+      "filename": "DIAS/training/images/image_s17_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 258520,
+      "file_size": 258559,
+      "filename": "DIAS/training/images/image_s17_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 229691,
+      "file_size": 232379,
+      "filename": "DIAS/training/images/image_s18_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 239781,
+      "file_size": 242581,
+      "filename": "DIAS/training/images/image_s18_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 247387,
+      "file_size": 250169,
+      "filename": "DIAS/training/images/image_s18_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 251265,
+      "file_size": 253989,
+      "filename": "DIAS/training/images/image_s18_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 257834,
+      "file_size": 260442,
+      "filename": "DIAS/training/images/image_s18_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 234925,
+      "file_size": 238029,
+      "filename": "DIAS/training/images/image_s19_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 236892,
+      "file_size": 239932,
+      "filename": "DIAS/training/images/image_s19_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 227442,
+      "file_size": 230523,
+      "filename": "DIAS/training/images/image_s19_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 238824,
+      "file_size": 241954,
+      "filename": "DIAS/training/images/image_s19_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 261148,
+      "file_size": 264072,
+      "filename": "DIAS/training/images/image_s19_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 268084,
+      "file_size": 270997,
+      "filename": "DIAS/training/images/image_s19_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 284644,
+      "file_size": 284915,
+      "filename": "DIAS/training/images/image_s2_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 284665,
+      "file_size": 284985,
+      "filename": "DIAS/training/images/image_s2_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 292430,
+      "file_size": 292702,
+      "filename": "DIAS/training/images/image_s2_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 299436,
+      "file_size": 299590,
+      "filename": "DIAS/training/images/image_s2_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 306167,
+      "file_size": 306357,
+      "filename": "DIAS/training/images/image_s2_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 243456,
+      "file_size": 247974,
+      "filename": "DIAS/training/images/image_s20_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 244819,
+      "file_size": 249255,
+      "filename": "DIAS/training/images/image_s20_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 250467,
+      "file_size": 254533,
+      "filename": "DIAS/training/images/image_s20_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 256032,
+      "file_size": 260130,
+      "filename": "DIAS/training/images/image_s20_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 254486,
+      "file_size": 258537,
+      "filename": "DIAS/training/images/image_s20_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 260261,
+      "file_size": 264212,
+      "filename": "DIAS/training/images/image_s20_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 266859,
+      "file_size": 270863,
+      "filename": "DIAS/training/images/image_s20_i6.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 285178,
+      "file_size": 285193,
+      "filename": "DIAS/training/images/image_s21_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 288109,
+      "file_size": 288111,
+      "filename": "DIAS/training/images/image_s21_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 304548,
+      "file_size": 304570,
+      "filename": "DIAS/training/images/image_s21_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 307104,
+      "file_size": 307112,
+      "filename": "DIAS/training/images/image_s21_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 304673,
+      "file_size": 304684,
+      "filename": "DIAS/training/images/image_s21_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 227747,
+      "file_size": 227999,
+      "filename": "DIAS/training/images/image_s22_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 234534,
+      "file_size": 234896,
+      "filename": "DIAS/training/images/image_s22_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 239074,
+      "file_size": 239341,
+      "filename": "DIAS/training/images/image_s22_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 243583,
+      "file_size": 243756,
+      "filename": "DIAS/training/images/image_s22_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 241582,
+      "file_size": 241937,
+      "filename": "DIAS/training/images/image_s22_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 228192,
+      "file_size": 230462,
+      "filename": "DIAS/training/images/image_s23_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 248032,
+      "file_size": 250119,
+      "filename": "DIAS/training/images/image_s23_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 252330,
+      "file_size": 254323,
+      "filename": "DIAS/training/images/image_s23_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 248094,
+      "file_size": 250097,
+      "filename": "DIAS/training/images/image_s23_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 258591,
+      "file_size": 260473,
+      "filename": "DIAS/training/images/image_s23_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 316959,
+      "file_size": 316859,
+      "filename": "DIAS/training/images/image_s24_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 320101,
+      "file_size": 320001,
+      "filename": "DIAS/training/images/image_s24_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 325996,
+      "file_size": 325898,
+      "filename": "DIAS/training/images/image_s24_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 352686,
+      "file_size": 352576,
+      "filename": "DIAS/training/images/image_s24_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 335669,
+      "file_size": 335564,
+      "filename": "DIAS/training/images/image_s24_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 248057,
+      "file_size": 248323,
+      "filename": "DIAS/training/images/image_s25_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 258322,
+      "file_size": 258548,
+      "filename": "DIAS/training/images/image_s25_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 273467,
+      "file_size": 273606,
+      "filename": "DIAS/training/images/image_s25_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 302819,
+      "file_size": 302866,
+      "filename": "DIAS/training/images/image_s25_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 315389,
+      "file_size": 315515,
+      "filename": "DIAS/training/images/image_s25_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 250146,
+      "file_size": 250686,
+      "filename": "DIAS/training/images/image_s26_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 266706,
+      "file_size": 266888,
+      "filename": "DIAS/training/images/image_s26_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 290062,
+      "file_size": 290021,
+      "filename": "DIAS/training/images/image_s26_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 276169,
+      "file_size": 276474,
+      "filename": "DIAS/training/images/image_s26_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 267195,
+      "file_size": 267461,
+      "filename": "DIAS/training/images/image_s26_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 275302,
+      "file_size": 275637,
+      "filename": "DIAS/training/images/image_s26_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 241229,
+      "file_size": 241839,
+      "filename": "DIAS/training/images/image_s27_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 252027,
+      "file_size": 252539,
+      "filename": "DIAS/training/images/image_s27_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 265841,
+      "file_size": 266205,
+      "filename": "DIAS/training/images/image_s27_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 281294,
+      "file_size": 281777,
+      "filename": "DIAS/training/images/image_s27_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 297255,
+      "file_size": 297304,
+      "filename": "DIAS/training/images/image_s27_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 286981,
+      "file_size": 287263,
+      "filename": "DIAS/training/images/image_s28_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 295787,
+      "file_size": 295931,
+      "filename": "DIAS/training/images/image_s28_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 299104,
+      "file_size": 299211,
+      "filename": "DIAS/training/images/image_s28_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 312637,
+      "file_size": 312676,
+      "filename": "DIAS/training/images/image_s28_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 350818,
+      "file_size": 350714,
+      "filename": "DIAS/training/images/image_s29_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 322803,
+      "file_size": 322703,
+      "filename": "DIAS/training/images/image_s29_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 310279,
+      "file_size": 310252,
+      "filename": "DIAS/training/images/image_s29_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 332963,
+      "file_size": 332890,
+      "filename": "DIAS/training/images/image_s29_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 525424,
+      "file_size": 530665,
+      "filename": "DIAS/training/images/image_s3_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 315237,
+      "file_size": 315387,
+      "filename": "DIAS/training/images/image_s3_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 318192,
+      "file_size": 318354,
+      "filename": "DIAS/training/images/image_s3_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 321472,
+      "file_size": 321641,
+      "filename": "DIAS/training/images/image_s3_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 322101,
+      "file_size": 322245,
+      "filename": "DIAS/training/images/image_s3_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 323406,
+      "file_size": 323598,
+      "filename": "DIAS/training/images/image_s3_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 259386,
+      "file_size": 259856,
+      "filename": "DIAS/training/images/image_s4_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 278810,
+      "file_size": 279080,
+      "filename": "DIAS/training/images/image_s4_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 307818,
+      "file_size": 307818,
+      "filename": "DIAS/training/images/image_s4_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 317012,
+      "file_size": 316947,
+      "filename": "DIAS/training/images/image_s4_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 309478,
+      "file_size": 309599,
+      "filename": "DIAS/training/images/image_s4_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 235429,
+      "file_size": 239476,
+      "filename": "DIAS/training/images/image_s5_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 245709,
+      "file_size": 249766,
+      "filename": "DIAS/training/images/image_s5_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 245497,
+      "file_size": 249462,
+      "filename": "DIAS/training/images/image_s5_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 239561,
+      "file_size": 243633,
+      "filename": "DIAS/training/images/image_s5_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 258084,
+      "file_size": 262048,
+      "filename": "DIAS/training/images/image_s5_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 261775,
+      "file_size": 262587,
+      "filename": "DIAS/training/images/image_s6_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 270072,
+      "file_size": 270766,
+      "filename": "DIAS/training/images/image_s6_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 291500,
+      "file_size": 292107,
+      "filename": "DIAS/training/images/image_s6_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 320707,
+      "file_size": 320974,
+      "filename": "DIAS/training/images/image_s6_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 227392,
+      "file_size": 230458,
+      "filename": "DIAS/training/images/image_s7_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 233461,
+      "file_size": 236453,
+      "filename": "DIAS/training/images/image_s7_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 238139,
+      "file_size": 241041,
+      "filename": "DIAS/training/images/image_s7_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 238917,
+      "file_size": 241945,
+      "filename": "DIAS/training/images/image_s7_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 245916,
+      "file_size": 248965,
+      "filename": "DIAS/training/images/image_s7_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 187555,
+      "file_size": 188941,
+      "filename": "DIAS/training/images/image_s8_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 198634,
+      "file_size": 199963,
+      "filename": "DIAS/training/images/image_s8_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 200420,
+      "file_size": 201744,
+      "filename": "DIAS/training/images/image_s8_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 200390,
+      "file_size": 201551,
+      "filename": "DIAS/training/images/image_s8_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 204312,
+      "file_size": 205574,
+      "filename": "DIAS/training/images/image_s8_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 207337,
+      "file_size": 208595,
+      "filename": "DIAS/training/images/image_s8_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 214311,
+      "file_size": 218553,
+      "filename": "DIAS/training/images/image_s9_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 224888,
+      "file_size": 228930,
+      "filename": "DIAS/training/images/image_s9_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 233315,
+      "file_size": 237496,
+      "filename": "DIAS/training/images/image_s9_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 238096,
+      "file_size": 242127,
+      "filename": "DIAS/training/images/image_s9_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 244006,
+      "file_size": 248177,
+      "filename": "DIAS/training/images/image_s9_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 246445,
+      "file_size": 250480,
+      "filename": "DIAS/training/images/image_s9_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 0,
+      "file_size": 0,
+      "filename": "DIAS/training/labels/",
+      "is_dir": true
+    },
+    {
+      "compress_size": 15555,
+      "file_size": 17888,
+      "filename": "DIAS/training/labels/label_s0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 20669,
+      "file_size": 23733,
+      "filename": "DIAS/training/labels/label_s1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 27542,
+      "file_size": 31277,
+      "filename": "DIAS/training/labels/label_s10.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 16266,
+      "file_size": 18580,
+      "filename": "DIAS/training/labels/label_s11.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 18408,
+      "file_size": 20895,
+      "filename": "DIAS/training/labels/label_s12.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 18031,
+      "file_size": 20713,
+      "filename": "DIAS/training/labels/label_s13.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 23573,
+      "file_size": 26853,
+      "filename": "DIAS/training/labels/label_s14.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 13187,
+      "file_size": 15212,
+      "filename": "DIAS/training/labels/label_s15.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 16674,
+      "file_size": 19591,
+      "filename": "DIAS/training/labels/label_s16.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 16294,
+      "file_size": 19205,
+      "filename": "DIAS/training/labels/label_s17.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 16421,
+      "file_size": 19076,
+      "filename": "DIAS/training/labels/label_s18.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 13688,
+      "file_size": 15836,
+      "filename": "DIAS/training/labels/label_s19.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 19392,
+      "file_size": 21367,
+      "filename": "DIAS/training/labels/label_s2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 21389,
+      "file_size": 24129,
+      "filename": "DIAS/training/labels/label_s20.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 5967,
+      "file_size": 7799,
+      "filename": "DIAS/training/labels/label_s21.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 15452,
+      "file_size": 17855,
+      "filename": "DIAS/training/labels/label_s22.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 19242,
+      "file_size": 21619,
+      "filename": "DIAS/training/labels/label_s23.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 12929,
+      "file_size": 15630,
+      "filename": "DIAS/training/labels/label_s24.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 29143,
+      "file_size": 33151,
+      "filename": "DIAS/training/labels/label_s25.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 23061,
+      "file_size": 26253,
+      "filename": "DIAS/training/labels/label_s26.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 26419,
+      "file_size": 29536,
+      "filename": "DIAS/training/labels/label_s27.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 18320,
+      "file_size": 20860,
+      "filename": "DIAS/training/labels/label_s28.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 25969,
+      "file_size": 29352,
+      "filename": "DIAS/training/labels/label_s29.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 22764,
+      "file_size": 25682,
+      "filename": "DIAS/training/labels/label_s3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 28231,
+      "file_size": 32124,
+      "filename": "DIAS/training/labels/label_s4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 15599,
+      "file_size": 17780,
+      "filename": "DIAS/training/labels/label_s5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 34975,
+      "file_size": 39095,
+      "filename": "DIAS/training/labels/label_s6.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 20237,
+      "file_size": 23504,
+      "filename": "DIAS/training/labels/label_s7.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 15603,
+      "file_size": 17849,
+      "filename": "DIAS/training/labels/label_s8.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 25842,
+      "file_size": 28619,
+      "filename": "DIAS/training/labels/label_s9.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 0,
+      "file_size": 0,
+      "filename": "DIAS/training/scribble_labels/",
+      "is_dir": true
+    },
+    {
+      "compress_size": 0,
+      "file_size": 0,
+      "filename": "DIAS/training/scribble_labels/RDFA/",
+      "is_dir": true
+    },
+    {
+      "compress_size": 19744,
+      "file_size": 25369,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 25931,
+      "file_size": 32095,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 32664,
+      "file_size": 39465,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s10.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 20679,
+      "file_size": 25618,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s11.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 21949,
+      "file_size": 27218,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s12.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 21283,
+      "file_size": 26342,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s13.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 25840,
+      "file_size": 31043,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s14.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 17767,
+      "file_size": 22648,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s15.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 19545,
+      "file_size": 24328,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s16.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 18140,
+      "file_size": 22033,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s17.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 19859,
+      "file_size": 24783,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s18.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 18108,
+      "file_size": 22372,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s19.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 23430,
+      "file_size": 28384,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 24791,
+      "file_size": 30439,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s20.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 10013,
+      "file_size": 13193,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s21.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 18129,
+      "file_size": 22330,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s22.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 23636,
+      "file_size": 29595,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s23.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 15297,
+      "file_size": 19132,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s24.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 30092,
+      "file_size": 36909,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s25.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 23710,
+      "file_size": 29497,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s26.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 29394,
+      "file_size": 35686,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s27.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 25061,
+      "file_size": 29996,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s28.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 26484,
+      "file_size": 32101,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s29.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 24853,
+      "file_size": 30135,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 31493,
+      "file_size": 38430,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 20730,
+      "file_size": 25656,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 37250,
+      "file_size": 45755,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s6.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 23256,
+      "file_size": 29153,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s7.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 19064,
+      "file_size": 24462,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s8.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 29164,
+      "file_size": 36006,
+      "filename": "DIAS/training/scribble_labels/RDFA/label_s9.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 0,
+      "file_size": 0,
+      "filename": "DIAS/training/scribble_labels/SALE/",
+      "is_dir": true
+    },
+    {
+      "compress_size": 29595,
+      "file_size": 34101,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 30743,
+      "file_size": 35270,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 35053,
+      "file_size": 40946,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s10.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 30524,
+      "file_size": 35075,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s11.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 28494,
+      "file_size": 33417,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s12.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 34345,
+      "file_size": 39163,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s13.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 30258,
+      "file_size": 36570,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s14.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 33739,
+      "file_size": 38240,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s15.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 26456,
+      "file_size": 29882,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s16.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 23615,
+      "file_size": 26355,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s17.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 35999,
+      "file_size": 42047,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s18.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 29712,
+      "file_size": 34629,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s19.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 27907,
+      "file_size": 32365,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 30188,
+      "file_size": 34523,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s20.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 19293,
+      "file_size": 21509,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s21.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 18236,
+      "file_size": 20582,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s22.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 29611,
+      "file_size": 33793,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s23.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 25103,
+      "file_size": 30709,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s24.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 28572,
+      "file_size": 32419,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s25.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 24474,
+      "file_size": 28478,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s26.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 27646,
+      "file_size": 31567,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s27.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 33510,
+      "file_size": 39567,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s28.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 26865,
+      "file_size": 30615,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s29.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 26485,
+      "file_size": 30955,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 28911,
+      "file_size": 33978,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 32560,
+      "file_size": 37026,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 31927,
+      "file_size": 37379,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s6.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 31422,
+      "file_size": 36515,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s7.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 30180,
+      "file_size": 34072,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s8.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 31563,
+      "file_size": 36226,
+      "filename": "DIAS/training/scribble_labels/SALE/label_s9.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 0,
+      "file_size": 0,
+      "filename": "DIAS/unlabeled_DSA/",
+      "is_dir": true
+    },
+    {
+      "compress_size": 389776,
+      "file_size": 389878,
+      "filename": "DIAS/unlabeled_DSA/image_s100_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 380807,
+      "file_size": 380958,
+      "filename": "DIAS/unlabeled_DSA/image_s100_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 374574,
+      "file_size": 374945,
+      "filename": "DIAS/unlabeled_DSA/image_s100_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 401062,
+      "file_size": 401617,
+      "filename": "DIAS/unlabeled_DSA/image_s100_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 418063,
+      "file_size": 417969,
+      "filename": "DIAS/unlabeled_DSA/image_s101_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 439816,
+      "file_size": 439854,
+      "filename": "DIAS/unlabeled_DSA/image_s101_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 450882,
+      "file_size": 451105,
+      "filename": "DIAS/unlabeled_DSA/image_s101_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 459550,
+      "file_size": 460335,
+      "filename": "DIAS/unlabeled_DSA/image_s101_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 475259,
+      "file_size": 476554,
+      "filename": "DIAS/unlabeled_DSA/image_s101_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 477362,
+      "file_size": 479032,
+      "filename": "DIAS/unlabeled_DSA/image_s101_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 493610,
+      "file_size": 495322,
+      "filename": "DIAS/unlabeled_DSA/image_s101_i6.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 344376,
+      "file_size": 345309,
+      "filename": "DIAS/unlabeled_DSA/image_s102_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 352055,
+      "file_size": 353286,
+      "filename": "DIAS/unlabeled_DSA/image_s102_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 356040,
+      "file_size": 357450,
+      "filename": "DIAS/unlabeled_DSA/image_s102_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 398673,
+      "file_size": 401285,
+      "filename": "DIAS/unlabeled_DSA/image_s102_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 412922,
+      "file_size": 415900,
+      "filename": "DIAS/unlabeled_DSA/image_s102_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 451698,
+      "file_size": 451639,
+      "filename": "DIAS/unlabeled_DSA/image_s103_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 461456,
+      "file_size": 461462,
+      "filename": "DIAS/unlabeled_DSA/image_s103_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 443293,
+      "file_size": 443530,
+      "filename": "DIAS/unlabeled_DSA/image_s103_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 468109,
+      "file_size": 468559,
+      "filename": "DIAS/unlabeled_DSA/image_s103_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 473862,
+      "file_size": 474502,
+      "filename": "DIAS/unlabeled_DSA/image_s103_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 484932,
+      "file_size": 486065,
+      "filename": "DIAS/unlabeled_DSA/image_s103_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 505137,
+      "file_size": 506389,
+      "filename": "DIAS/unlabeled_DSA/image_s103_i6.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 503702,
+      "file_size": 504890,
+      "filename": "DIAS/unlabeled_DSA/image_s103_i7.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 350189,
+      "file_size": 350209,
+      "filename": "DIAS/unlabeled_DSA/image_s104_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 361654,
+      "file_size": 361862,
+      "filename": "DIAS/unlabeled_DSA/image_s104_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 377385,
+      "file_size": 377692,
+      "filename": "DIAS/unlabeled_DSA/image_s104_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 407032,
+      "file_size": 407651,
+      "filename": "DIAS/unlabeled_DSA/image_s104_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 439687,
+      "file_size": 440293,
+      "filename": "DIAS/unlabeled_DSA/image_s104_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 411512,
+      "file_size": 411467,
+      "filename": "DIAS/unlabeled_DSA/image_s105_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 420662,
+      "file_size": 420673,
+      "filename": "DIAS/unlabeled_DSA/image_s105_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 433029,
+      "file_size": 433256,
+      "filename": "DIAS/unlabeled_DSA/image_s105_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 464070,
+      "file_size": 464783,
+      "filename": "DIAS/unlabeled_DSA/image_s105_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 488613,
+      "file_size": 489580,
+      "filename": "DIAS/unlabeled_DSA/image_s105_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 508240,
+      "file_size": 509478,
+      "filename": "DIAS/unlabeled_DSA/image_s105_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 506422,
+      "file_size": 507849,
+      "filename": "DIAS/unlabeled_DSA/image_s105_i6.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 509973,
+      "file_size": 511420,
+      "filename": "DIAS/unlabeled_DSA/image_s105_i7.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 449474,
+      "file_size": 449441,
+      "filename": "DIAS/unlabeled_DSA/image_s106_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 450595,
+      "file_size": 450766,
+      "filename": "DIAS/unlabeled_DSA/image_s106_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 459747,
+      "file_size": 460117,
+      "filename": "DIAS/unlabeled_DSA/image_s106_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 478366,
+      "file_size": 479115,
+      "filename": "DIAS/unlabeled_DSA/image_s106_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 497368,
+      "file_size": 498373,
+      "filename": "DIAS/unlabeled_DSA/image_s106_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 508402,
+      "file_size": 509661,
+      "filename": "DIAS/unlabeled_DSA/image_s106_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 441987,
+      "file_size": 441936,
+      "filename": "DIAS/unlabeled_DSA/image_s107_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 448471,
+      "file_size": 448641,
+      "filename": "DIAS/unlabeled_DSA/image_s107_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 445588,
+      "file_size": 445914,
+      "filename": "DIAS/unlabeled_DSA/image_s107_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 471948,
+      "file_size": 472448,
+      "filename": "DIAS/unlabeled_DSA/image_s107_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 490412,
+      "file_size": 491401,
+      "filename": "DIAS/unlabeled_DSA/image_s107_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 505864,
+      "file_size": 507156,
+      "filename": "DIAS/unlabeled_DSA/image_s107_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 537538,
+      "file_size": 539619,
+      "filename": "DIAS/unlabeled_DSA/image_s107_i6.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 541912,
+      "file_size": 544163,
+      "filename": "DIAS/unlabeled_DSA/image_s107_i7.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 550758,
+      "file_size": 553046,
+      "filename": "DIAS/unlabeled_DSA/image_s107_i8.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 335835,
+      "file_size": 336084,
+      "filename": "DIAS/unlabeled_DSA/image_s108_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 329246,
+      "file_size": 329561,
+      "filename": "DIAS/unlabeled_DSA/image_s108_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 343549,
+      "file_size": 344146,
+      "filename": "DIAS/unlabeled_DSA/image_s108_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 352213,
+      "file_size": 352854,
+      "filename": "DIAS/unlabeled_DSA/image_s108_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 370225,
+      "file_size": 371121,
+      "filename": "DIAS/unlabeled_DSA/image_s108_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 380865,
+      "file_size": 381880,
+      "filename": "DIAS/unlabeled_DSA/image_s108_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 422260,
+      "file_size": 422210,
+      "filename": "DIAS/unlabeled_DSA/image_s109_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 449061,
+      "file_size": 449217,
+      "filename": "DIAS/unlabeled_DSA/image_s109_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 483665,
+      "file_size": 484086,
+      "filename": "DIAS/unlabeled_DSA/image_s109_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 497662,
+      "file_size": 498619,
+      "filename": "DIAS/unlabeled_DSA/image_s109_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 507242,
+      "file_size": 508103,
+      "filename": "DIAS/unlabeled_DSA/image_s109_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 555050,
+      "file_size": 555527,
+      "filename": "DIAS/unlabeled_DSA/image_s110_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 550453,
+      "file_size": 551229,
+      "filename": "DIAS/unlabeled_DSA/image_s110_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 522241,
+      "file_size": 523088,
+      "filename": "DIAS/unlabeled_DSA/image_s110_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 547617,
+      "file_size": 549478,
+      "filename": "DIAS/unlabeled_DSA/image_s110_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 563675,
+      "file_size": 566187,
+      "filename": "DIAS/unlabeled_DSA/image_s110_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 570594,
+      "file_size": 573544,
+      "filename": "DIAS/unlabeled_DSA/image_s110_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 583016,
+      "file_size": 586294,
+      "filename": "DIAS/unlabeled_DSA/image_s110_i6.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 343346,
+      "file_size": 345119,
+      "filename": "DIAS/unlabeled_DSA/image_s111_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 352561,
+      "file_size": 354447,
+      "filename": "DIAS/unlabeled_DSA/image_s111_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 360481,
+      "file_size": 362514,
+      "filename": "DIAS/unlabeled_DSA/image_s111_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 365407,
+      "file_size": 367587,
+      "filename": "DIAS/unlabeled_DSA/image_s111_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 370094,
+      "file_size": 372247,
+      "filename": "DIAS/unlabeled_DSA/image_s111_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 345206,
+      "file_size": 347097,
+      "filename": "DIAS/unlabeled_DSA/image_s111_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 313574,
+      "file_size": 315762,
+      "filename": "DIAS/unlabeled_DSA/image_s111_i6.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 327553,
+      "file_size": 329681,
+      "filename": "DIAS/unlabeled_DSA/image_s111_i7.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 350124,
+      "file_size": 352186,
+      "filename": "DIAS/unlabeled_DSA/image_s111_i8.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 368250,
+      "file_size": 370315,
+      "filename": "DIAS/unlabeled_DSA/image_s111_i9.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 609368,
+      "file_size": 609557,
+      "filename": "DIAS/unlabeled_DSA/image_s112_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 597504,
+      "file_size": 597750,
+      "filename": "DIAS/unlabeled_DSA/image_s112_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 601481,
+      "file_size": 602222,
+      "filename": "DIAS/unlabeled_DSA/image_s112_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 587579,
+      "file_size": 588786,
+      "filename": "DIAS/unlabeled_DSA/image_s112_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 603887,
+      "file_size": 605846,
+      "filename": "DIAS/unlabeled_DSA/image_s112_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 634151,
+      "file_size": 637673,
+      "filename": "DIAS/unlabeled_DSA/image_s112_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 644038,
+      "file_size": 647692,
+      "filename": "DIAS/unlabeled_DSA/image_s112_i6.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 646419,
+      "file_size": 650064,
+      "filename": "DIAS/unlabeled_DSA/image_s112_i7.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 413664,
+      "file_size": 414217,
+      "filename": "DIAS/unlabeled_DSA/image_s113_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 426937,
+      "file_size": 427578,
+      "filename": "DIAS/unlabeled_DSA/image_s113_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 444152,
+      "file_size": 444981,
+      "filename": "DIAS/unlabeled_DSA/image_s113_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 458342,
+      "file_size": 459659,
+      "filename": "DIAS/unlabeled_DSA/image_s113_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 449150,
+      "file_size": 450350,
+      "filename": "DIAS/unlabeled_DSA/image_s113_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 436109,
+      "file_size": 437216,
+      "filename": "DIAS/unlabeled_DSA/image_s113_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 417376,
+      "file_size": 418337,
+      "filename": "DIAS/unlabeled_DSA/image_s113_i6.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 458659,
+      "file_size": 458853,
+      "filename": "DIAS/unlabeled_DSA/image_s114_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 479566,
+      "file_size": 480019,
+      "filename": "DIAS/unlabeled_DSA/image_s114_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 506970,
+      "file_size": 507582,
+      "filename": "DIAS/unlabeled_DSA/image_s114_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 530281,
+      "file_size": 531135,
+      "filename": "DIAS/unlabeled_DSA/image_s114_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 538982,
+      "file_size": 540256,
+      "filename": "DIAS/unlabeled_DSA/image_s114_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 543766,
+      "file_size": 544996,
+      "filename": "DIAS/unlabeled_DSA/image_s114_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 547475,
+      "file_size": 549033,
+      "filename": "DIAS/unlabeled_DSA/image_s114_i6.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 414327,
+      "file_size": 414269,
+      "filename": "DIAS/unlabeled_DSA/image_s115_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 421057,
+      "file_size": 420993,
+      "filename": "DIAS/unlabeled_DSA/image_s115_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 455602,
+      "file_size": 455771,
+      "filename": "DIAS/unlabeled_DSA/image_s115_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 459149,
+      "file_size": 459625,
+      "filename": "DIAS/unlabeled_DSA/image_s115_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 456100,
+      "file_size": 457054,
+      "filename": "DIAS/unlabeled_DSA/image_s115_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 474314,
+      "file_size": 476262,
+      "filename": "DIAS/unlabeled_DSA/image_s115_i5.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 330731,
+      "file_size": 331711,
+      "filename": "DIAS/unlabeled_DSA/image_s116_i0.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 338207,
+      "file_size": 339391,
+      "filename": "DIAS/unlabeled_DSA/image_s116_i1.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 347198,
+      "file_size": 348538,
+      "filename": "DIAS/unlabeled_DSA/image_s116_i2.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 351462,
+      "file_size": 353004,
+      "filename": "DIAS/unlabeled_DSA/image_s116_i3.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 348033,
+      "file_size": 349429,
+      "filename": "DIAS/unlabeled_DSA/image_s116_i4.png",
+      "is_dir": false
+    },
+    {
+      "compress_size": 351383,
+      "file_size": 352866,
+      "filename": "DIAS/unlabeled_DSA/image_s116_i5.png",
+      "is_dir": false
+    }
+  ],
+  "entry_count": 895,
+  "ext_counts": {
+    ".png": 882,
+    "<dir>": 13
+  },
+  "file_count": 882,
+  "top_counts": {
+    "DIAS": 895
+  },
+  "zip_path": "/Users/colin/DeepScientist/quests/010/tmp/datasets/DIAS/DIAS.zip"
+}

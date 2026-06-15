@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: AngioStress Benchmark Artifacts
-message: If you use this artifact package, please cite the AngioStress manuscript and the upstream datasets/models listed in DATA_SOURCES.md.
+message: If you use this artifact package, cite the AngioStress benchmark artifact package and the upstream datasets/models listed in DATA_SOURCES.md.
 authors:
   - family-names: Son
     given-names: Colin

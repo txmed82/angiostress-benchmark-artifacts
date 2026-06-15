@@ -1,37 +1,2093 @@
 {
-  "schema_version": 1,
-  "release_id": "angiostress-benchmark-artifacts-20260615",
-  "generated_at": "2026-06-15T13:21:02.340686+00:00",
-  "source_commit": "a0786a46b574ea7a1d1d60eb22ce079b835a7875",
-  "links": {
+  "schema_version": 2,
+  "package": "angiostress-benchmark-artifacts",
+  "cleaned_at": "2026-06-15T13:59:42.241307+00:00",
+  "scope": "benchmark_code_configs_experiment_outputs_and_derived_summaries_only",
+  "excluded_public_surfaces": [
+    "manuscript_source",
+    "generated_latex",
+    "compiled_manuscript_pdf",
+    "paper_review_or_comment_files",
+    "paper_planning_or_prose_surfaces",
+    "raw_upstream_datasets",
+    "third_party_model_weights_or_checkpoints",
+    "local_caches_or_raw_generated_arrays"
+  ],
+  "public_mirrors": {
     "github": "https://github.com/txmed82/angiostress-benchmark-artifacts",
     "hugging_face_dataset": "https://huggingface.co/datasets/txmedai/angiostress-benchmark-artifacts"
   },
-  "redistribution_boundary": "Raw DIAS, CathAction, TopCoW data and model checkpoints are not redistributed; this package contains paper source, compiled manuscript, figures, tables, derived summaries, and evidence manifests.",
-  "manifest_includes_self": false,
-  "included_small_experiment_summary_count": 90,
-  "file_count": 138,
-  "total_size_bytes": 1911919,
+  "file_count": 504,
   "files": [
     {
       "path": "CITATION.cff",
-      "size_bytes": 550,
-      "sha256": "045a224811b7df1684abbfd1ccc900694f283043a5f6412390ef8445ba312cd3"
+      "size_bytes": 559,
+      "sha256": "a161e7a641199e364a41e608dc6b6f076dc52975b3c33adbb88a8d8420bbee17"
     },
     {
       "path": "DATA_SOURCES.md",
-      "size_bytes": 1187,
-      "sha256": "e130ecff630aff53d8917665a0f971d668027bb6816e8e0d98bc03bfaca635fe"
+      "size_bytes": 1406,
+      "sha256": "6a45d01a4bed6f60d417e06c1506ec06c8fc8b9111d34207e6d9fc4daf7ec136"
     },
     {
       "path": "README.md",
-      "size_bytes": 1838,
-      "sha256": "8d0fe8ac9beb1535e542fb241a401a7042880467d77292e05b7f56355b100470"
+      "size_bytes": 1978,
+      "sha256": "26079b2d4e3865af87e4ffa374dfc7bf0b7391286e569141afe939da5cfc5669"
     },
     {
       "path": "baseline/metric_contract.json",
       "size_bytes": 12531,
       "sha256": "e33ef2fc50eb3efea5e704d4cc318e7f71c6391d7a9b0b45cceb7efe81e6119d"
+    },
+    {
+      "path": "code/baseline/angiostress-s0-topcow-resencm/README.md",
+      "size_bytes": 3347,
+      "sha256": "127b81c09edd70e19dbe0699c0918cca347bcdcf04e69bb790169ffb7e73fde6"
+    },
+    {
+      "path": "code/baseline/angiostress-s0-topcow-resencm/json/metric_contract.json",
+      "size_bytes": 12531,
+      "sha256": "e33ef2fc50eb3efea5e704d4cc318e7f71c6391d7a9b0b45cceb7efe81e6119d"
+    },
+    {
+      "path": "code/baseline/angiostress-s0-topcow-resencm/source_manifest.json",
+      "size_bytes": 2493,
+      "sha256": "8443e353eb3e72c8f2938d7e1402ffcec0b2090f154025c9b59e9ee5df79a03f"
+    },
+    {
+      "path": "code/baseline/angiostress-s0-topcow-resencm/verification.md",
+      "size_bytes": 1090,
+      "sha256": "3214489516849e6803b852c8b7174cd82bd9c0996b5569daa3b782e363c5f8af"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/RESULT.json",
+      "size_bytes": 98341,
+      "sha256": "d36540120522dd8d50ae41297372074c0b567bd75501b0dcadb287ee91b5fc0a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/RUN.md",
+      "size_bytes": 7649,
+      "sha256": "a9ecc32af242b3d4de9e2abfecc8d156a640e0d26bbbab84a4c47a0416eed0e2"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/VALIDATION.md",
+      "size_bytes": 1655,
+      "sha256": "84fb66a2706de6a8f7312b9cdd5440f3c6be013a3d816454a293d1e573d4f4e1"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/config.json",
+      "size_bytes": 1514,
+      "sha256": "118d0940ab58ae132a3007f73b55bcb5a2ab5a7c4fdf5c0096ad3a0a9d368979"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/cells/contrast_phase_severity_0.npy",
+      "size_bytes": 1310848,
+      "sha256": "83d12057178b4314ce8ab91439ca4497f002b82f6bc92b2832a4547d81ee0540"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/cells/contrast_phase_severity_0.png",
+      "size_bytes": 6557,
+      "sha256": "9ad1663c64292879420b945ea5bf7c066cd4214555b751ef3dc4deb7a986691e"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/cells/contrast_phase_severity_1.npy",
+      "size_bytes": 1310848,
+      "sha256": "07b3d0a85f4b2446c4d081aea9d2b92fe06f56ac474524a913c6c51a94b49a04"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/cells/contrast_phase_severity_1.png",
+      "size_bytes": 6216,
+      "sha256": "118f39fdaca8d93cb4c7c7c4edfda1607ab848eec433303a03a310b692726ca5"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/cells/contrast_phase_severity_2.npy",
+      "size_bytes": 1310848,
+      "sha256": "fa07d85bbf4613350968dd214a1b0f2d6cd26d6d3cbbb73e3568b91ef98eb4c8"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/cells/contrast_phase_severity_2.png",
+      "size_bytes": 5891,
+      "sha256": "10b14a97a2b053344cca3e5aaf11324e3357441c2dd1797526272cd188050662"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/cells/device_overlay_severity_0.npy",
+      "size_bytes": 1310848,
+      "sha256": "83d12057178b4314ce8ab91439ca4497f002b82f6bc92b2832a4547d81ee0540"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/cells/device_overlay_severity_0.png",
+      "size_bytes": 6557,
+      "sha256": "9ad1663c64292879420b945ea5bf7c066cd4214555b751ef3dc4deb7a986691e"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/cells/device_overlay_severity_1.npy",
+      "size_bytes": 1310848,
+      "sha256": "13ce3015cd19a3ed04fb6bf7bc73e0b0febec0388c0d7241d702f1fd12409608"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/cells/device_overlay_severity_1.png",
+      "size_bytes": 7067,
+      "sha256": "775e44a675ac2913a794d18fbf56b10ccad55162101f2c4a38b0e3192949d511"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/cells/device_overlay_severity_1_device_mask.png",
+      "size_bytes": 675,
+      "sha256": "acf4aeea3383404b291dd70a92f9af06761fe5ae6c12beab936749d7dfc2ae78"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/cells/device_overlay_severity_2.npy",
+      "size_bytes": 1310848,
+      "sha256": "6804a69edc02d8b0342d1df7dd5c3d6e4178407f87fa2e1c6956082ba153172a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/cells/device_overlay_severity_2.png",
+      "size_bytes": 7082,
+      "sha256": "0c84eac839c96fdc4c74eefa5899760ef1565e8acfcdb05598151701ebd65224"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/cells/device_overlay_severity_2_device_mask.png",
+      "size_bytes": 695,
+      "sha256": "a9ee72d4bfdd9c54f9f00f437d56dc445b424f2269bb36ca7c2623d71fdeccb8"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/cells/frame_thinning_severity_0.npy",
+      "size_bytes": 1310848,
+      "sha256": "83d12057178b4314ce8ab91439ca4497f002b82f6bc92b2832a4547d81ee0540"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/cells/frame_thinning_severity_0.png",
+      "size_bytes": 6557,
+      "sha256": "9ad1663c64292879420b945ea5bf7c066cd4214555b751ef3dc4deb7a986691e"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/cells/frame_thinning_severity_1.npy",
+      "size_bytes": 786560,
+      "sha256": "24746a4dcbcefd24824445454aae8db13de42b21b6048e8628cecc2166427e3c"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/cells/frame_thinning_severity_1.png",
+      "size_bytes": 6557,
+      "sha256": "9ad1663c64292879420b945ea5bf7c066cd4214555b751ef3dc4deb7a986691e"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/cells/frame_thinning_severity_2.npy",
+      "size_bytes": 524416,
+      "sha256": "c303c61903e5b2138350258200644ac5583630a7198fcc42d2523d767e9924bc"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/cells/frame_thinning_severity_2.png",
+      "size_bytes": 6315,
+      "sha256": "670da74e70f887e6d3a537d659a8c658719373b60ea664c6da2549e4070b7218"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/clean_image.npy",
+      "size_bytes": 262272,
+      "sha256": "90bda2bb4d97f637e059ef5c23f73d6a1f839b9fe16f76fa54342c7c17ee08da"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/clean_preview.png",
+      "size_bytes": 6557,
+      "sha256": "9ad1663c64292879420b945ea5bf7c066cd4214555b751ef3dc4deb7a986691e"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/clean_sequence.npy",
+      "size_bytes": 1310848,
+      "sha256": "83d12057178b4314ce8ab91439ca4497f002b82f6bc92b2832a4547d81ee0540"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/manifest.json",
+      "size_bytes": 7101,
+      "sha256": "da65aecbd7b4c3da42e55feafdd2c62cd7b755bc3c1b7fa5281b8162dac4135c"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/manifest.jsonl",
+      "size_bytes": 3832,
+      "sha256": "cd74b532221079f94c9a5fccc7e76d1088043847bc08cc48e633458f46d0e989"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/metrics_summary.json",
+      "size_bytes": 988,
+      "sha256": "c5056d65e4ce71f84673188c16d9d5c639564c51daf9e7307d15d955f4af47b6"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/projected_gt_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "d31d13c10a16e7bd6cb86c7f47e12e6216d6e251752f5a2116d74644a7ed2acf"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs/projected_gt_mask.png",
+      "size_bytes": 824,
+      "sha256": "be4b06da53328bc50af5faa55cd397a1428e108f808b5beb92c8492cd1e14bd4"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/cells/contrast_phase_severity_0.npy",
+      "size_bytes": 1310848,
+      "sha256": "83d12057178b4314ce8ab91439ca4497f002b82f6bc92b2832a4547d81ee0540"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/cells/contrast_phase_severity_0.png",
+      "size_bytes": 6557,
+      "sha256": "9ad1663c64292879420b945ea5bf7c066cd4214555b751ef3dc4deb7a986691e"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/cells/contrast_phase_severity_1.npy",
+      "size_bytes": 1310848,
+      "sha256": "07b3d0a85f4b2446c4d081aea9d2b92fe06f56ac474524a913c6c51a94b49a04"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/cells/contrast_phase_severity_1.png",
+      "size_bytes": 6216,
+      "sha256": "118f39fdaca8d93cb4c7c7c4edfda1607ab848eec433303a03a310b692726ca5"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/cells/contrast_phase_severity_2.npy",
+      "size_bytes": 1310848,
+      "sha256": "fa07d85bbf4613350968dd214a1b0f2d6cd26d6d3cbbb73e3568b91ef98eb4c8"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/cells/contrast_phase_severity_2.png",
+      "size_bytes": 5891,
+      "sha256": "10b14a97a2b053344cca3e5aaf11324e3357441c2dd1797526272cd188050662"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/cells/device_overlay_severity_0.npy",
+      "size_bytes": 1310848,
+      "sha256": "83d12057178b4314ce8ab91439ca4497f002b82f6bc92b2832a4547d81ee0540"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/cells/device_overlay_severity_0.png",
+      "size_bytes": 6557,
+      "sha256": "9ad1663c64292879420b945ea5bf7c066cd4214555b751ef3dc4deb7a986691e"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/cells/device_overlay_severity_1.npy",
+      "size_bytes": 1310848,
+      "sha256": "13ce3015cd19a3ed04fb6bf7bc73e0b0febec0388c0d7241d702f1fd12409608"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/cells/device_overlay_severity_1.png",
+      "size_bytes": 7067,
+      "sha256": "775e44a675ac2913a794d18fbf56b10ccad55162101f2c4a38b0e3192949d511"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/cells/device_overlay_severity_1_device_mask.png",
+      "size_bytes": 675,
+      "sha256": "acf4aeea3383404b291dd70a92f9af06761fe5ae6c12beab936749d7dfc2ae78"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/cells/device_overlay_severity_2.npy",
+      "size_bytes": 1310848,
+      "sha256": "6804a69edc02d8b0342d1df7dd5c3d6e4178407f87fa2e1c6956082ba153172a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/cells/device_overlay_severity_2.png",
+      "size_bytes": 7082,
+      "sha256": "0c84eac839c96fdc4c74eefa5899760ef1565e8acfcdb05598151701ebd65224"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/cells/device_overlay_severity_2_device_mask.png",
+      "size_bytes": 695,
+      "sha256": "a9ee72d4bfdd9c54f9f00f437d56dc445b424f2269bb36ca7c2623d71fdeccb8"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/cells/frame_thinning_severity_0.npy",
+      "size_bytes": 1310848,
+      "sha256": "83d12057178b4314ce8ab91439ca4497f002b82f6bc92b2832a4547d81ee0540"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/cells/frame_thinning_severity_0.png",
+      "size_bytes": 6557,
+      "sha256": "9ad1663c64292879420b945ea5bf7c066cd4214555b751ef3dc4deb7a986691e"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/cells/frame_thinning_severity_1.npy",
+      "size_bytes": 786560,
+      "sha256": "24746a4dcbcefd24824445454aae8db13de42b21b6048e8628cecc2166427e3c"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/cells/frame_thinning_severity_1.png",
+      "size_bytes": 6557,
+      "sha256": "9ad1663c64292879420b945ea5bf7c066cd4214555b751ef3dc4deb7a986691e"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/cells/frame_thinning_severity_2.npy",
+      "size_bytes": 524416,
+      "sha256": "c303c61903e5b2138350258200644ac5583630a7198fcc42d2523d767e9924bc"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/cells/frame_thinning_severity_2.png",
+      "size_bytes": 6315,
+      "sha256": "670da74e70f887e6d3a537d659a8c658719373b60ea664c6da2549e4070b7218"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/clean_image.npy",
+      "size_bytes": 262272,
+      "sha256": "90bda2bb4d97f637e059ef5c23f73d6a1f839b9fe16f76fa54342c7c17ee08da"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/clean_preview.png",
+      "size_bytes": 6557,
+      "sha256": "9ad1663c64292879420b945ea5bf7c066cd4214555b751ef3dc4deb7a986691e"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/clean_sequence.npy",
+      "size_bytes": 1310848,
+      "sha256": "83d12057178b4314ce8ab91439ca4497f002b82f6bc92b2832a4547d81ee0540"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/manifest.json",
+      "size_bytes": 7101,
+      "sha256": "da65aecbd7b4c3da42e55feafdd2c62cd7b755bc3c1b7fa5281b8162dac4135c"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/manifest.jsonl",
+      "size_bytes": 3832,
+      "sha256": "cd74b532221079f94c9a5fccc7e76d1088043847bc08cc48e633458f46d0e989"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/metrics_summary.json",
+      "size_bytes": 988,
+      "sha256": "c5056d65e4ce71f84673188c16d9d5c639564c51daf9e7307d15d955f4af47b6"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/projected_gt_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "d31d13c10a16e7bd6cb86c7f47e12e6216d6e251752f5a2116d74644a7ed2acf"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/outputs_rerun_check/projected_gt_mask.png",
+      "size_bytes": 824,
+      "sha256": "be4b06da53328bc50af5faa55cd397a1428e108f808b5beb92c8492cd1e14bd4"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s0s1-renderer-smoke/run_renderer_smoke.py",
+      "size_bytes": 14313,
+      "sha256": "4293ecf7a9d98be72b6afeb0d38391c32f04399e4ce5790213d047cbef13e36d"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/DEPENDENCY_AUDIT.md",
+      "size_bytes": 956,
+      "sha256": "cb94bf27b478de6d2dbe8d5a73c0d4b4148bb89c510e6b75a3baa60e07294c4c"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/RESULT.json",
+      "size_bytes": 107862,
+      "sha256": "a3fa86602b059bd8305d485a8b1e76429e330eb238db0f9d75e45d6aac463bc2"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/RUN.md",
+      "size_bytes": 9423,
+      "sha256": "355eb1efddba247c3760e9b69b96d0258e2d9c0336cd173b2c62df357611bd20"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/VALIDATION.md",
+      "size_bytes": 1794,
+      "sha256": "4a37532bed9ad100fc58644dcb22d1a94c6e7c5194edf66d9e91d20ccec65dd2"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/config.json",
+      "size_bytes": 1015,
+      "sha256": "5ba703fdb6a5e37d251eb9d939051d271bdf5a735cbb852863cb17c3d6d66b6b"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/manifest.json",
+      "size_bytes": 824,
+      "sha256": "1146fff77a051f558cfca9590002a19c025fcc917604ca1dce5d4ad2ff15b02f"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/metrics_summary.json",
+      "size_bytes": 2013,
+      "sha256": "10ac737639dd71efd0d0b497d49d204bef426b725a026a5dee019a8eb5067443"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/per_cell_metrics.csv",
+      "size_bytes": 3337,
+      "sha256": "f458699ae188b8d9ef085cb9bfa520745c94e52a5c6b9362d2ecbb5b192e83aa"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/per_cell_metrics.json",
+      "size_bytes": 8030,
+      "sha256": "8fbece3eb0304f650ac1c6f5c0167cb23f6af3d77f8225a121ebf3309be5ec63"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/clean_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "c61b13624410853aece325800f9c775ba3eba00b100ed6f0f2825ca9f8281b19"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/clean_mask.png",
+      "size_bytes": 1101,
+      "sha256": "24db11ca8df078ef8e7fe40c3d4afe6030be2cf4c2704f8502c011afdbb05832"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/contrast_phase_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "c61b13624410853aece325800f9c775ba3eba00b100ed6f0f2825ca9f8281b19"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/contrast_phase_severity_0_mask.png",
+      "size_bytes": 1101,
+      "sha256": "24db11ca8df078ef8e7fe40c3d4afe6030be2cf4c2704f8502c011afdbb05832"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/contrast_phase_severity_1_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "bbdb5750df84e3d3d255589831317e4bbe4a59f1885ff7d6ef3c777c743d7dbc"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/contrast_phase_severity_1_mask.png",
+      "size_bytes": 1140,
+      "sha256": "c8c28cdb68e3b4fd1ef3b276bc725747b5a7eeda04ff357831c9726e81f27304"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/contrast_phase_severity_2_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "26b1bfcd4206b67951462c8c20f267306f50bff8b799bece411bebb16e6ebd71"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/contrast_phase_severity_2_mask.png",
+      "size_bytes": 1141,
+      "sha256": "1e4129dde3107cd00addc813ce80ff83d0c8fcea0af9721674684285e12b4140"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/device_overlay_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "c61b13624410853aece325800f9c775ba3eba00b100ed6f0f2825ca9f8281b19"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/device_overlay_severity_0_mask.png",
+      "size_bytes": 1101,
+      "sha256": "24db11ca8df078ef8e7fe40c3d4afe6030be2cf4c2704f8502c011afdbb05832"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/device_overlay_severity_1_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "7c88797f3684f17f8c73e7cee40f4d8d391aca7e6565d2fa7cc842aae85c3e1a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/device_overlay_severity_1_mask.png",
+      "size_bytes": 3041,
+      "sha256": "3de58fc3b1c57abf7ea569b5b7b1f5bfb0471b7c5149355d4a84f982df4bcb11"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/device_overlay_severity_2_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "ae1293a461fd55f2a3d256424b5818178187cf0e6151267b7e4ff25170881c83"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/device_overlay_severity_2_mask.png",
+      "size_bytes": 2708,
+      "sha256": "e94d27af2698dbbce475a98cd45e5f6caade507663f74bb9b131ff7f90f1527f"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/frame_thinning_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "c61b13624410853aece325800f9c775ba3eba00b100ed6f0f2825ca9f8281b19"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/frame_thinning_severity_0_mask.png",
+      "size_bytes": 1101,
+      "sha256": "24db11ca8df078ef8e7fe40c3d4afe6030be2cf4c2704f8502c011afdbb05832"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/frame_thinning_severity_1_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "c61b13624410853aece325800f9c775ba3eba00b100ed6f0f2825ca9f8281b19"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/frame_thinning_severity_1_mask.png",
+      "size_bytes": 1101,
+      "sha256": "24db11ca8df078ef8e7fe40c3d4afe6030be2cf4c2704f8502c011afdbb05832"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/frame_thinning_severity_2_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "13352b82fbcd19c21503891dfa542ba7cc06ab3deba830326b38d7a0b4ffc029"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/outputs/predictions/frame_thinning_severity_2_mask.png",
+      "size_bytes": 1130,
+      "sha256": "43b36f80b76f17646934e72f5d5d8ddac99ee66705c4185e289ceca2e16b9f20"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s1-frozen-model-smoke/run_sam_smoke.py",
+      "size_bytes": 12052,
+      "sha256": "c3209d53ff50f4928dde723c4bc46e4d4484766a4ec112123114b7bc5f3f4b37"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2-real-dsa-loader-smoke/RESULT.json",
+      "size_bytes": 100395,
+      "sha256": "c632f1b4550236c608befd03164aa538a504a80a43873fe6671d36aced8c0220"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2-real-dsa-loader-smoke/RUN.md",
+      "size_bytes": 7696,
+      "sha256": "82dded6cbf32dfcd912d39772c919ecb5b21a89c2eff979feacee95d775b8744"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2-real-dsa-loader-smoke/VALIDATION.md",
+      "size_bytes": 1454,
+      "sha256": "a29c3a5de743a2db4b087708a6bcffea8ea5b5323255debb875e172465db77af"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2-real-dsa-loader-smoke/build_dias_loader_manifest.py",
+      "size_bytes": 11302,
+      "sha256": "b6e7d29d02460a5be7db95ac78fe950dd0c8b9d4fe908237e5f2ec074c122440"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2-real-dsa-loader-smoke/cathaction_website_audit.json",
+      "size_bytes": 1378,
+      "sha256": "4d02189b7e01b4d2288316c483bf39c478eb54d0265913d24881312845ea02ec"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2-real-dsa-loader-smoke/dias_sequence_inventory.json",
+      "size_bytes": 22065,
+      "sha256": "211c6683c2264ad73188f72afe39ffef87266267903160df02d3893762df3760"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2-real-dsa-loader-smoke/dias_zip_inventory.json",
+      "size_bytes": 75559,
+      "sha256": "ef3d246a0e7dad2b77be4570627833313850bacc4415b5f726b12d22bcdb67c9"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2-real-dsa-loader-smoke/metrics_summary.json",
+      "size_bytes": 1076,
+      "sha256": "26ebb02adab4f7adcb5652959b253d1c0bb24e3cb30d722204437f062b6af1f7"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2-real-dsa-loader-smoke/outputs/dias_s40_preview.png",
+      "size_bytes": 283728,
+      "sha256": "78f1e873de95b5f6fc083a20f6dd0ffdeb09480dc3642f430d1628ee908a5c59"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2-real-dsa-loader-smoke/outputs/real_dsa_loader_manifest.json",
+      "size_bytes": 14311,
+      "sha256": "c241c39bc1f7fe9a67d1f3ada74034f90cf60acf2e1b4f5d40c323123c9ece06"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2-real-dsa-loader-smoke/outputs/sample/s40/frames/image_s40_i0.png",
+      "size_bytes": 240367,
+      "sha256": "26d8994fc566594af1dd727c50055505c98e1f250930a0184935b6b267059d03"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2-real-dsa-loader-smoke/outputs/sample/s40/frames/image_s40_i1.png",
+      "size_bytes": 245435,
+      "sha256": "f665436b047e3fd94f8948680ff52ee1537f23f41e9373d29a58cea9d13821aa"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2-real-dsa-loader-smoke/outputs/sample/s40/frames/image_s40_i2.png",
+      "size_bytes": 247773,
+      "sha256": "69572604eb6497e395e66d3e3480c4ea848a6feefcadadc2c454cd4913dc181d"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2-real-dsa-loader-smoke/outputs/sample/s40/frames/image_s40_i3.png",
+      "size_bytes": 255146,
+      "sha256": "38afe33691fb07cfcfb7899f89a790ed18b8c8f33df076b665e566f63c3b4eb2"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2-real-dsa-loader-smoke/outputs/sample/s40/frames/image_s40_i4.png",
+      "size_bytes": 261682,
+      "sha256": "45f1a44134c4caa3afd1f15a8dba2dc23cffe96a9504cfb61d569db7037a5916"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2-real-dsa-loader-smoke/outputs/sample/s40/frames/image_s40_i5.png",
+      "size_bytes": 266370,
+      "sha256": "3f6c5b993ffc8b4199f6fda494463b10632a8d5ff4e6bc53faf4990e89d59b61"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2-real-dsa-loader-smoke/outputs/sample/s40/labels/label_s40.png",
+      "size_bytes": 34228,
+      "sha256": "f072061977468a89db5186cff3daa7890a3d2f49d4a6a4ffe4360ab963f48f8d"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2-real-dsa-loader-smoke/repo_schema_audit.json",
+      "size_bytes": 60972,
+      "sha256": "6cb4ff02ae294d46eb4a5a7a1e40c8d3bdb74444ef4d401e9c16ab385cd66d75"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2-real-dsa-loader-smoke/source_availability_audit.json",
+      "size_bytes": 29423,
+      "sha256": "0e39e2bc4856f106206e9fdaaf9319441977928bba590a5e1cfc660c487b7f1f"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/RESULT.json",
+      "size_bytes": 117199,
+      "sha256": "17a12bcbc972021d6bebe47e61c8cde1cdd0724ad8a0ee97a8b4234180c815b1"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/RUN.md",
+      "size_bytes": 9074,
+      "sha256": "6e04ad565c1fed018c771dda6638bc14e3a61215dc3f786be1f72729fe00aafe"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/VALIDATION.md",
+      "size_bytes": 2722,
+      "sha256": "73ab0a23aaf03c4e292897539cb831e0573ee2e4ea68eb37f0618e375f57c1ae"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/model_candidate_audit.json",
+      "size_bytes": 3359,
+      "sha256": "31e1c229b2e0c642ac3c6a92b71da80932f77b1c915f5f27c08b8730172b247b"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_analog_summary.csv",
+      "size_bytes": 2252,
+      "sha256": "ee1571082459f8183014766228a59aa50825b2102938810e18b68e99f8e331cc"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_analog_summary.json",
+      "size_bytes": 6311,
+      "sha256": "3138ea6a0cf9f765a9ba9ce689073491a0b85d8106d90a929a97d0227b50d0e5"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_overlays/medsam_vit_b/s40_frame_00_overlay.png",
+      "size_bytes": 353734,
+      "sha256": "2d5615f41148088c314235e8f125b9fac575bfaacd33e4a32f7645483cc593f7"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_overlays/medsam_vit_b/s40_frame_01_overlay.png",
+      "size_bytes": 354422,
+      "sha256": "f6fd39593e0a7011a8fc12496ed2adcf9e31b46256400634b7b757a8f2baa3b6"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_overlays/medsam_vit_b/s40_frame_02_overlay.png",
+      "size_bytes": 356659,
+      "sha256": "9c902dd070b714d98a222e3614299ce4923535620fa73041e33fab22a08fee12"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_overlays/medsam_vit_b/s40_frame_03_overlay.png",
+      "size_bytes": 362616,
+      "sha256": "5fd319426968bd70828860dc2f17f26d1e6747d98722b9dbf99c01382a79a184"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_overlays/medsam_vit_b/s40_frame_04_overlay.png",
+      "size_bytes": 375141,
+      "sha256": "a2f9b0377eeb536878c0007d26b70a3b76a4e7d22eefa89ecbc63fab1b33cef0"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_overlays/medsam_vit_b/s40_frame_05_overlay.png",
+      "size_bytes": 383211,
+      "sha256": "28dbc6821ee87527200609cff21102d559533f4fc828ecf60fe20051b4d3a1dd"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_overlays/sam_vit_b/s40_frame_00_overlay.png",
+      "size_bytes": 343801,
+      "sha256": "714506e5217f3dff73494ec879cc60b34fd9df9c76bab2bbace3e85c65b2702b"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_overlays/sam_vit_b/s40_frame_01_overlay.png",
+      "size_bytes": 348243,
+      "sha256": "f17ce47084e8cab277247a0fe0458b0c3e03b0b413fe4100ca1e83e944b31073"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_overlays/sam_vit_b/s40_frame_02_overlay.png",
+      "size_bytes": 352292,
+      "sha256": "c0160f56a980a0cc899cf28b076277e2bc255bc05e2c6e47903055893195fc86"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_overlays/sam_vit_b/s40_frame_03_overlay.png",
+      "size_bytes": 359264,
+      "sha256": "ff1ebc0e0e566fe13f9763405337c5478fb85aa3c9fe3db385d8267f34ad4f54"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_overlays/sam_vit_b/s40_frame_04_overlay.png",
+      "size_bytes": 374633,
+      "sha256": "0d6e493216079a90ed3afef9dc63df2140f3cf44f1f10998e1a708dd53877cc1"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_overlays/sam_vit_b/s40_frame_05_overlay.png",
+      "size_bytes": 379228,
+      "sha256": "749d242fa4d062e96eb120e897ca64be8be3e8f5bcacaeb8a7ac919de731cb5b"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_per_frame_metrics.csv",
+      "size_bytes": 6490,
+      "sha256": "4a11b2c06760ffb2edf2002ee54b08290a4daa82c349481969a6fbaf1449a4ed"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_per_frame_metrics.json",
+      "size_bytes": 12401,
+      "sha256": "b6a47326bdace6f0930cc7bd1e8a4606f3957395a2cb992d48f3a95f04cf733c"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/medsam_vit_b/s40_frame_00_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "d0a458bdf34c957fda7025bac64c0da2ae5bc8d24c0ac84f1fba2867303021e2"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/medsam_vit_b/s40_frame_00_mask.png",
+      "size_bytes": 6472,
+      "sha256": "5f4d17f5561d5c08f3cc4a6c0f571edf04cf4568dc85d26583b9901de85c439e"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/medsam_vit_b/s40_frame_01_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "10b1bf40fa959422794a23df351e35654b508f99b9a7b7bbbaaf868bbf83037a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/medsam_vit_b/s40_frame_01_mask.png",
+      "size_bytes": 6268,
+      "sha256": "89ff401cd8bf21175b19c7869ea8e31668fd2014fe0857a2bf7fd59f7bd97aac"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/medsam_vit_b/s40_frame_02_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "93225793c02cf63a05875d6d231002e1485e28f710179c3c21035593032a5a84"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/medsam_vit_b/s40_frame_02_mask.png",
+      "size_bytes": 6179,
+      "sha256": "db246e2f95b3ce01c2090670c3e6ffeb93c3caac38c349a14b5a8cd2f26bf49a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/medsam_vit_b/s40_frame_03_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "610e20b04ff16570ac5e6e080fe53a13a5d0635328ba11460e1b9151557b6fdb"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/medsam_vit_b/s40_frame_03_mask.png",
+      "size_bytes": 6348,
+      "sha256": "c00cbf30c34208445176f5123aae4661179580176b94a28dcf780e18e17d242e"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/medsam_vit_b/s40_frame_04_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "8aa5518f9bfc7be3cb002ce74054d42f13cf44fa1ce81fde1c143745c6fe24d7"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/medsam_vit_b/s40_frame_04_mask.png",
+      "size_bytes": 6795,
+      "sha256": "9c4ac1b56fbf786d3406b8bfa201da893d7f9800dd8de3bc860904ec40a1bea7"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/medsam_vit_b/s40_frame_05_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "0fe73cb55d311ffcad400b1515bb73eb231cb87146c12406ffb545d7df7c742a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/medsam_vit_b/s40_frame_05_mask.png",
+      "size_bytes": 7212,
+      "sha256": "d85821fd19015b27e9bbfb00db4fd2ff905c2312f0ac6f6f826f770d28f464d7"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/sam_vit_b/s40_frame_00_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "751e0b007f44c3f2804213bf453be038c2ecaa41bd9e5664983edc8664220348"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/sam_vit_b/s40_frame_00_mask.png",
+      "size_bytes": 5372,
+      "sha256": "b9f3fa7953317a006ec685dc635d7bcc0c66b187cef8966a9ccbcf93837917d7"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/sam_vit_b/s40_frame_01_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "9b2fbd854aa2afe17e04dd6aec17957b37e73976ad294ccde5f4d66bfe38c4b3"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/sam_vit_b/s40_frame_01_mask.png",
+      "size_bytes": 6044,
+      "sha256": "847eeb485ee50eadb109357a38234011b6626a33e698bbf462e1d5e1421fcc09"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/sam_vit_b/s40_frame_02_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "a86e7a2cdc5c36db07e3a5fbb66d75ed1d7b6c8152829630f9b2e8f4ef575992"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/sam_vit_b/s40_frame_02_mask.png",
+      "size_bytes": 6662,
+      "sha256": "54c978950bd4c97b26f0c8af69d50eceea8ef4ca4aebbb75dd2da054875d7680"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/sam_vit_b/s40_frame_03_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "722781810fbd65d6bbdc3ff5fb88c4084c51a426117e9d9bd14e2625629a4982"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/sam_vit_b/s40_frame_03_mask.png",
+      "size_bytes": 5899,
+      "sha256": "4d79a996a1cd797fe2c4f80808fb46f0bbf9e78cbf3eb37febe3771de09c1c89"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/sam_vit_b/s40_frame_04_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "273df16b2e6f6058dfe43303bf5de887efa2e85f0189a5eb34d1313f671de6f0"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/sam_vit_b/s40_frame_04_mask.png",
+      "size_bytes": 7421,
+      "sha256": "d302d34be23a6fa5a1b3de9835c5e0e4bd94bf5fb719edb4f8381d405ad43b7b"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/sam_vit_b/s40_frame_05_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "cf699695b36f2ca6a36489e5b42630f82b0ad6c48abe3121bcffd482f54e926f"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/dias_predictions/sam_vit_b/s40_frame_05_mask.png",
+      "size_bytes": 6320,
+      "sha256": "f5b13725ee6ee7480f7c1286e203723b7365c5096911874bc17631ca1b6b68f9"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/environment.json",
+      "size_bytes": 109,
+      "sha256": "b00e619708b45ebd0486f0ac2c3d93f28764e2f704ff49742bad04a4be285145"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/manifest.json",
+      "size_bytes": 3140,
+      "sha256": "3d2039152faede9fda84bd672d2e9eb4d87756eb1bbb0d29c4a0e166d0998975"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/metrics_summary.json",
+      "size_bytes": 2582,
+      "sha256": "91fecf29c069429bce9c83aceed160d4b27e86d7a413af9986428da976580975"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/model_ranking_rows.csv",
+      "size_bytes": 981,
+      "sha256": "6616fbf98b906b59b5bf16fd4d0a9efeadc500cdb94481a7dd175a294b1f2ec9"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/model_ranking_rows.json",
+      "size_bytes": 2559,
+      "sha256": "01cfa1a11243910f00474ca326d57fbda47545a6f9f52edeedc0a32e12679612"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/model_summary.csv",
+      "size_bytes": 1001,
+      "sha256": "8a49eb9a9a4a99e23337e469970fc4ab63895e86c55c786a4f63e24e20f201ab"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/model_summary.json",
+      "size_bytes": 1792,
+      "sha256": "68f035da6a815355881e45934ac48a4de4f8e490a3f047e9f67d97baa22ccfb0"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_degradation_summary.csv",
+      "size_bytes": 2330,
+      "sha256": "cb7fa6a93bdcb16e61cd81ab0507369112d8c05ff15d26379c3eaa9f115df1bf"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_degradation_summary.json",
+      "size_bytes": 6839,
+      "sha256": "99ca78d5924d0fc205887707bfdce92d83c3328aab52f6a4675a47b68579b90e"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_per_cell_metrics.csv",
+      "size_bytes": 7643,
+      "sha256": "a887c2918b43c54ccefa3a60fe5469fcbfd6c05e861d64e9f8a6e64e0ea0b4e5"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_per_cell_metrics.json",
+      "size_bytes": 16901,
+      "sha256": "99646face80d26061eb01a66b054db20df51e5cd2a0593000fb6a59d5cf2af64"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/medsam_vit_b/clean_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "9c01c9a219fe62ada3c546e73ad1f7b22dbaca115a2ed9fbca78acbc34d54de2"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/medsam_vit_b/clean_mask.png",
+      "size_bytes": 1829,
+      "sha256": "9b60067baf669f7c92810b5c426058fabdb23964808717768120a0e533f9ff48"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/medsam_vit_b/contrast_phase_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "9c01c9a219fe62ada3c546e73ad1f7b22dbaca115a2ed9fbca78acbc34d54de2"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/medsam_vit_b/contrast_phase_severity_0_mask.png",
+      "size_bytes": 1829,
+      "sha256": "9b60067baf669f7c92810b5c426058fabdb23964808717768120a0e533f9ff48"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/medsam_vit_b/contrast_phase_severity_1_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "638abed8e890ab5a73f7b9bc32fa58b147f1c1d09bcd8453002b686660ddc4f6"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/medsam_vit_b/contrast_phase_severity_1_mask.png",
+      "size_bytes": 1772,
+      "sha256": "8d9a974af9bae5ec1ad1972b436941df29920ce598795ddc1d5c965d0eaab714"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/medsam_vit_b/contrast_phase_severity_2_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "2b98b8d9ede58157f0fc9ec34b5b1821298332ad494c7abee97d0c288a95909a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/medsam_vit_b/contrast_phase_severity_2_mask.png",
+      "size_bytes": 1714,
+      "sha256": "57f36adad9ec144100980946bd0dce1221e92ab4cb5ad432816023b3c364fd48"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/medsam_vit_b/device_overlay_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "9c01c9a219fe62ada3c546e73ad1f7b22dbaca115a2ed9fbca78acbc34d54de2"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/medsam_vit_b/device_overlay_severity_0_mask.png",
+      "size_bytes": 1829,
+      "sha256": "9b60067baf669f7c92810b5c426058fabdb23964808717768120a0e533f9ff48"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/medsam_vit_b/device_overlay_severity_1_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "c2f9593b5dabf510f169353593d9126c1a3b1d5ba9d8ad3dbcb705f90d8d97f5"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/medsam_vit_b/device_overlay_severity_1_mask.png",
+      "size_bytes": 2089,
+      "sha256": "ee4f95b44a565197a58158fb73dd1972bd87684187d9088abf2cd8b10e1807a6"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/medsam_vit_b/device_overlay_severity_2_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "63bfa6a7badc106c555b9734b69965be3c240248210af1742997ae439176be0b"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/medsam_vit_b/device_overlay_severity_2_mask.png",
+      "size_bytes": 2290,
+      "sha256": "d513e16ffd69576c235e4f35f178d535efc55ba1d71126902d537e8d804f25b5"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/medsam_vit_b/frame_thinning_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "9c01c9a219fe62ada3c546e73ad1f7b22dbaca115a2ed9fbca78acbc34d54de2"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/medsam_vit_b/frame_thinning_severity_0_mask.png",
+      "size_bytes": 1829,
+      "sha256": "9b60067baf669f7c92810b5c426058fabdb23964808717768120a0e533f9ff48"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/medsam_vit_b/frame_thinning_severity_1_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "9c01c9a219fe62ada3c546e73ad1f7b22dbaca115a2ed9fbca78acbc34d54de2"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/medsam_vit_b/frame_thinning_severity_1_mask.png",
+      "size_bytes": 1829,
+      "sha256": "9b60067baf669f7c92810b5c426058fabdb23964808717768120a0e533f9ff48"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/medsam_vit_b/frame_thinning_severity_2_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "e1b502f8339483d2aca314ce3accc2a5820385fbf3ec9145727bbd8a56c17c92"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/medsam_vit_b/frame_thinning_severity_2_mask.png",
+      "size_bytes": 1744,
+      "sha256": "2dc9a4b15c3078108f2bd35e5bc6d54975c92a110ab7a3268dfb8c4378a18b64"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/sam_vit_b/clean_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "c61b13624410853aece325800f9c775ba3eba00b100ed6f0f2825ca9f8281b19"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/sam_vit_b/clean_mask.png",
+      "size_bytes": 1101,
+      "sha256": "24db11ca8df078ef8e7fe40c3d4afe6030be2cf4c2704f8502c011afdbb05832"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/sam_vit_b/contrast_phase_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "c61b13624410853aece325800f9c775ba3eba00b100ed6f0f2825ca9f8281b19"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/sam_vit_b/contrast_phase_severity_0_mask.png",
+      "size_bytes": 1101,
+      "sha256": "24db11ca8df078ef8e7fe40c3d4afe6030be2cf4c2704f8502c011afdbb05832"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/sam_vit_b/contrast_phase_severity_1_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "bbdb5750df84e3d3d255589831317e4bbe4a59f1885ff7d6ef3c777c743d7dbc"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/sam_vit_b/contrast_phase_severity_1_mask.png",
+      "size_bytes": 1140,
+      "sha256": "c8c28cdb68e3b4fd1ef3b276bc725747b5a7eeda04ff357831c9726e81f27304"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/sam_vit_b/contrast_phase_severity_2_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "26b1bfcd4206b67951462c8c20f267306f50bff8b799bece411bebb16e6ebd71"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/sam_vit_b/contrast_phase_severity_2_mask.png",
+      "size_bytes": 1141,
+      "sha256": "1e4129dde3107cd00addc813ce80ff83d0c8fcea0af9721674684285e12b4140"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/sam_vit_b/device_overlay_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "c61b13624410853aece325800f9c775ba3eba00b100ed6f0f2825ca9f8281b19"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/sam_vit_b/device_overlay_severity_0_mask.png",
+      "size_bytes": 1101,
+      "sha256": "24db11ca8df078ef8e7fe40c3d4afe6030be2cf4c2704f8502c011afdbb05832"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/sam_vit_b/device_overlay_severity_1_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "7c88797f3684f17f8c73e7cee40f4d8d391aca7e6565d2fa7cc842aae85c3e1a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/sam_vit_b/device_overlay_severity_1_mask.png",
+      "size_bytes": 3041,
+      "sha256": "3de58fc3b1c57abf7ea569b5b7b1f5bfb0471b7c5149355d4a84f982df4bcb11"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/sam_vit_b/device_overlay_severity_2_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "ae1293a461fd55f2a3d256424b5818178187cf0e6151267b7e4ff25170881c83"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/sam_vit_b/device_overlay_severity_2_mask.png",
+      "size_bytes": 2708,
+      "sha256": "e94d27af2698dbbce475a98cd45e5f6caade507663f74bb9b131ff7f90f1527f"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/sam_vit_b/frame_thinning_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "c61b13624410853aece325800f9c775ba3eba00b100ed6f0f2825ca9f8281b19"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/sam_vit_b/frame_thinning_severity_0_mask.png",
+      "size_bytes": 1101,
+      "sha256": "24db11ca8df078ef8e7fe40c3d4afe6030be2cf4c2704f8502c011afdbb05832"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/sam_vit_b/frame_thinning_severity_1_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "c61b13624410853aece325800f9c775ba3eba00b100ed6f0f2825ca9f8281b19"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/sam_vit_b/frame_thinning_severity_1_mask.png",
+      "size_bytes": 1101,
+      "sha256": "24db11ca8df078ef8e7fe40c3d4afe6030be2cf4c2704f8502c011afdbb05832"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/sam_vit_b/frame_thinning_severity_2_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "13352b82fbcd19c21503891dfa542ba7cc06ab3deba830326b38d7a0b4ffc029"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/outputs/synthetic_predictions/sam_vit_b/frame_thinning_severity_2_mask.png",
+      "size_bytes": 1130,
+      "sha256": "43b36f80b76f17646934e72f5d5d8ddac99ee66705c4185e289ceca2e16b9f20"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2b-frozen-model-panel-smoke/run_model_panel_smoke.py",
+      "size_bytes": 32756,
+      "sha256": "68127a1b047736e25a687b90b975131fcd436d8069132abc9e63a1c0fcd6205a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/RESULT.json",
+      "size_bytes": 170110,
+      "sha256": "e19619e7bcf40bc4cf816f4790e18e0f4a9138ea2cf9106fe62522c025d42faa"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/RUN.md",
+      "size_bytes": 14131,
+      "sha256": "ea3c86dd63059234d4a4ce84b39b5a8469d08e8dbdbf42d2a07cedc566bb45ca"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/VALIDATION.md",
+      "size_bytes": 3658,
+      "sha256": "bb95e220d537b68ee84942c19cdf906bf3a660248cf17ffae34d344ba6b5b85c"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/model_candidate_audit.json",
+      "size_bytes": 1567,
+      "sha256": "cebc2472b94b62edf290bbc123c870b9b0811fd6b1d6cb452faa26fc96a1825a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_analog_summary.csv",
+      "size_bytes": 3270,
+      "sha256": "fa5b47c5c323068173e6317e44510310409800de3eda7bed3b76a1052c9b0546"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_analog_summary.json",
+      "size_bytes": 9439,
+      "sha256": "afc15dfb1b62cca5b792181963b107960ac0a2424a33fb05657b442242a4bd2a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_overlays/medsam_vit_b/s40_frame_00_overlay.png",
+      "size_bytes": 353734,
+      "sha256": "2d5615f41148088c314235e8f125b9fac575bfaacd33e4a32f7645483cc593f7"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_overlays/medsam_vit_b/s40_frame_01_overlay.png",
+      "size_bytes": 354422,
+      "sha256": "f6fd39593e0a7011a8fc12496ed2adcf9e31b46256400634b7b757a8f2baa3b6"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_overlays/medsam_vit_b/s40_frame_02_overlay.png",
+      "size_bytes": 356659,
+      "sha256": "9c902dd070b714d98a222e3614299ce4923535620fa73041e33fab22a08fee12"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_overlays/medsam_vit_b/s40_frame_03_overlay.png",
+      "size_bytes": 362616,
+      "sha256": "5fd319426968bd70828860dc2f17f26d1e6747d98722b9dbf99c01382a79a184"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_overlays/medsam_vit_b/s40_frame_04_overlay.png",
+      "size_bytes": 375141,
+      "sha256": "a2f9b0377eeb536878c0007d26b70a3b76a4e7d22eefa89ecbc63fab1b33cef0"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_overlays/medsam_vit_b/s40_frame_05_overlay.png",
+      "size_bytes": 383211,
+      "sha256": "28dbc6821ee87527200609cff21102d559533f4fc828ecf60fe20051b4d3a1dd"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_overlays/sam_vit_b/s40_frame_00_overlay.png",
+      "size_bytes": 343801,
+      "sha256": "714506e5217f3dff73494ec879cc60b34fd9df9c76bab2bbace3e85c65b2702b"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_overlays/sam_vit_b/s40_frame_01_overlay.png",
+      "size_bytes": 348243,
+      "sha256": "f17ce47084e8cab277247a0fe0458b0c3e03b0b413fe4100ca1e83e944b31073"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_overlays/sam_vit_b/s40_frame_02_overlay.png",
+      "size_bytes": 352292,
+      "sha256": "c0160f56a980a0cc899cf28b076277e2bc255bc05e2c6e47903055893195fc86"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_overlays/sam_vit_b/s40_frame_03_overlay.png",
+      "size_bytes": 359264,
+      "sha256": "ff1ebc0e0e566fe13f9763405337c5478fb85aa3c9fe3db385d8267f34ad4f54"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_overlays/sam_vit_b/s40_frame_04_overlay.png",
+      "size_bytes": 374633,
+      "sha256": "0d6e493216079a90ed3afef9dc63df2140f3cf44f1f10998e1a708dd53877cc1"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_overlays/sam_vit_b/s40_frame_05_overlay.png",
+      "size_bytes": 379228,
+      "sha256": "749d242fa4d062e96eb120e897ca64be8be3e8f5bcacaeb8a7ac919de731cb5b"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_overlays/sam_vit_l/s40_frame_00_overlay.png",
+      "size_bytes": 353348,
+      "sha256": "653d828cfa057d14b7ab5ede49b8cd5ce1b2197fe82eb6c20ddf881de228cedb"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_overlays/sam_vit_l/s40_frame_01_overlay.png",
+      "size_bytes": 353957,
+      "sha256": "0f49655f7163ebfaa66e84970d3c7f16f4fa2d83d4100bd96ab7634ef35e9220"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_overlays/sam_vit_l/s40_frame_02_overlay.png",
+      "size_bytes": 358382,
+      "sha256": "5cf55251e84a04cc4de2609bf08296dcb82512573e50957b345e9b0dfb36f57b"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_overlays/sam_vit_l/s40_frame_03_overlay.png",
+      "size_bytes": 359630,
+      "sha256": "0c4c2b90bdc43c1c1bffecc3c5ba10c27558d82a731e040541876879c1c9fd67"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_overlays/sam_vit_l/s40_frame_04_overlay.png",
+      "size_bytes": 370105,
+      "sha256": "5d01ec1b3d2ef580a58eed792739032e1c904e148ade5ef9349600ea0637f765"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_overlays/sam_vit_l/s40_frame_05_overlay.png",
+      "size_bytes": 375374,
+      "sha256": "e7a8fbf5a0db75b1f9cd1ec8c87c5fdc5fe79c48d829ff39991e707f13c8a444"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_per_frame_metrics.csv",
+      "size_bytes": 9810,
+      "sha256": "d8c85715875ce650d87c339f658d8810e09e646dc2c8da69709cd881f7ef49ca"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_per_frame_metrics.json",
+      "size_bytes": 18805,
+      "sha256": "3c84287c17421250431b04b845795892eab94fbdf81631a1bde9cd138bd67e45"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/medsam_vit_b/s40_frame_00_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "d0a458bdf34c957fda7025bac64c0da2ae5bc8d24c0ac84f1fba2867303021e2"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/medsam_vit_b/s40_frame_00_mask.png",
+      "size_bytes": 6472,
+      "sha256": "5f4d17f5561d5c08f3cc4a6c0f571edf04cf4568dc85d26583b9901de85c439e"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/medsam_vit_b/s40_frame_01_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "10b1bf40fa959422794a23df351e35654b508f99b9a7b7bbbaaf868bbf83037a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/medsam_vit_b/s40_frame_01_mask.png",
+      "size_bytes": 6268,
+      "sha256": "89ff401cd8bf21175b19c7869ea8e31668fd2014fe0857a2bf7fd59f7bd97aac"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/medsam_vit_b/s40_frame_02_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "93225793c02cf63a05875d6d231002e1485e28f710179c3c21035593032a5a84"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/medsam_vit_b/s40_frame_02_mask.png",
+      "size_bytes": 6179,
+      "sha256": "db246e2f95b3ce01c2090670c3e6ffeb93c3caac38c349a14b5a8cd2f26bf49a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/medsam_vit_b/s40_frame_03_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "610e20b04ff16570ac5e6e080fe53a13a5d0635328ba11460e1b9151557b6fdb"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/medsam_vit_b/s40_frame_03_mask.png",
+      "size_bytes": 6348,
+      "sha256": "c00cbf30c34208445176f5123aae4661179580176b94a28dcf780e18e17d242e"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/medsam_vit_b/s40_frame_04_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "8aa5518f9bfc7be3cb002ce74054d42f13cf44fa1ce81fde1c143745c6fe24d7"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/medsam_vit_b/s40_frame_04_mask.png",
+      "size_bytes": 6795,
+      "sha256": "9c4ac1b56fbf786d3406b8bfa201da893d7f9800dd8de3bc860904ec40a1bea7"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/medsam_vit_b/s40_frame_05_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "0fe73cb55d311ffcad400b1515bb73eb231cb87146c12406ffb545d7df7c742a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/medsam_vit_b/s40_frame_05_mask.png",
+      "size_bytes": 7212,
+      "sha256": "d85821fd19015b27e9bbfb00db4fd2ff905c2312f0ac6f6f826f770d28f464d7"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_b/s40_frame_00_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "751e0b007f44c3f2804213bf453be038c2ecaa41bd9e5664983edc8664220348"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_b/s40_frame_00_mask.png",
+      "size_bytes": 5372,
+      "sha256": "b9f3fa7953317a006ec685dc635d7bcc0c66b187cef8966a9ccbcf93837917d7"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_b/s40_frame_01_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "9b2fbd854aa2afe17e04dd6aec17957b37e73976ad294ccde5f4d66bfe38c4b3"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_b/s40_frame_01_mask.png",
+      "size_bytes": 6044,
+      "sha256": "847eeb485ee50eadb109357a38234011b6626a33e698bbf462e1d5e1421fcc09"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_b/s40_frame_02_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "a86e7a2cdc5c36db07e3a5fbb66d75ed1d7b6c8152829630f9b2e8f4ef575992"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_b/s40_frame_02_mask.png",
+      "size_bytes": 6662,
+      "sha256": "54c978950bd4c97b26f0c8af69d50eceea8ef4ca4aebbb75dd2da054875d7680"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_b/s40_frame_03_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "722781810fbd65d6bbdc3ff5fb88c4084c51a426117e9d9bd14e2625629a4982"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_b/s40_frame_03_mask.png",
+      "size_bytes": 5899,
+      "sha256": "4d79a996a1cd797fe2c4f80808fb46f0bbf9e78cbf3eb37febe3771de09c1c89"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_b/s40_frame_04_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "273df16b2e6f6058dfe43303bf5de887efa2e85f0189a5eb34d1313f671de6f0"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_b/s40_frame_04_mask.png",
+      "size_bytes": 7421,
+      "sha256": "d302d34be23a6fa5a1b3de9835c5e0e4bd94bf5fb719edb4f8381d405ad43b7b"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_b/s40_frame_05_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "cf699695b36f2ca6a36489e5b42630f82b0ad6c48abe3121bcffd482f54e926f"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_b/s40_frame_05_mask.png",
+      "size_bytes": 6320,
+      "sha256": "f5b13725ee6ee7480f7c1286e203723b7365c5096911874bc17631ca1b6b68f9"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_l/s40_frame_00_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "d61c018128387999e4b8e9304568c699f16a6ea8f46846effe8b3e204136303d"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_l/s40_frame_00_mask.png",
+      "size_bytes": 5763,
+      "sha256": "ae2442fe13414d82a303f60a9654cbb40fdd8f4e8635fb238088b555d59b847b"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_l/s40_frame_01_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "dc8610f8c43538b553d4ad6678541465cd0fdcb0d552300c6121165734a184d9"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_l/s40_frame_01_mask.png",
+      "size_bytes": 5424,
+      "sha256": "898c8f64e456d8f775fa526c3d70e3efd9794035f1a9ae18cf86ec6e8e7cd3f5"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_l/s40_frame_02_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "a30adea49dd81ea427c3f2d792e274b80badcc9cbab893ff78a2b10e561e820a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_l/s40_frame_02_mask.png",
+      "size_bytes": 5893,
+      "sha256": "5905e6f5341cd83d249214b4137f0fd3cf10dc475d20f395f7907f6b15c36b8d"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_l/s40_frame_03_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "45f781aea3895fa7b12aa4c77b247f77635b4f0b5ead73684c4ad891a24a7c8a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_l/s40_frame_03_mask.png",
+      "size_bytes": 5175,
+      "sha256": "75c7b10bd0fa0814a58c2b9379ca1b9865b0ad6718dc9a32503e3c83fe0e9686"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_l/s40_frame_04_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "31c1159e81e6e96a800f19a276fc6134888e6e4d53e3be1bee450567dd3273c6"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_l/s40_frame_04_mask.png",
+      "size_bytes": 4931,
+      "sha256": "cd400da559c506dc1357071ff0f317a291fbe89b7cb2c0cc652fa34846dba886"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_l/s40_frame_05_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "fc2f9a6d55b9ac7bb6c69d11981a2a5301132966a780e23beab7a7a4b358d64c"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/dias_predictions/sam_vit_l/s40_frame_05_mask.png",
+      "size_bytes": 4948,
+      "sha256": "064722ed59132cba6051035cd498d80714d22e341ec8f03da21ffa7f3e4bdf58"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/environment.json",
+      "size_bytes": 109,
+      "sha256": "b00e619708b45ebd0486f0ac2c3d93f28764e2f704ff49742bad04a4be285145"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/manifest.json",
+      "size_bytes": 3883,
+      "sha256": "141841a429f74a922502fcc74a094c36730b5775ce02e6a325d8f444810721e6"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/metrics_summary.json",
+      "size_bytes": 3556,
+      "sha256": "a157f44e63e5c807f06cc8c2c50bde0b9f3d1bd12b2dd6b72be6ae87a5c99a20"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/model_ranking_rows.csv",
+      "size_bytes": 1441,
+      "sha256": "b4c1a9f585b172196143974ab708bbde37b3340d06d801971b24a2190d2d4eeb"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/model_ranking_rows.json",
+      "size_bytes": 3657,
+      "sha256": "08b25d66f6b5dceb0a7e9371b1d797eee73f3e08fa03ca32b4026ae97579d6d3"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/model_summary.csv",
+      "size_bytes": 1275,
+      "sha256": "3625623ca75e77ac5e7a967904c7bd2549e5c7f21c6bec07096470af92e5ca6f"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/model_summary.json",
+      "size_bytes": 2676,
+      "sha256": "9b1b283a8ad029df58703fe86b25a7a51b9c5bc2279db6d0042a850fe90537b3"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_degradation_summary.csv",
+      "size_bytes": 3314,
+      "sha256": "7e426574dd9569593831ef283e25f8372a134fcf51e3a3c43c9fa390f8ce9066"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_degradation_summary.json",
+      "size_bytes": 10145,
+      "sha256": "b29bb2a67735e791609175a9aefb45e7e915b6e3e52371e514e34f0091af8f88"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_per_cell_metrics.csv",
+      "size_bytes": 11218,
+      "sha256": "e0bc5e4a78468a4ec308bb668c7cfc99d8bbdb4b0a7222be016184741145903e"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_per_cell_metrics.json",
+      "size_bytes": 25226,
+      "sha256": "8e0579f8d10dd1af98aac56b2529293a4b9d7e07d853126c2fb2e955b4904ecf"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/medsam_vit_b/clean_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "9c01c9a219fe62ada3c546e73ad1f7b22dbaca115a2ed9fbca78acbc34d54de2"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/medsam_vit_b/clean_mask.png",
+      "size_bytes": 1829,
+      "sha256": "9b60067baf669f7c92810b5c426058fabdb23964808717768120a0e533f9ff48"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/medsam_vit_b/contrast_phase_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "9c01c9a219fe62ada3c546e73ad1f7b22dbaca115a2ed9fbca78acbc34d54de2"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/medsam_vit_b/contrast_phase_severity_0_mask.png",
+      "size_bytes": 1829,
+      "sha256": "9b60067baf669f7c92810b5c426058fabdb23964808717768120a0e533f9ff48"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/medsam_vit_b/contrast_phase_severity_1_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "638abed8e890ab5a73f7b9bc32fa58b147f1c1d09bcd8453002b686660ddc4f6"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/medsam_vit_b/contrast_phase_severity_1_mask.png",
+      "size_bytes": 1772,
+      "sha256": "8d9a974af9bae5ec1ad1972b436941df29920ce598795ddc1d5c965d0eaab714"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/medsam_vit_b/contrast_phase_severity_2_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "2b98b8d9ede58157f0fc9ec34b5b1821298332ad494c7abee97d0c288a95909a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/medsam_vit_b/contrast_phase_severity_2_mask.png",
+      "size_bytes": 1714,
+      "sha256": "57f36adad9ec144100980946bd0dce1221e92ab4cb5ad432816023b3c364fd48"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/medsam_vit_b/device_overlay_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "9c01c9a219fe62ada3c546e73ad1f7b22dbaca115a2ed9fbca78acbc34d54de2"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/medsam_vit_b/device_overlay_severity_0_mask.png",
+      "size_bytes": 1829,
+      "sha256": "9b60067baf669f7c92810b5c426058fabdb23964808717768120a0e533f9ff48"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/medsam_vit_b/device_overlay_severity_1_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "c2f9593b5dabf510f169353593d9126c1a3b1d5ba9d8ad3dbcb705f90d8d97f5"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/medsam_vit_b/device_overlay_severity_1_mask.png",
+      "size_bytes": 2089,
+      "sha256": "ee4f95b44a565197a58158fb73dd1972bd87684187d9088abf2cd8b10e1807a6"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/medsam_vit_b/device_overlay_severity_2_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "63bfa6a7badc106c555b9734b69965be3c240248210af1742997ae439176be0b"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/medsam_vit_b/device_overlay_severity_2_mask.png",
+      "size_bytes": 2290,
+      "sha256": "d513e16ffd69576c235e4f35f178d535efc55ba1d71126902d537e8d804f25b5"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/medsam_vit_b/frame_thinning_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "9c01c9a219fe62ada3c546e73ad1f7b22dbaca115a2ed9fbca78acbc34d54de2"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/medsam_vit_b/frame_thinning_severity_0_mask.png",
+      "size_bytes": 1829,
+      "sha256": "9b60067baf669f7c92810b5c426058fabdb23964808717768120a0e533f9ff48"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/medsam_vit_b/frame_thinning_severity_1_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "9c01c9a219fe62ada3c546e73ad1f7b22dbaca115a2ed9fbca78acbc34d54de2"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/medsam_vit_b/frame_thinning_severity_1_mask.png",
+      "size_bytes": 1829,
+      "sha256": "9b60067baf669f7c92810b5c426058fabdb23964808717768120a0e533f9ff48"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/medsam_vit_b/frame_thinning_severity_2_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "e1b502f8339483d2aca314ce3accc2a5820385fbf3ec9145727bbd8a56c17c92"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/medsam_vit_b/frame_thinning_severity_2_mask.png",
+      "size_bytes": 1744,
+      "sha256": "2dc9a4b15c3078108f2bd35e5bc6d54975c92a110ab7a3268dfb8c4378a18b64"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_b/clean_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "c61b13624410853aece325800f9c775ba3eba00b100ed6f0f2825ca9f8281b19"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_b/clean_mask.png",
+      "size_bytes": 1101,
+      "sha256": "24db11ca8df078ef8e7fe40c3d4afe6030be2cf4c2704f8502c011afdbb05832"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_b/contrast_phase_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "c61b13624410853aece325800f9c775ba3eba00b100ed6f0f2825ca9f8281b19"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_b/contrast_phase_severity_0_mask.png",
+      "size_bytes": 1101,
+      "sha256": "24db11ca8df078ef8e7fe40c3d4afe6030be2cf4c2704f8502c011afdbb05832"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_b/contrast_phase_severity_1_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "bbdb5750df84e3d3d255589831317e4bbe4a59f1885ff7d6ef3c777c743d7dbc"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_b/contrast_phase_severity_1_mask.png",
+      "size_bytes": 1140,
+      "sha256": "c8c28cdb68e3b4fd1ef3b276bc725747b5a7eeda04ff357831c9726e81f27304"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_b/contrast_phase_severity_2_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "26b1bfcd4206b67951462c8c20f267306f50bff8b799bece411bebb16e6ebd71"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_b/contrast_phase_severity_2_mask.png",
+      "size_bytes": 1141,
+      "sha256": "1e4129dde3107cd00addc813ce80ff83d0c8fcea0af9721674684285e12b4140"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_b/device_overlay_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "c61b13624410853aece325800f9c775ba3eba00b100ed6f0f2825ca9f8281b19"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_b/device_overlay_severity_0_mask.png",
+      "size_bytes": 1101,
+      "sha256": "24db11ca8df078ef8e7fe40c3d4afe6030be2cf4c2704f8502c011afdbb05832"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_b/device_overlay_severity_1_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "7c88797f3684f17f8c73e7cee40f4d8d391aca7e6565d2fa7cc842aae85c3e1a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_b/device_overlay_severity_1_mask.png",
+      "size_bytes": 3041,
+      "sha256": "3de58fc3b1c57abf7ea569b5b7b1f5bfb0471b7c5149355d4a84f982df4bcb11"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_b/device_overlay_severity_2_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "ae1293a461fd55f2a3d256424b5818178187cf0e6151267b7e4ff25170881c83"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_b/device_overlay_severity_2_mask.png",
+      "size_bytes": 2708,
+      "sha256": "e94d27af2698dbbce475a98cd45e5f6caade507663f74bb9b131ff7f90f1527f"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_b/frame_thinning_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "c61b13624410853aece325800f9c775ba3eba00b100ed6f0f2825ca9f8281b19"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_b/frame_thinning_severity_0_mask.png",
+      "size_bytes": 1101,
+      "sha256": "24db11ca8df078ef8e7fe40c3d4afe6030be2cf4c2704f8502c011afdbb05832"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_b/frame_thinning_severity_1_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "c61b13624410853aece325800f9c775ba3eba00b100ed6f0f2825ca9f8281b19"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_b/frame_thinning_severity_1_mask.png",
+      "size_bytes": 1101,
+      "sha256": "24db11ca8df078ef8e7fe40c3d4afe6030be2cf4c2704f8502c011afdbb05832"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_b/frame_thinning_severity_2_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "13352b82fbcd19c21503891dfa542ba7cc06ab3deba830326b38d7a0b4ffc029"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_b/frame_thinning_severity_2_mask.png",
+      "size_bytes": 1130,
+      "sha256": "43b36f80b76f17646934e72f5d5d8ddac99ee66705c4185e289ceca2e16b9f20"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_l/clean_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "06cf5b261f69e4dbbebcb27611578424ce5c3fd201af6def1dd7af72c32f477d"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_l/clean_mask.png",
+      "size_bytes": 1099,
+      "sha256": "0e90f46dedcc93e8624bb1e3a7147345a4c2c3a2f899611c4ac8ab0bb264f65a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_l/contrast_phase_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "06cf5b261f69e4dbbebcb27611578424ce5c3fd201af6def1dd7af72c32f477d"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_l/contrast_phase_severity_0_mask.png",
+      "size_bytes": 1099,
+      "sha256": "0e90f46dedcc93e8624bb1e3a7147345a4c2c3a2f899611c4ac8ab0bb264f65a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_l/contrast_phase_severity_1_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "a3128fbce442f1f80a9aaf3147159248e10e36a70d2190db841a4de99715d973"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_l/contrast_phase_severity_1_mask.png",
+      "size_bytes": 1107,
+      "sha256": "7d20da5c89dd00e8bfb56aa12f76914ec01528314ea1522ffe2217c6669f1e98"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_l/contrast_phase_severity_2_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "e1350915af3c4227c733b5f014969ccdaf3370caebe90a2316f48edf81c251a3"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_l/contrast_phase_severity_2_mask.png",
+      "size_bytes": 1108,
+      "sha256": "2dcdc0552aa09a74dbf148b52b6c7969d17cb0e89ca5bffa937d8af974453c31"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_l/device_overlay_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "06cf5b261f69e4dbbebcb27611578424ce5c3fd201af6def1dd7af72c32f477d"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_l/device_overlay_severity_0_mask.png",
+      "size_bytes": 1099,
+      "sha256": "0e90f46dedcc93e8624bb1e3a7147345a4c2c3a2f899611c4ac8ab0bb264f65a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_l/device_overlay_severity_1_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "79628da3bfd8064ad39366c81395d35210472b7543d33b4badefbcfcfdcd6e13"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_l/device_overlay_severity_1_mask.png",
+      "size_bytes": 1449,
+      "sha256": "2014a65f392b5bd04a318054604987333553908e2402e52d95d48b57939d9254"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_l/device_overlay_severity_2_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "bf5b84745c812aaca8e1bdef8fe0949478a1e69625b9338108a41ab4f59894b4"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_l/device_overlay_severity_2_mask.png",
+      "size_bytes": 1431,
+      "sha256": "b5015da0fbccfd625de58e7b5b01b7c4a66669720f430ba047093c3964be3192"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_l/frame_thinning_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "06cf5b261f69e4dbbebcb27611578424ce5c3fd201af6def1dd7af72c32f477d"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_l/frame_thinning_severity_0_mask.png",
+      "size_bytes": 1099,
+      "sha256": "0e90f46dedcc93e8624bb1e3a7147345a4c2c3a2f899611c4ac8ab0bb264f65a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_l/frame_thinning_severity_1_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "06cf5b261f69e4dbbebcb27611578424ce5c3fd201af6def1dd7af72c32f477d"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_l/frame_thinning_severity_1_mask.png",
+      "size_bytes": 1099,
+      "sha256": "0e90f46dedcc93e8624bb1e3a7147345a4c2c3a2f899611c4ac8ab0bb264f65a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_l/frame_thinning_severity_2_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "ac3331152b72d32e6bfbbdd45c9f0b1a0c1b17d180b12fe8f39ac37f92333e22"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs/synthetic_predictions/sam_vit_l/frame_thinning_severity_2_mask.png",
+      "size_bytes": 1099,
+      "sha256": "0daa43d289dc527f2ced25db71ed136ad1355998713510fa3abe773924c3293d"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/dias_analog_summary.csv",
+      "size_bytes": 2658,
+      "sha256": "52dab118e7310102566eed6bcbbf0d502042da7fb1246995fa093a23649d6b4e"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/dias_analog_summary.json",
+      "size_bytes": 8473,
+      "sha256": "5cd02bc093d710ece20612c4f4ed8de1866c0bbb77705cbbf1d8b7da2821d1a6"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/dias_overlays/medsam_vit_b/s40_frame_00_overlay.png",
+      "size_bytes": 353734,
+      "sha256": "2d5615f41148088c314235e8f125b9fac575bfaacd33e4a32f7645483cc593f7"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/dias_overlays/sam_vit_b/s40_frame_00_overlay.png",
+      "size_bytes": 343801,
+      "sha256": "714506e5217f3dff73494ec879cc60b34fd9df9c76bab2bbace3e85c65b2702b"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/dias_overlays/sam_vit_l/s40_frame_00_overlay.png",
+      "size_bytes": 353348,
+      "sha256": "653d828cfa057d14b7ab5ede49b8cd5ce1b2197fe82eb6c20ddf881de228cedb"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/dias_per_frame_metrics.csv",
+      "size_bytes": 1862,
+      "sha256": "a79b9029c374b1458867c1b046688c1acf3555420f36647822e1641e95736100"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/dias_per_frame_metrics.json",
+      "size_bytes": 3147,
+      "sha256": "0c47726536a3be256636cc1e71c2f7ec06ceddcaa20117cfae5ac4d79c810909"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/dias_predictions/medsam_vit_b/s40_frame_00_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "d0a458bdf34c957fda7025bac64c0da2ae5bc8d24c0ac84f1fba2867303021e2"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/dias_predictions/medsam_vit_b/s40_frame_00_mask.png",
+      "size_bytes": 6472,
+      "sha256": "5f4d17f5561d5c08f3cc4a6c0f571edf04cf4568dc85d26583b9901de85c439e"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/dias_predictions/sam_vit_b/s40_frame_00_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "751e0b007f44c3f2804213bf453be038c2ecaa41bd9e5664983edc8664220348"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/dias_predictions/sam_vit_b/s40_frame_00_mask.png",
+      "size_bytes": 5372,
+      "sha256": "b9f3fa7953317a006ec685dc635d7bcc0c66b187cef8966a9ccbcf93837917d7"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/dias_predictions/sam_vit_l/s40_frame_00_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "d61c018128387999e4b8e9304568c699f16a6ea8f46846effe8b3e204136303d"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/dias_predictions/sam_vit_l/s40_frame_00_mask.png",
+      "size_bytes": 5763,
+      "sha256": "ae2442fe13414d82a303f60a9654cbb40fdd8f4e8635fb238088b555d59b847b"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/environment.json",
+      "size_bytes": 109,
+      "sha256": "b00e619708b45ebd0486f0ac2c3d93f28764e2f704ff49742bad04a4be285145"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/manifest.json",
+      "size_bytes": 3882,
+      "sha256": "5e6832749bef217fa3db2858760309beadcd158e6e4dfdb6f2f2cd1da252d628"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/metrics_summary.json",
+      "size_bytes": 3393,
+      "sha256": "1efb1ad7690941a2ff597d7b44baeaee307bd0eb639579a552101eb6de402637"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/model_ranking_rows.csv",
+      "size_bytes": 1283,
+      "sha256": "4c8fc092a64224ce49846aa850d90dd8b2078b904bb358b5f83f46331ec25817"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/model_ranking_rows.json",
+      "size_bytes": 3499,
+      "sha256": "ba2a7350c7a7e218f49d0299cc63ff95fe6554c11996c073ee781b767dddc2ec"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/model_summary.csv",
+      "size_bytes": 1114,
+      "sha256": "8a885e98c131342c25775fb6c289f6ae4aac182a181ffa21c75478f22d904fe5"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/model_summary.json",
+      "size_bytes": 2515,
+      "sha256": "bb0b359d5123123ac8a8e452a5fdb454606a799754e042d03e72d63c99a1c40d"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/synthetic_degradation_summary.csv",
+      "size_bytes": 405,
+      "sha256": "8aae9330467ddf793d678253b6115ef5a7d4c0393f83016543ec8cee7108cc5c"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/synthetic_degradation_summary.json",
+      "size_bytes": 1044,
+      "sha256": "4100c8b4f19dca70679ae633cc5518f25dca5871aafd009db4d1956b42cd4110"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/synthetic_per_cell_metrics.csv",
+      "size_bytes": 2155,
+      "sha256": "ae0d594273ae86ca0925da167c79a082b0ff53e4fbb0ddb64bacd7194c2c4f07"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/synthetic_per_cell_metrics.json",
+      "size_bytes": 4763,
+      "sha256": "a0c87bc93176ed0e352b9b2de12ccbd34e933a1998004f4326c8484d75eb8ed6"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/synthetic_predictions/medsam_vit_b/clean_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "9c01c9a219fe62ada3c546e73ad1f7b22dbaca115a2ed9fbca78acbc34d54de2"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/synthetic_predictions/medsam_vit_b/clean_mask.png",
+      "size_bytes": 1829,
+      "sha256": "9b60067baf669f7c92810b5c426058fabdb23964808717768120a0e533f9ff48"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/synthetic_predictions/medsam_vit_b/frame_thinning_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "9c01c9a219fe62ada3c546e73ad1f7b22dbaca115a2ed9fbca78acbc34d54de2"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/synthetic_predictions/medsam_vit_b/frame_thinning_severity_0_mask.png",
+      "size_bytes": 1829,
+      "sha256": "9b60067baf669f7c92810b5c426058fabdb23964808717768120a0e533f9ff48"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/synthetic_predictions/sam_vit_b/clean_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "c61b13624410853aece325800f9c775ba3eba00b100ed6f0f2825ca9f8281b19"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/synthetic_predictions/sam_vit_b/clean_mask.png",
+      "size_bytes": 1101,
+      "sha256": "24db11ca8df078ef8e7fe40c3d4afe6030be2cf4c2704f8502c011afdbb05832"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/synthetic_predictions/sam_vit_b/frame_thinning_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "c61b13624410853aece325800f9c775ba3eba00b100ed6f0f2825ca9f8281b19"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/synthetic_predictions/sam_vit_b/frame_thinning_severity_0_mask.png",
+      "size_bytes": 1101,
+      "sha256": "24db11ca8df078ef8e7fe40c3d4afe6030be2cf4c2704f8502c011afdbb05832"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/synthetic_predictions/sam_vit_l/clean_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "06cf5b261f69e4dbbebcb27611578424ce5c3fd201af6def1dd7af72c32f477d"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/synthetic_predictions/sam_vit_l/clean_mask.png",
+      "size_bytes": 1099,
+      "sha256": "0e90f46dedcc93e8624bb1e3a7147345a4c2c3a2f899611c4ac8ab0bb264f65a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/synthetic_predictions/sam_vit_l/frame_thinning_severity_0_mask.npy",
+      "size_bytes": 65664,
+      "sha256": "06cf5b261f69e4dbbebcb27611578424ce5c3fd201af6def1dd7af72c32f477d"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/outputs_smoke/synthetic_predictions/sam_vit_l/frame_thinning_severity_0_mask.png",
+      "size_bytes": 1099,
+      "sha256": "0e90f46dedcc93e8624bb1e3a7147345a4c2c3a2f899611c4ac8ab0bb264f65a"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s2c-third-frozen-model-panel-extension/run_model_panel_smoke.py",
+      "size_bytes": 34663,
+      "sha256": "5ae58d5e31fd14af41e960d7f0aae9280975f2a3886d0df1ec265e153cbf589f"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/RESULT.json",
+      "size_bytes": 141685,
+      "sha256": "16626f4c738b7509bf1dafba0c7b5cdae72d3900ccce32fb25d227fd089d6193"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/RUN.md",
+      "size_bytes": 13220,
+      "sha256": "e54fd77e16cafd456eabe7d2180f87739e29a97f03c10cef49b1d3450b8e1be5"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/VALIDATION.md",
+      "size_bytes": 3272,
+      "sha256": "f5fad057fc6e61c186f6296e85640193a21bce944bbb7970a2fb3944c41806ba"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/analog_summary.csv",
+      "size_bytes": 1142,
+      "sha256": "fbe63b61aef8bc701815220d2f4e3c4d0cf656cf33dfbe3c0436baf68de7e2d9"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/analog_summary.json",
+      "size_bytes": 2974,
+      "sha256": "39db4b5960600ac9390a123219b05e2dda6f64e95ef117ec4d9c47153b0e0904"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/dias_s40_sam_overlay_panel.png",
+      "size_bytes": 449329,
+      "sha256": "1016c4c5e01cab17e9e6c7676fe3c0964aad689bcec36e3df560eafdd807459e"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/environment.json",
+      "size_bytes": 109,
+      "sha256": "b00e619708b45ebd0486f0ac2c3d93f28764e2f704ff49742bad04a4be285145"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/manifest.json",
+      "size_bytes": 2397,
+      "sha256": "506b8a0511fa9a36b551e5b73dee1abf8c6326382ab26e312b8d41d56112dba1"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/metrics_summary.json",
+      "size_bytes": 2534,
+      "sha256": "6d99f149e82ffe349c97535c6f7c5cc2eaa2d0789fce8d2b866a421cb385d205"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/overlays/s40_frame_00_overlay.png",
+      "size_bytes": 343801,
+      "sha256": "714506e5217f3dff73494ec879cc60b34fd9df9c76bab2bbace3e85c65b2702b"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/overlays/s40_frame_01_overlay.png",
+      "size_bytes": 348243,
+      "sha256": "f17ce47084e8cab277247a0fe0458b0c3e03b0b413fe4100ca1e83e944b31073"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/overlays/s40_frame_02_overlay.png",
+      "size_bytes": 352292,
+      "sha256": "c0160f56a980a0cc899cf28b076277e2bc255bc05e2c6e47903055893195fc86"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/overlays/s40_frame_03_overlay.png",
+      "size_bytes": 359264,
+      "sha256": "ff1ebc0e0e566fe13f9763405337c5478fb85aa3c9fe3db385d8267f34ad4f54"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/overlays/s40_frame_04_overlay.png",
+      "size_bytes": 374633,
+      "sha256": "0d6e493216079a90ed3afef9dc63df2140f3cf44f1f10998e1a708dd53877cc1"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/overlays/s40_frame_05_overlay.png",
+      "size_bytes": 379228,
+      "sha256": "749d242fa4d062e96eb120e897ca64be8be3e8f5bcacaeb8a7ac919de731cb5b"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/per_frame_metrics.csv",
+      "size_bytes": 2366,
+      "sha256": "e73c70e79fb56264aac209d63b4c522bfd87c86e59039d38cf36890fdb69af01"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/per_frame_metrics.json",
+      "size_bytes": 4964,
+      "sha256": "b9e172e8f32ab2ae1f3770898e05e791b03b30ea83e27c90056507271ab88b77"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/predictions/s40_frame_00_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "751e0b007f44c3f2804213bf453be038c2ecaa41bd9e5664983edc8664220348"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/predictions/s40_frame_00_mask.png",
+      "size_bytes": 5372,
+      "sha256": "b9f3fa7953317a006ec685dc635d7bcc0c66b187cef8966a9ccbcf93837917d7"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/predictions/s40_frame_01_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "9b2fbd854aa2afe17e04dd6aec17957b37e73976ad294ccde5f4d66bfe38c4b3"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/predictions/s40_frame_01_mask.png",
+      "size_bytes": 6044,
+      "sha256": "847eeb485ee50eadb109357a38234011b6626a33e698bbf462e1d5e1421fcc09"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/predictions/s40_frame_02_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "a86e7a2cdc5c36db07e3a5fbb66d75ed1d7b6c8152829630f9b2e8f4ef575992"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/predictions/s40_frame_02_mask.png",
+      "size_bytes": 6662,
+      "sha256": "54c978950bd4c97b26f0c8af69d50eceea8ef4ca4aebbb75dd2da054875d7680"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/predictions/s40_frame_03_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "722781810fbd65d6bbdc3ff5fb88c4084c51a426117e9d9bd14e2625629a4982"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/predictions/s40_frame_03_mask.png",
+      "size_bytes": 5899,
+      "sha256": "4d79a996a1cd797fe2c4f80808fb46f0bbf9e78cbf3eb37febe3771de09c1c89"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/predictions/s40_frame_04_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "273df16b2e6f6058dfe43303bf5de887efa2e85f0189a5eb34d1313f671de6f0"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/predictions/s40_frame_04_mask.png",
+      "size_bytes": 7421,
+      "sha256": "d302d34be23a6fa5a1b3de9835c5e0e4bd94bf5fb719edb4f8381d405ad43b7b"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/predictions/s40_frame_05_mask.npy",
+      "size_bytes": 640128,
+      "sha256": "cf699695b36f2ca6a36489e5b42630f82b0ad6c48abe3121bcffd482f54e926f"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/predictions/s40_frame_05_mask.png",
+      "size_bytes": 6320,
+      "sha256": "f5b13725ee6ee7480f7c1286e203723b7365c5096911874bc17631ca1b6b68f9"
+    },
+    {
+      "path": "code/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/run_dias_sam_analog_smoke.py",
+      "size_bytes": 20149,
+      "sha256": "aaea2a9362d96a55162790a5c15816b21310c2678966927b1b675af265f380d3"
     },
     {
       "path": "derived/experiments-main/run-angiostress-s0s1-renderer-smoke/RESULT.json",
@@ -482,226 +2538,6 @@
       "path": "derived/experiments-main/run-angiostress-s3-dias-frozen-model-analog-smoke/outputs/per_frame_metrics.json",
       "size_bytes": 4964,
       "sha256": "b9e172e8f32ab2ae1f3770898e05e791b03b30ea83e27c90056507271ab88b77"
-    },
-    {
-      "path": "paper/claim_evidence_map.json",
-      "size_bytes": 3965,
-      "sha256": "1433654f96a341bfc7104bcbd5730e1bf28e5f0c9c6bc3f19ce9b738ca755bac"
-    },
-    {
-      "path": "paper/claim_evidence_map.md",
-      "size_bytes": 3331,
-      "sha256": "ddb17445464d1b80723da4a2798acdc80f47fa3a3f941adc098171531d3cfd77"
-    },
-    {
-      "path": "paper/draft.md",
-      "size_bytes": 16319,
-      "sha256": "91697f5c05cdab829c7396f044377a2a9380d70095004c4766d3fb27c9ae80cb"
-    },
-    {
-      "path": "paper/evidence_ledger.json",
-      "size_bytes": 37039,
-      "sha256": "a9417c6e01b0a210f8ad41a62707e7511bdc01969a3c7b9d80ddb542c6d670ee"
-    },
-    {
-      "path": "paper/evidence_ledger.md",
-      "size_bytes": 5647,
-      "sha256": "0a1c4723830531633a4e9ec47eba62e208c8513bea9f447d87be9c9c4ecc531d"
-    },
-    {
-      "path": "paper/figures/data/model_surface_dice.csv",
-      "size_bytes": 903,
-      "sha256": "227772c30fabb919fd8c83318c93bffa7c4d9f8d8773aa48e1397efd03cfb769"
-    },
-    {
-      "path": "paper/figures/figure1_model_surface_dice.md",
-      "size_bytes": 1225,
-      "sha256": "d36041d71f75ec01f1d7b8eb19d4ef9c1189da591cd64e30b3eee1ffd3dccb5f"
-    },
-    {
-      "path": "paper/figures/figure1_model_surface_dice.pdf",
-      "size_bytes": 32116,
-      "sha256": "15e7052f2a837037f6bf807ddd1c3edfd22e1d7c096a4a6da01eda33c0a4385a"
-    },
-    {
-      "path": "paper/figures/figure1_model_surface_dice.png",
-      "size_bytes": 87044,
-      "sha256": "1ae1568b035173b0785f1d36e09581aac248b9a838f8b8fc0d67df45cdebca97"
-    },
-    {
-      "path": "paper/figures/figure_catalog.json",
-      "size_bytes": 941,
-      "sha256": "39038327c602337de9ddb0c0261300734bafd6a10a38628a56a02585e5fa841a"
-    },
-    {
-      "path": "paper/figures/scripts/figure1_model_surface_dice.py",
-      "size_bytes": 4118,
-      "sha256": "63edf6d0edc4e9d655d5ec2c098cc738ddf2b514b671441a9bc47689a8955576"
-    },
-    {
-      "path": "paper/finalize/final_claim_ledger.json",
-      "size_bytes": 10785,
-      "sha256": "dbff78de8b9ed6553bd2ee1665b7a8d0327f56e433e97d6efbdc42822bc6ca3a"
-    },
-    {
-      "path": "paper/finalize/final_claim_ledger.md",
-      "size_bytes": 8621,
-      "sha256": "8847447bc92792c1fe29f57a58451c95b7e29a2c7f39147d5c37c9b1fd6187b3"
-    },
-    {
-      "path": "paper/finalize/finalize_report.md",
-      "size_bytes": 3681,
-      "sha256": "f22561d0b90b6523f83d6763d2ade21b71a717229a720aa335611b5f1f11b40f"
-    },
-    {
-      "path": "paper/finalize/package_inventory.json",
-      "size_bytes": 8619,
-      "sha256": "3af66cbde57928e8cda24ff3c436a54af6c0aed95046721f1d3f85b39e7ae09f"
-    },
-    {
-      "path": "paper/finalize/resume_packet.md",
-      "size_bytes": 1117,
-      "sha256": "664430dd9b475fb3f20247c686fdc2f096e4fcedb5cf0c14b6b20f36668b7365"
-    },
-    {
-      "path": "paper/manuscript_coverage.json",
-      "size_bytes": 3709,
-      "sha256": "cfc18941b88d53deb91931e9cd84fc85c4686b279773d9e472f3dd5e98b48ac2"
-    },
-    {
-      "path": "paper/manuscript_language_validation.json",
-      "size_bytes": 224,
-      "sha256": "27a02b7e4120bf8418ea3c137a10de1c242ea4473e081ac3017e2a7063f2ec47"
-    },
-    {
-      "path": "paper/outline/evidence_view.json",
-      "size_bytes": 1141,
-      "sha256": "8ffb2043fbcab89f1c52f5bd9487a5414c8d95f1e3c652b098eff48ad136dbd9"
-    },
-    {
-      "path": "paper/outline/manifest.json",
-      "size_bytes": 40356,
-      "sha256": "6f02d62f39b31d89892a9cb1757a2bee1c4c3dd2db9d034cac26805c1222996d"
-    },
-    {
-      "path": "paper/outline/paper_view.json",
-      "size_bytes": 15015,
-      "sha256": "9d4c1e96731938f396a8011e3affaa500d6797d4fe274603589d739dad819d28"
-    },
-    {
-      "path": "paper/outline/paper_view.md",
-      "size_bytes": 7478,
-      "sha256": "5cd49aad033579dbb1eddb75e5322c3de2837e3aefabc753c3f7cf05fc83059b"
-    },
-    {
-      "path": "paper/outline/sections/main-results/experiment_setup.md",
-      "size_bytes": 2047,
-      "sha256": "691a17d9f72b5dd325c5549f24241a68aaad6758b7cd1d7a0297d33de9d3d0a6"
-    },
-    {
-      "path": "paper/outline/sections/main-results/findings.md",
-      "size_bytes": 4649,
-      "sha256": "0f2392bcf4d5da8857a253d60772a48bdabef91428a13d8ebb9dbdb98f24fe3a"
-    },
-    {
-      "path": "paper/outline/sections/main-results/impact.md",
-      "size_bytes": 98,
-      "sha256": "4d3a7ab451c3b5bde9a3fce8c3b5f41b4e8c4012771668bf7e08b7dc242bafb1"
-    },
-    {
-      "path": "paper/outline/sections/main-results/result_table.json",
-      "size_bytes": 20160,
-      "sha256": "24304ed4c2b17f6e488bee4dd478e2170ce3bc24892306e73961df495058d998"
-    },
-    {
-      "path": "paper/outline/sections/main-results/section.md",
-      "size_bytes": 488,
-      "sha256": "a2b8b00d2139472439173f6121a9a16ac9a34d72a04806e1164e455ac8f3a5fa"
-    },
-    {
-      "path": "paper/paper_bundle_manifest.json",
-      "size_bytes": 2140,
-      "sha256": "5d7a61f5880f953d26d7d15d17bcf2d3740d7aa1ffa58f55088711e1db117529"
-    },
-    {
-      "path": "paper/paper_experiment_matrix.json",
-      "size_bytes": 18850,
-      "sha256": "a5b953f3e583d292a74ba7dd45972c433303e0ea061198b8f61afc58eb853f8a"
-    },
-    {
-      "path": "paper/paper_experiment_matrix.md",
-      "size_bytes": 5293,
-      "sha256": "c4abe70c3dd27433d60e33e661563d92fc63bd97545339430cd9f2608269354d"
-    },
-    {
-      "path": "paper/references.bib",
-      "size_bytes": 3775,
-      "sha256": "aafc200820c491e7c0366e5eb46920d666ea3e35b7e15ace8265abcf57e5920c"
-    },
-    {
-      "path": "paper/release_links.json",
-      "size_bytes": 460,
-      "sha256": "4874ae65799cf6258efb19728d02b5a39b48967387ec5d0efeab04cd20c72d1f"
-    },
-    {
-      "path": "paper/review/submission_checklist.json",
-      "size_bytes": 3375,
-      "sha256": "5bbea85bbcb0fa5e1162ead49b31371bb74e8231130da5dfed939b989be2f1d2"
-    },
-    {
-      "path": "paper/review/submission_checklist.md",
-      "size_bytes": 1270,
-      "sha256": "e87ff5e2595e322c877cb45bfd0080c54def356ff7e5099aeb57397315736755"
-    },
-    {
-      "path": "paper/selected_outline.json",
-      "size_bytes": 62215,
-      "sha256": "2fdfb3aa37269081ed186a42386d00b39a90588e7cea1f1bfcdfd698f25ffd96"
-    },
-    {
-      "path": "paper/submission/compile_report.json",
-      "size_bytes": 2270,
-      "sha256": "ba631770618aa087141b8eb2e42f2129d15f51d0c18266b90e705179f2e9e758"
-    },
-    {
-      "path": "paper/submission/manuscript.pdf",
-      "size_bytes": 138580,
-      "sha256": "8664037ca69042b930eb2318ce31bb9ed451b3721822b4cf66d42b00537a876a"
-    },
-    {
-      "path": "paper/submission/manuscript.tex",
-      "size_bytes": 20247,
-      "sha256": "f7671e6d08150ff0e78f971b7963ae3a6828d5b179632d999c5502a756715ae4"
-    },
-    {
-      "path": "paper/submission_checklist.json",
-      "size_bytes": 3375,
-      "sha256": "5bbea85bbcb0fa5e1162ead49b31371bb74e8231130da5dfed939b989be2f1d2"
-    },
-    {
-      "path": "paper/submission_checklist.md",
-      "size_bytes": 1270,
-      "sha256": "e87ff5e2595e322c877cb45bfd0080c54def356ff7e5099aeb57397315736755"
-    },
-    {
-      "path": "paper/tables/table1_rank_summary.md",
-      "size_bytes": 1273,
-      "sha256": "1f442dd9e333fbb06365b633b7c519cb995a451af41b974e398c1e5c2b5414c7"
-    },
-    {
-      "path": "paper/tables/table2_protocol_summary.md",
-      "size_bytes": 2093,
-      "sha256": "516bc5bba961b3249d99bf404b0644b22ae3763459a57c8fd16e7af4cdf086a8"
-    },
-    {
-      "path": "paper/writing_plan.json",
-      "size_bytes": 13943,
-      "sha256": "970b4e6e5aaaf3f7786c8ad670b5be9f957fb025bfff590a8227c6e87365d84d"
-    },
-    {
-      "path": "paper/writing_plan.md",
-      "size_bytes": 1688,
-      "sha256": "c40f6bb9ce6af6a9788d07e364598bdba555a136f9f4c2c3e500ddf0764bacac"
     }
   ]
 }

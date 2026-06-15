@@ -1,0 +1,1075 @@
+{
+  "paired_sequence_count": 0,
+  "sequence_count": 60,
+  "sequences": [
+    {
+      "first_image_path": "DIAS/test/images/image_s40_i0.png",
+      "first_label_path": null,
+      "image_count": 6,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s40",
+      "split": "test"
+    },
+    {
+      "first_image_path": "DIAS/test/images/image_s41_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s41",
+      "split": "test"
+    },
+    {
+      "first_image_path": "DIAS/test/images/image_s42_i0.png",
+      "first_label_path": null,
+      "image_count": 8,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s42",
+      "split": "test"
+    },
+    {
+      "first_image_path": "DIAS/test/images/image_s43_i0.png",
+      "first_label_path": null,
+      "image_count": 7,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s43",
+      "split": "test"
+    },
+    {
+      "first_image_path": "DIAS/test/images/image_s44_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s44",
+      "split": "test"
+    },
+    {
+      "first_image_path": "DIAS/test/images/image_s45_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s45",
+      "split": "test"
+    },
+    {
+      "first_image_path": "DIAS/test/images/image_s46_i0.png",
+      "first_label_path": null,
+      "image_count": 7,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s46",
+      "split": "test"
+    },
+    {
+      "first_image_path": "DIAS/test/images/image_s47_i0.png",
+      "first_label_path": null,
+      "image_count": 7,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s47",
+      "split": "test"
+    },
+    {
+      "first_image_path": "DIAS/test/images/image_s48_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s48",
+      "split": "test"
+    },
+    {
+      "first_image_path": "DIAS/test/images/image_s49_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s49",
+      "split": "test"
+    },
+    {
+      "first_image_path": "DIAS/test/images/image_s50_i0.png",
+      "first_label_path": null,
+      "image_count": 8,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s50",
+      "split": "test"
+    },
+    {
+      "first_image_path": "DIAS/test/images/image_s51_i0.png",
+      "first_label_path": null,
+      "image_count": 6,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s51",
+      "split": "test"
+    },
+    {
+      "first_image_path": "DIAS/test/images/image_s52_i0.png",
+      "first_label_path": null,
+      "image_count": 4,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s52",
+      "split": "test"
+    },
+    {
+      "first_image_path": "DIAS/test/images/image_s53_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s53",
+      "split": "test"
+    },
+    {
+      "first_image_path": "DIAS/test/images/image_s54_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s54",
+      "split": "test"
+    },
+    {
+      "first_image_path": "DIAS/test/images/image_s55_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s55",
+      "split": "test"
+    },
+    {
+      "first_image_path": "DIAS/test/images/image_s56_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s56",
+      "split": "test"
+    },
+    {
+      "first_image_path": "DIAS/test/images/image_s57_i0.png",
+      "first_label_path": null,
+      "image_count": 4,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s57",
+      "split": "test"
+    },
+    {
+      "first_image_path": "DIAS/test/images/image_s58_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s58",
+      "split": "test"
+    },
+    {
+      "first_image_path": "DIAS/test/images/image_s59_i0.png",
+      "first_label_path": null,
+      "image_count": 8,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s59",
+      "split": "test"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s0_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s0",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s1_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s1",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s2_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s2",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s3_i0.png",
+      "first_label_path": null,
+      "image_count": 6,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s3",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s4_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s4",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s5_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s5",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s6_i0.png",
+      "first_label_path": null,
+      "image_count": 4,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s6",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s7_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s7",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s8_i0.png",
+      "first_label_path": null,
+      "image_count": 6,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s8",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s9_i0.png",
+      "first_label_path": null,
+      "image_count": 6,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s9",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s10_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s10",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s11_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s11",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s12_i0.png",
+      "first_label_path": null,
+      "image_count": 4,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s12",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s13_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s13",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s14_i0.png",
+      "first_label_path": null,
+      "image_count": 4,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s14",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s15_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s15",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s16_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s16",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s17_i0.png",
+      "first_label_path": null,
+      "image_count": 4,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s17",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s18_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s18",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s19_i0.png",
+      "first_label_path": null,
+      "image_count": 6,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s19",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s20_i0.png",
+      "first_label_path": null,
+      "image_count": 7,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s20",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s21_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s21",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s22_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s22",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s23_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s23",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s24_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s24",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s25_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s25",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s26_i0.png",
+      "first_label_path": null,
+      "image_count": 6,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s26",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s27_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s27",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s28_i0.png",
+      "first_label_path": null,
+      "image_count": 4,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s28",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/training/images/image_s29_i0.png",
+      "first_label_path": null,
+      "image_count": 4,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s29",
+      "split": "training"
+    },
+    {
+      "first_image_path": "DIAS/validation/images/image_s30_i0.png",
+      "first_label_path": null,
+      "image_count": 7,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s30",
+      "split": "validation"
+    },
+    {
+      "first_image_path": "DIAS/validation/images/image_s31_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s31",
+      "split": "validation"
+    },
+    {
+      "first_image_path": "DIAS/validation/images/image_s32_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s32",
+      "split": "validation"
+    },
+    {
+      "first_image_path": "DIAS/validation/images/image_s33_i0.png",
+      "first_label_path": null,
+      "image_count": 6,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s33",
+      "split": "validation"
+    },
+    {
+      "first_image_path": "DIAS/validation/images/image_s34_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s34",
+      "split": "validation"
+    },
+    {
+      "first_image_path": "DIAS/validation/images/image_s35_i0.png",
+      "first_label_path": null,
+      "image_count": 5,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s35",
+      "split": "validation"
+    },
+    {
+      "first_image_path": "DIAS/validation/images/image_s36_i0.png",
+      "first_label_path": null,
+      "image_count": 6,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s36",
+      "split": "validation"
+    },
+    {
+      "first_image_path": "DIAS/validation/images/image_s37_i0.png",
+      "first_label_path": null,
+      "image_count": 4,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s37",
+      "split": "validation"
+    },
+    {
+      "first_image_path": "DIAS/validation/images/image_s38_i0.png",
+      "first_label_path": null,
+      "image_count": 6,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s38",
+      "split": "validation"
+    },
+    {
+      "first_image_path": "DIAS/validation/images/image_s39_i0.png",
+      "first_label_path": null,
+      "image_count": 6,
+      "image_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "label_count": 0,
+      "label_frames": [],
+      "paired": false,
+      "sequence_id": "s39",
+      "split": "validation"
+    }
+  ],
+  "split_counts": {
+    "test": 20,
+    "training": 30,
+    "validation": 10
+  },
+  "unmatched_count": 561,
+  "unmatched_preview": [
+    "DIAS/test/labels/label_s40.png",
+    "DIAS/test/labels/label_s41.png",
+    "DIAS/test/labels/label_s42.png",
+    "DIAS/test/labels/label_s43.png",
+    "DIAS/test/labels/label_s44.png",
+    "DIAS/test/labels/label_s45.png",
+    "DIAS/test/labels/label_s46.png",
+    "DIAS/test/labels/label_s47.png",
+    "DIAS/test/labels/label_s48.png",
+    "DIAS/test/labels/label_s49.png",
+    "DIAS/test/labels/label_s50.png",
+    "DIAS/test/labels/label_s51.png",
+    "DIAS/test/labels/label_s52.png",
+    "DIAS/test/labels/label_s53.png",
+    "DIAS/test/labels/label_s54.png",
+    "DIAS/test/labels/label_s55.png",
+    "DIAS/test/labels/label_s56.png",
+    "DIAS/test/labels/label_s57.png",
+    "DIAS/test/labels/label_s58.png",
+    "DIAS/test/labels/label_s59.png"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "rows": [
+    {
+      "cldice_delta_vs_clean": 0.0,
+      "cldice_delta_vs_family_severity0": 0.0,
+      "dice_delta_vs_clean": 0.0,
+      "dice_delta_vs_family_severity0": 0.0,
+      "family": "frame_thinning",
+      "mean_cldice": 0.23318951733744522,
+      "mean_dice": 0.25539705183071804,
+      "model_id": "medsam_vit_b",
+      "severity": 0
+    },
+    {
+      "cldice_delta_vs_clean": 0.0,
+      "cldice_delta_vs_family_severity0": 0.0,
+      "dice_delta_vs_clean": 0.0,
+      "dice_delta_vs_family_severity0": 0.0,
+      "family": "frame_thinning",
+      "mean_cldice": 0.9990412272291467,
+      "mean_dice": 0.9810482128526452,
+      "model_id": "sam_vit_b",
+      "severity": 0
+    },
+    {
+      "cldice_delta_vs_clean": 0.0,
+      "cldice_delta_vs_family_severity0": 0.0,
+      "dice_delta_vs_clean": 0.0,
+      "dice_delta_vs_family_severity0": 0.0,
+      "family": "frame_thinning",
+      "mean_cldice": 0.9980806142034548,
+      "mean_dice": 0.9751922599851154,
+      "model_id": "sam_vit_l",
+      "severity": 0
+    }
+  ]
+}
